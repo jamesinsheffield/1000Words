@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, session
 import os
 import pandas as pd
 import random as rd
@@ -6,6 +6,7 @@ import random as rd
 app = Flask(__name__)
 assert "APP_SETTINGS" in os.environ, "APP_SETTINGS environment variable not set"
 app.config.from_object(os.environ['APP_SETTINGS'])
+app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
 
 def ReadWordsCSV():
     Words = pd.read_csv('words.csv')
@@ -15,12 +16,25 @@ def ReadWordsCSV():
 @app.route("/")
 def hello():
     Words = ReadWordsCSV()
-    idx = list(range(len(Words)))
-    rd.shuffle(idx)
-    Eng = Words.loc[idx[0],'English']
-    Rom = Words.loc[idx[0],'Romanian']
-    str = "<h1>"+Eng+"</h1><h1>"+Rom+"</h1>"
-    return str
+    if not 'idxList' in session:
+        idx = list(range(len(Words)))
+        rd.shuffle(idx)
+        session['idxList']=idx
+        session['i']=0
+    else:
+        session['i']+=1
+    if session['i']==len(Words):
+        session['i']=0
+    Eng = Words.loc[session['idxList'][session['i']],'English']
+    Rom = Words.loc[session['idxList'][session['i']],'Romanian']
+    string = Eng+Rom+str(session['i'])
+    return string
+
+#Logout
+@app.route('/clear')
+def clear():
+    session.clear()
+    return 'session cleared'
 
 if __name__ == "__main__":
     app.run()
