@@ -1,4 +1,4 @@
-from flask import Flask, session
+from flask import Flask, session, render_template
 import os
 import pandas as pd
 import random as rd
@@ -27,8 +27,8 @@ def hello():
         session['i']=0
     Eng = Words.loc[session['idxList'][session['i']],'English']
     Rom = Words.loc[session['idxList'][session['i']],'Romanian']
-    string = Eng+Rom+str(session['i'])
-    return string
+    string = Eng+Rom
+    return render_template('main.html', Eng=Eng, Rom=Rom)
 
 #Logout
 @app.route('/clear')
