@@ -9,6 +9,7 @@ verify_ssl = true
 flask = "*"
 gunicorn = "*"
 pandas = "*"
+wtforms = "*"
 
 [requires]
 python_version = "3.6"

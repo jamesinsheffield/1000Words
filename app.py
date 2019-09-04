@@ -1,34 +1,62 @@
-from flask import Flask, session, render_template
+from flask import Flask, session, render_template, request
 import os
 import pandas as pd
 import random as rd
+from wtforms import Form, SelectField
 
 app = Flask(__name__)
 assert "APP_SETTINGS" in os.environ, "APP_SETTINGS environment variable not set"
 app.config.from_object(os.environ['APP_SETTINGS'])
 app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
 
-def ReadWordsCSV():
+def ReadWordsCSV(cat='all'):
     Words = pd.read_csv('words.csv')
+    if not cat == 'all':
+        Words = Words[Words['Category'] == cat]
+        Words.reset_index(inplace=True)
     return Words
 
+Words = ReadWordsCSV()
+categories = Words['Category'].unique()
+choices = []
+for c in categories:
+    choices.append((c,c))
 
-@app.route("/")
+class CategoriesForm(Form):
+    category = SelectField(label='Topic', choices=choices)
+
+@app.route("/", methods=['GET', 'POST'])
 def hello():
-    Words = ReadWordsCSV()
-    if not 'idxList' in session:
-        idx = list(range(len(Words)))
+    form = CategoriesForm(request.form)
+    if request.method == 'POST':
+        subWords = ReadWordsCSV(cat=form.category.data)
+        session.clear()
+        session['cat']=form.category.data
+        idx = list(range(len(subWords)))
         rd.shuffle(idx)
         session['idxList']=idx
         session['i']=0
     else:
-        session['i']+=1
-    if session['i']==len(Words):
+        if not 'idxList' in session:
+            subWords = ReadWordsCSV(cat=categories[0])
+            session['cat']=categories[0]
+            idx = list(range(len(subWords)))
+            rd.shuffle(idx)
+            session['idxList']=idx
+            session['i']=0
+        else:
+            subWords = ReadWordsCSV(cat=session['cat'])
+            session['i']+=1
+    if session['i']==len(subWords):
         session['i']=0
-    Eng = Words.loc[session['idxList'][session['i']],'English']
-    Rom = Words.loc[session['idxList'][session['i']],'Romanian']
+    print(subWords)
+    print(session['cat'])
+    print(session['idxList'])
+    print(session['i'])
+    Eng = subWords.loc[session['idxList'][session['i']],'English']
+    Rom = subWords.loc[session['idxList'][session['i']],'Romanian']
     string = Eng+Rom
-    return render_template('main.html', Eng=Eng, Rom=Rom)
+    return render_template('main.html', Eng=Eng, Rom=Rom, form=form)
 
 #Logout
 @app.route('/clear')
