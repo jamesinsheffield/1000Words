@@ -1,4 +1,4 @@
-from flask import Flask, session, render_template, request
+from flask import Flask, session, render_template, request, redirect, url_for
 import os
 import pandas as pd
 import random as rd
@@ -26,7 +26,7 @@ class CategoriesForm(Form):
     category = SelectField(label='Topic', choices=choices)
 
 @app.route("/", methods=['GET', 'POST'])
-def hello():
+def home():
     form = CategoriesForm(request.form)
     if request.method == 'POST':
         subWords = ReadWordsCSV(cat=form.category.data)
@@ -46,17 +46,22 @@ def hello():
             session['i']=0
         else:
             subWords = ReadWordsCSV(cat=session['cat'])
-            session['i']+=1
-    if session['i']==len(subWords):
-        session['i']=0
-    print(subWords)
-    print(session['cat'])
-    print(session['idxList'])
-    print(session['i'])
     Eng = subWords.loc[session['idxList'][session['i']],'English']
     Rom = subWords.loc[session['idxList'][session['i']],'Romanian']
-    string = Eng+Rom
     return render_template('main.html', Eng=Eng, Rom=Rom, form=form)
+
+@app.route("/next")
+def next():
+    if 'i' in session and session['i'] < len(session['idxList'])-1:
+        session['i']+=1
+    return redirect(url_for("home"))
+
+@app.route("/prev")
+def prev():
+    if 'i' in session and session['i'] > 0:
+        session['i']-=1
+    return redirect(url_for("home"))
+
 
 #Logout
 @app.route('/clear')
