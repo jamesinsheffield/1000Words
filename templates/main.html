@@ -3,19 +3,23 @@
 <body>
 
 <form method="POST" action="">
+  {% for l in form.EngRom %}
+  {{l}}{{l.label}}
+  {% endfor %}
+  <br><br>
   {{form.category.label}}
   {{form.category}}
   <input type="submit" value="Submit">
 </form>
 
-<h1>{{Eng}}</h1>
+<h1>{{Qu}}</h1>
 
-<button type="button" onclick="document.getElementById('Rom').innerHTML = '{{Rom}}';document.getElementById('repeat').innerHTML = 'Repeat at end'">Show</button>
 <br>
 <a href="/prev">Previous</a>
 <a href="/next">Next</a>
+<button type="button" onclick="document.getElementById('Rom').innerHTML = '{{Ans}}'">Show</button>
+<a href="/repeat">Repeat</a>
 
 <h1 id="Rom"></h1>
-<a id="repeat" href="/repeat"></a>
 
 </body>

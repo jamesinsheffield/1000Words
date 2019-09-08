@@ -2,7 +2,7 @@ from flask import Flask, session, render_template, request, redirect, url_for
 import os
 import pandas as pd
 import random as rd
-from wtforms import Form, SelectField
+from wtforms import Form, SelectField, RadioField, validators
 
 app = Flask(__name__)
 assert "APP_SETTINGS" in os.environ, "APP_SETTINGS environment variable not set"
@@ -18,12 +18,14 @@ def ReadWordsCSV(cat='all'):
 
 Words = ReadWordsCSV()
 categories = Words['Category'].unique()
-choices = []
+catChoices = []
 for c in categories:
-    choices.append((c,c))
+    catChoices.append((c,c))
+EngRomChoices = [('Eng2Rom','English to Romanian'),('Rom2Eng','Romanian to English')]
 
 class CategoriesForm(Form):
-    category = SelectField(label='Topic', choices=choices)
+    EngRom = RadioField(choices=EngRomChoices, default='Eng2Rom', validators = [validators.Required()])
+    category = SelectField(label='Category', choices=catChoices)
 
 @app.route("/", methods=['GET', 'POST'])
 def home():
@@ -36,6 +38,7 @@ def home():
         rd.shuffle(idx)
         session['idxList'] = idx
         session['i'] = 0
+        session['EngRom'] = form.EngRom.data
     else:
         if not 'i' in session:
             subWords = ReadWordsCSV(cat=categories[0])
@@ -44,11 +47,16 @@ def home():
             rd.shuffle(idx)
             session['idxList'] = idx
             session['i'] = 0
+            session['EngRom'] = form.EngRom.data
         else:
             subWords = ReadWordsCSV(cat=session['cat'])
-    Eng = subWords.loc[session['idxList'][session['i']],'English']
-    Rom = subWords.loc[session['idxList'][session['i']],'Romanian']
-    return render_template('main.html', Eng=Eng, Rom=Rom, form=form)
+    if session['EngRom'] == 'Eng2Rom':
+        Qu = subWords.loc[session['idxList'][session['i']],'English']
+        Ans = subWords.loc[session['idxList'][session['i']],'Romanian']
+    else:
+        Qu = subWords.loc[session['idxList'][session['i']],'Romanian']
+        Ans = subWords.loc[session['idxList'][session['i']],'English']
+    return render_template('main.html', Qu=Qu, Ans=Ans, form=form)
 
 @app.route("/next")
 def next():
