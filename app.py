@@ -31,19 +31,19 @@ def home():
     if request.method == 'POST':
         subWords = ReadWordsCSV(cat=form.category.data)
         session.clear()
-        session['cat']=form.category.data
+        session['cat'] = form.category.data
         idx = list(range(len(subWords)))
         rd.shuffle(idx)
-        session['idxList']=idx
-        session['i']=0
+        session['idxList'] = idx
+        session['i'] = 0
     else:
-        if not 'idxList' in session:
+        if not 'i' in session:
             subWords = ReadWordsCSV(cat=categories[0])
-            session['cat']=categories[0]
+            session['cat'] = categories[0]
             idx = list(range(len(subWords)))
             rd.shuffle(idx)
-            session['idxList']=idx
-            session['i']=0
+            session['idxList'] = idx
+            session['i'] = 0
         else:
             subWords = ReadWordsCSV(cat=session['cat'])
     Eng = subWords.loc[session['idxList'][session['i']],'English']
@@ -53,17 +53,22 @@ def home():
 @app.route("/next")
 def next():
     if 'i' in session and session['i'] < len(session['idxList'])-1:
-        session['i']+=1
+        session['i'] += 1
     return redirect(url_for("home"))
 
 @app.route("/prev")
 def prev():
     if 'i' in session and session['i'] > 0:
-        session['i']-=1
+        session['i'] -= 1
     return redirect(url_for("home"))
 
+@app.route("/repeat")
+def repeat():
+    if 'idxList' in session:
+        session['idxList'].append(session['idxList'][session['i']])
+        session.modified = True
+    return redirect(url_for("home"))
 
-#Logout
 @app.route('/clear')
 def clear():
     session.clear()

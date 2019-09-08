@@ -9,11 +9,13 @@
 </form>
 
 <h1>{{Eng}}</h1>
-<h1 id="Rom"></h1>
 
-<button type="button" onclick="document.getElementById('Rom').innerHTML = '{{Rom}}'">Show</button>
+<button type="button" onclick="document.getElementById('Rom').innerHTML = '{{Rom}}';document.getElementById('repeat').innerHTML = 'Repeat at end'">Show</button>
 <br>
 <a href="/prev">Previous</a>
 <a href="/next">Next</a>
+
+<h1 id="Rom"></h1>
+<a id="repeat" href="/repeat"></a>
 
 </body>
