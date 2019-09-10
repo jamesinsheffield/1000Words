@@ -1,4 +1,8 @@
 Category,Romanian,English
+Greetings,bună dimineața,good morning
+Greetings,bună seara,good evening
+Greetings,bună ziua,"good day, hello"
+Greetings,la revedere,goodbye
 Countries,Australia,Australia
 Countries,Germania,Germany
 Countries,Franța,France
@@ -43,3 +47,11 @@ Clothes,costum,suit
 Clothes,pălărie,hat
 Clothes,cravată,tie
 Clothes,mănușă,glove
+Rooms,cameră,room
+Rooms,toaletă,toilet
+Rooms,birou,office
+Rooms,garaj,garage
+Rooms,dormitor,bedroom
+Rooms,bucătărie,kitchen
+Rooms,baie,bathroom
+Rooms,sufragerie,living room

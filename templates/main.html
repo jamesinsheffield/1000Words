@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <form method="POST" action="">
   {% for l in form.EngRom %}
   {{l}}{{l.label}}
@@ -11,15 +10,11 @@
   {{form.category}}
   <input type="submit" value="Submit">
 </form>
-
 <h1>{{Qu}}</h1>
-
 <br>
-<a href="/prev">Previous</a>
-<a href="/next">Next</a>
-<button type="button" onclick="document.getElementById('Rom').innerHTML = '{{Ans}}'">Show</button>
-<a href="/repeat">Repeat</a>
-
+<button  onclick="window.location.href = '/prev'">Previous</button>
+<button  onclick="window.location.href = '/next'">Next</button>
+<button onclick="document.getElementById('Rom').innerHTML = '{{Ans}}'">Show</button>
+<button  onclick="window.location.href = '/repeat'">Repeat</button>
 <h1 id="Rom"></h1>
-
 </body>
