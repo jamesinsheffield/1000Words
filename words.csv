@@ -55,3 +55,187 @@ Rooms,dormitor,bedroom
 Rooms,bucătărie,kitchen
 Rooms,baie,bathroom
 Rooms,sufragerie,living room
+Adjectives,dulce,sweet
+Adjectives,frumos,beautiful
+Adjectives,mare,big
+Adjectives,mic,small
+Adjectives,ieftin,cheap
+Adjectives,scump,expensive
+Adjectives,greu,heavy/difficult
+Adjectives,ușor,light/easy
+Adjectives,lung,long
+Adjectives,larg,wide
+Adjectives,scund,short
+Adjectives,înalt,tall
+Adjectives,subțire,thin
+Adjectives,gras,fat
+Adjectives,slab,weak
+Adjectives,puternic,strong
+Adjectives,rapid,fast
+Adjectives,încet,slow
+Adjectives,bun,good
+Adjectives,rău,bad
+Adjectives,deștept,smart
+Adjectives,tânăr,young
+Adjectives,bătrân,old (living things)
+Adjectives,vechi,old (objects)
+Adjectives,sărac,poor
+Adjectives,bogat,rich
+Adjectives,plin,full
+Adjectives,gol,empty
+Adjectives,ud,wet
+Adjectives,uscat,dry
+Adjectives,murdar,dirty
+Adjectives,curat,clean
+Adjectives,Românesc,Romanian
+Adjectives,Englezesc,English
+Adjectives,viu,alive/living
+Adjectives,nou,new
+Adjectives,iute,hot
+Adjectives,rece,cold
+Adjectives,cald,warm
+Adjectives,tare,hard
+Adjectives,moale,soft
+Fruit & Veg,fructe,fruit
+Fruit & Veg,portocală,orange
+Fruit & Veg,banană,banana
+Fruit & Veg,măr,apple
+Fruit & Veg,pară,pear
+Fruit & Veg,căpșună,strawberry
+Fruit & Veg,cireașă,cherry
+Fruit & Veg,o lămâie,lemon
+Fruit & Veg,un strugure,grape
+Fruit & Veg,legume,vegetables
+Fruit & Veg,roșie,tomato
+Fruit & Veg,ardei,pepper
+Fruit & Veg,castravete,cucumber
+Fruit & Veg,ceapă,onion
+Fruit & Veg,ciupercă,mushroom
+Fruit & Veg,morcov,carrot
+Fruit & Veg,cartof,potato
+Family,părinte,parent
+Family,mamă,mother
+Family,tată,father
+Family,fiu,son
+Family,fiică,daughter
+Family,frate,brother
+Family,soră,the sister
+Family,soț,husband
+Family,soție,wife
+Family,unchi,uncle
+Family,mătușă,aunt
+Family,verișoară,cousin
+Family,cumnat,brother-in-law
+Family,nepot,nephew/grandson
+Family,rudă,relative
+Family,bunic,grandfather
+Family,familie,family
+Family,nume,name
+Family,prenume,first name
+Family,soacră,mother-in-law
+Occupations,muncă,work
+Occupations,slujbe,job
+Occupations,profesor,professor
+Occupations,învățător,teacher
+Occupations,student/elev,student
+Occupations,savant,scientist
+Occupations,doctor/medic,doctor
+Occupations,infirmier,nurse
+Occupations,scriitor,writer
+Occupations,artist,artist
+Occupations,actrița,actress
+Occupations,muziciană,musician
+Occupations,președinte,president
+Occupations,șef,boss
+Occupations,angajatul,employee
+Occupations,angajator,employer
+Occupations,polițist,policeman
+Occupations,pompier,fireman
+Occupations,poștaș,postman
+Occupations,preot,priest
+Occupations,electrician,electrician
+Occupations,instalator,plumber
+Occupations,fermier,farmer
+Occupations,tâmplar,carpenters
+Occupations,bucătar,cook
+Occupations,brutăr,bakers
+Occupations,măcelar,butcher
+Occupations,pescar,fisherman
+Occupations,croitor,tailor
+Occupations,coafeză,hairdresser
+Occupations,mecanic,mechanic
+Occupations,taximetrist,taxi driver
+Prepositions,pe,on
+Prepositions,la,at
+Prepositions,de,of/from
+Prepositions,între,between
+Prepositions,din,from
+Prepositions,în,in
+Prepositions,cu,with
+Prepositions,fără,without
+Prepositions,pentru,for
+Prepositions,lângă,beside/next to
+Prepositions,sub,under
+Prepositions,peste,above
+Prepositions,după,after
+Prepositions,înainte,before
+Prepositions,până,until
+Prepositions,spre/către,towards
+Prepositions,dinspre,from (the direction of)
+Prepositions,printre,among
+Prepositions,despre,about
+Prepositions,prin,through
+Prepositions,în afară de,except (for)
+Prepositions,în loc de,instead of
+Prepositions,împreună cu,together with
+Prepositions,dintre,among/out of
+Prepositions,odată cu,at the same time as
+Demonstrative pronouns,acest(a)/ăsta,this
+Demonstrative pronouns,acești(a)/ăștia,these (pm) (full)
+Demonstrative pronouns,acela/ăla,that (sm) (full)
+Demonstrative pronouns,aceia/ăia,those (pm) (full)
+Demonstrative pronouns,celălalt,the other
+Demonstrative pronouns,același,the same
+
+Objects,obiect,object
+Objects,lucru,thing
+Objects,bucată,piece
+Objects,borcan,jar
+Objects,cutie,box
+Objects,pungă,bag
+Objects,pix,pen
+Objects,creion,pencil
+Objects,gumă de șters,eraser
+Objects,hârtie,paper
+Objects,ochelari,glasses
+Objects,umbrelă,umbrella
+Objects,foarfece,scissors
+Objects,cheie,key
+Objects,ceas,clock/watch
+Objects,portofel,wallet
+Objects,brățară,bracelet
+Objects,inel,ring
+Objects,lănțișor,chain/necklace
+Objects,baterie,battery
+Objects,lumânare,candle
+Objects,bec,light bulb
+Objects,timbru,stamp
+Objects,lipici,glue
+Objects,ciocan,hammer
+Objects,motor,motor/engine
+Objects,portbagaj,boot/trunk
+Objects,roată,wheel
+Objects,semafor,traffic light
+Objects,oglindă,mirror
+Objects,clopot,bell
+Objects,telefon,telephone
+Objects,radio,radio
+Objects,televizor,television
+Objects,calculator,computer
+Measure,metru,metre
+Measure,kilometru,kilometre
+Measure,milă,mile
+Measure,gram,gram
+Measure,litru,litre
+Measure,grad,degree
+Measure,greutate,weight
