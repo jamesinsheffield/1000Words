@@ -3,6 +3,7 @@ import os
 import pandas as pd
 import random as rd
 from wtforms import Form, SelectField, RadioField, validators
+import json
 
 app = Flask(__name__)
 assert "APP_SETTINGS" in os.environ, "APP_SETTINGS environment variable not set"
@@ -48,13 +49,13 @@ def home():
             session['idxList'] = idx
             session['i'] = 0
             session['EngRom'] = form.EngRom.data
-    subWords = pd.read_json(session['subWords'])
+    subWordsJSON = json.loads(session['subWords'])
     if session['EngRom'] == 'Eng2Rom':
-        Qu = subWords.loc[session['idxList'][session['i']],'English']
-        Ans = subWords.loc[session['idxList'][session['i']],'Romanian']
+        Qu = subWordsJSON['English'][str(session['idxList'][session['i']])]
+        Ans = subWordsJSON['Romanian'][str(session['idxList'][session['i']])]
     else:
-        Qu = subWords.loc[session['idxList'][session['i']],'Romanian']
-        Ans = subWords.loc[session['idxList'][session['i']],'English']
+        Qu = subWordsJSON['Romainan'][str(session['idxList'][session['i']])]
+        Ans = subWordsJSON['English'][str(session['idxList'][session['i']])]
     return render_template('main.html', Qu=Qu, Ans=Ans, form=form)
 
 @app.route("/next")
