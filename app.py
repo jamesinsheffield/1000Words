@@ -31,9 +31,9 @@ class CategoriesForm(Form):
 def home():
     form = CategoriesForm(request.form)
     if request.method == 'POST':
-        subWords = ReadWordsCSV(cat=form.category.data)
         session.clear()
-        session['cat'] = form.category.data
+        subWords = ReadWordsCSV(cat=form.category.data)
+        session['subWords'] = subWords.to_json()
         idx = list(range(len(subWords)))
         rd.shuffle(idx)
         session['idxList'] = idx
@@ -42,14 +42,13 @@ def home():
     else:
         if not 'i' in session:
             subWords = ReadWordsCSV(cat=categories[0])
-            session['cat'] = categories[0]
+            session['subWords'] = subWords.to_json()
             idx = list(range(len(subWords)))
             rd.shuffle(idx)
             session['idxList'] = idx
             session['i'] = 0
             session['EngRom'] = form.EngRom.data
-        else:
-            subWords = ReadWordsCSV(cat=session['cat'])
+    subWords = pd.read_json(session['subWords'])
     if session['EngRom'] == 'Eng2Rom':
         Qu = subWords.loc[session['idxList'][session['i']],'English']
         Ans = subWords.loc[session['idxList'][session['i']],'Romanian']
