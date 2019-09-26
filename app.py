@@ -54,7 +54,7 @@ def home():
         Qu = subWordsJSON['English'][str(session['idxList'][session['i']])]
         Ans = subWordsJSON['Romanian'][str(session['idxList'][session['i']])]
     else:
-        Qu = subWordsJSON['Romainan'][str(session['idxList'][session['i']])]
+        Qu = subWordsJSON['Romanian'][str(session['idxList'][session['i']])]
         Ans = subWordsJSON['English'][str(session['idxList'][session['i']])]
     return render_template('main.html', Qu=Qu, Ans=Ans, form=form)
 
@@ -75,7 +75,7 @@ def repeat():
     if 'idxList' in session:
         session['idxList'].append(session['idxList'][session['i']])
         session.modified = True
-    return redirect(url_for("home"))
+    return redirect(url_for("next"))
 
 @app.route('/clear')
 def clear():
