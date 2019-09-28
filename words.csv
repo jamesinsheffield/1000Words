@@ -103,8 +103,8 @@ Fruit & Veg,măr,apple
 Fruit & Veg,pară,pear
 Fruit & Veg,căpșună,strawberry
 Fruit & Veg,cireașă,cherry
-Fruit & Veg,o lămâie,lemon
-Fruit & Veg,un strugure,grape
+Fruit & Veg,lămâie,lemon
+Fruit & Veg,strugure,grape
 Fruit & Veg,legume,vegetables
 Fruit & Veg,roșie,tomato
 Fruit & Veg,ardei,pepper
@@ -119,7 +119,7 @@ Family,tată,father
 Family,fiu,son
 Family,fiică,daughter
 Family,frate,brother
-Family,soră,the sister
+Family,soră,sister
 Family,soț,husband
 Family,soție,wife
 Family,unchi,uncle
@@ -147,7 +147,7 @@ Occupations,actrița,actress
 Occupations,muziciană,musician
 Occupations,președinte,president
 Occupations,șef,boss
-Occupations,angajatul,employee
+Occupations,angajat,employee
 Occupations,angajator,employer
 Occupations,polițist,policeman
 Occupations,pompier,fireman
@@ -156,9 +156,9 @@ Occupations,preot,priest
 Occupations,electrician,electrician
 Occupations,instalator,plumber
 Occupations,fermier,farmer
-Occupations,tâmplar,carpenters
+Occupations,tâmplar,carpenter
 Occupations,bucătar,cook
-Occupations,brutăr,bakers
+Occupations,brutăr,baker
 Occupations,măcelar,butcher
 Occupations,pescar,fisherman
 Occupations,croitor,tailor

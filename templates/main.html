@@ -10,11 +10,18 @@
   {{form.category}}
   <input type="submit" value="Submit">
 </form>
+
+{% if not bFinished %}
 <h1>{{Qu}}</h1>
 <br>
-<button  onclick="window.location.href = '/prev'">Previous</button>
-<button  onclick="window.location.href = '/next'">Next</button>
-<button onclick="document.getElementById('Rom').innerHTML = '{{Ans}}'">Show</button>
-<button  onclick="window.location.href = '/repeat'">Repeat</button>
+<button onclick="document.getElementById('Rom').innerHTML = '{{Ans}}'">Reveal</button>
+<button  onclick="window.location.href = '/next'">Got it!</button>
+<button  onclick="window.location.href = '/repeat'">D'oh!</button>
 <h1 id="Rom"></h1>
+{% else %}
+<h1>Finished!</h1>
+<h2>You scored:</h2>
+<h2>{{session['nWords']-session['nWrong']}}/{{session['nWords']}}</h2>
+{% endif %}
+
 </body>

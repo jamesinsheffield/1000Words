@@ -37,6 +37,8 @@ def home():
         session['subWords'] = subWords.to_json()
         idx = list(range(len(subWords)))
         rd.shuffle(idx)
+        session['nWords'] = len(subWords)
+        session['nWrong'] = 0
         session['idxList'] = idx
         session['i'] = 0
         session['EngRom'] = form.EngRom.data
@@ -46,21 +48,28 @@ def home():
             session['subWords'] = subWords.to_json()
             idx = list(range(len(subWords)))
             rd.shuffle(idx)
+            session['nWords'] = len(subWords)
+            session['nWrong'] = 0
             session['idxList'] = idx
             session['i'] = 0
             session['EngRom'] = form.EngRom.data
-    subWordsJSON = json.loads(session['subWords'])
-    if session['EngRom'] == 'Eng2Rom':
-        Qu = subWordsJSON['English'][str(session['idxList'][session['i']])]
-        Ans = subWordsJSON['Romanian'][str(session['idxList'][session['i']])]
+    if session['i'] == len(session['idxList']):
+        bFinished = True
+        return render_template('main.html', form=form, bFinished=bFinished)
     else:
-        Qu = subWordsJSON['Romanian'][str(session['idxList'][session['i']])]
-        Ans = subWordsJSON['English'][str(session['idxList'][session['i']])]
-    return render_template('main.html', Qu=Qu, Ans=Ans, form=form)
+        bFinished = False
+        subWordsJSON = json.loads(session['subWords'])
+        if session['EngRom'] == 'Eng2Rom':
+            Qu = subWordsJSON['English'][str(session['idxList'][session['i']])]
+            Ans = subWordsJSON['Romanian'][str(session['idxList'][session['i']])]
+        else:
+            Qu = subWordsJSON['Romanian'][str(session['idxList'][session['i']])]
+            Ans = subWordsJSON['English'][str(session['idxList'][session['i']])]
+        return render_template('main.html', Qu=Qu, Ans=Ans, form=form, bFinished=bFinished)
 
 @app.route("/next")
 def next():
-    if 'i' in session and session['i'] < len(session['idxList'])-1:
+    if 'i' in session:
         session['i'] += 1
     return redirect(url_for("home"))
 
@@ -72,7 +81,8 @@ def prev():
 
 @app.route("/repeat")
 def repeat():
-    if 'idxList' in session:
+    if 'i' in session:
+        session['nWrong'] += 1
         session['idxList'].append(session['idxList'][session['i']])
         session.modified = True
     return redirect(url_for("next"))
