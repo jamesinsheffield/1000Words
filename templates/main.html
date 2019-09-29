@@ -12,16 +12,37 @@
 </form>
 
 {% if not bFinished %}
-<h1>{{Qu}}</h1>
 <br>
-<button onclick="document.getElementById('Rom').innerHTML = '{{Ans}}'">Reveal</button>
-<button  onclick="window.location.href = '/next'">Got it!</button>
-<button  onclick="window.location.href = '/repeat'">D'oh!</button>
-<h1 id="Rom"></h1>
+<div id="Qu">
+{{Qu}}
+</div>
+<div id="Ans" style="display:none">
+{{Ans}}
+</div>
+<br>
+
+<input type="button" id="Reveal" value="Reveal" onclick="Reveal()"></input>
+<input type="button" id="Next" value="Got it :-)" onclick="window.location.href = '/next'" style="display:none"></input>
+<input type="button" id="Repeat" value="Missed it :-(" onclick="window.location.href = '/repeat'" style="display:none"></input>
 {% else %}
 <h1>Finished!</h1>
 <h2>You scored:</h2>
 <h2>{{session['nWords']-session['nWrong']}}/{{session['nWords']}}</h2>
 {% endif %}
+
+<script>
+function Reveal() {
+  var v = document.getElementById("Next");
+  var w = document.getElementById("Repeat");
+  var x = document.getElementById("Qu");
+  var y = document.getElementById("Ans");
+  var z = document.getElementById("Reveal");
+  v.style.display = "inline";
+  w.style.display = "inline";
+  x.style.display = "none";
+  y.style.display = "block";
+  z.style.display = "none"
+}
+</script>
 
 </body>
