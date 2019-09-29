@@ -1,33 +1,72 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+form {
+  width: 50%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  font-size: 16px;
+}
+.flashCard {
+  width: 50%;
+  padding: 100px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin: auto;
+  font-size: 75px;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 75px;
+}
+.flashCard2 {background-color: lightgreen;}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+.button2 {background-color: #f44336;} /* Red */
+.button3 {background-color: #555555;} /* Black */
+</style>
+</head>
 <body>
 <form method="POST" action="">
+  {{form.category.label}}
+  {{form.category}}
   {% for l in form.EngRom %}
   {{l}}{{l.label}}
   {% endfor %}
-  <br><br>
-  {{form.category.label}}
-  {{form.category}}
   <input type="submit" value="Submit">
 </form>
 
 {% if not bFinished %}
 <br>
-<div id="Qu">
+<div id="Qu" class="flashCard">
 {{Qu}}
 </div>
-<div id="Ans" style="display:none">
+<div id="Ans" class="flashCard flashCard2" style="display:none">
 {{Ans}}
 </div>
 <br>
-
-<input type="button" id="Reveal" value="Reveal" onclick="Reveal()"></input>
-<input type="button" id="Next" value="Got it :-)" onclick="window.location.href = '/next'" style="display:none"></input>
-<input type="button" id="Repeat" value="Missed it :-(" onclick="window.location.href = '/repeat'" style="display:none"></input>
+<div style="text-align:center;">
+  <input type="button" id="Reveal" value="Reveal" onclick="Reveal()" class="button button3"></input>
+  <input type="button" id="Next" value="Got it :-)" onclick="window.location.href = '/next'" style="display:none" class="button"></input>
+  <input type="button" id="Repeat" value="Missed it :-(" onclick="window.location.href = '/repeat'" style="display:none" class="button button2"></input>
+</div>
 {% else %}
-<h1>Finished!</h1>
-<h2>You scored:</h2>
-<h2>{{session['nWords']-session['nWrong']}}/{{session['nWords']}}</h2>
+<br>
+<div style="text-align:center;font-size: 40px;">
+  <h1>Score:</h1>
+  <h1>{{session['nWords']-session['nWrong']}}/{{session['nWords']}}</h1>
+</div>
 {% endif %}
 
 <script>
