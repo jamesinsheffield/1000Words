@@ -135,7 +135,6 @@ Family,prenume,first name
 Family,soacră,mother-in-law
 Occupations,muncă,work
 Occupations,slujbe,job
-Occupations,profesor,professor
 Occupations,învățător,teacher
 Occupations,student/elev,student
 Occupations,savant,scientist
@@ -167,7 +166,8 @@ Occupations,mecanic,mechanic
 Occupations,taximetrist,taxi driver
 Prepositions,pe,on
 Prepositions,la,at
-Prepositions,de,of/from
+Prepositions,de,of
+Prepositions,de la,from
 Prepositions,între,between
 Prepositions,din,from
 Prepositions,în,in
@@ -238,3 +238,37 @@ Measure,gram,gram
 Measure,litru,litre
 Measure,grad,degree
 Measure,greutate,weight
+Possessive,meu,my
+Possessive,al meu,mine
+Possessive,tău,your
+Possessive,lui,his
+Possessive,său,his/her/its
+Possessive,ei,her
+Possessive,nostru,our
+Possessive,vostru,your (p)
+Possessive,lor,their
+Numbers,unu,one
+Numbers,trei,three
+Numbers,patru,four
+Numbers,cinci,five
+Numbers,șase,six
+Numbers,șapte,seven
+Numbers,opt,eight
+Numbers,nouă,nine
+Numbers,zece,ten
+Numbers,câteva,a few
+Numbers,jumătate,half
+Numbers,puțin,little
+Numbers,număr,number
+Numbers,mult,many
+Numbers,destul,quite
+Numbers,an,year
+Numbers,milion,million
+Numbers,unsprezece,eleven
+Numbers,douăzeci,twenty
+Numbers,sută,hundred
+Numbers,mie,thousand
+Numbers,primul,first
+Numbers,doua,second (f)
+Numbers,treilea,third (m)
+Numbers,ultimul,last
