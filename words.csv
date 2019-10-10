@@ -1,7 +1,7 @@
 Category,Romanian,English
 Greetings,bună dimineața,good morning
 Greetings,bună seara,good evening
-Greetings,bună ziua,"good day, hello"
+Greetings,bună ziua,hello/good day
 Greetings,la revedere,goodbye
 Countries,Australia,Australia
 Countries,Germania,Germany
@@ -167,33 +167,32 @@ Occupations,taximetrist,taxi driver
 Prepositions,pe,on
 Prepositions,la,at
 Prepositions,de,of
-Prepositions,de la,from
+Prepositions,din/de la,from
 Prepositions,între,between
-Prepositions,din,from
 Prepositions,în,in
 Prepositions,cu,with
 Prepositions,fără,without
 Prepositions,pentru,for
-Prepositions,lângă,beside/next to
+Prepositions,lângă,next to
 Prepositions,sub,under
 Prepositions,peste,above
 Prepositions,după,after
 Prepositions,înainte,before
 Prepositions,până,until
 Prepositions,spre/către,towards
-Prepositions,dinspre,from (the direction of)
+Prepositions,dinspre,from the direction of
 Prepositions,printre,among
 Prepositions,despre,about
 Prepositions,prin,through
 Prepositions,în afară de,except (for)
 Prepositions,în loc de,instead of
 Prepositions,împreună cu,together with
-Prepositions,dintre,among/out of
+Prepositions,dintre,among
 Prepositions,odată cu,at the same time as
-Demonstrative pronouns,acest(a)/ăsta,this
-Demonstrative pronouns,acești(a)/ăștia,these
-Demonstrative pronouns,acela/ăla,that
-Demonstrative pronouns,aceia/ăia,those
+Demonstrative pronouns,acest/ăsta,this
+Demonstrative pronouns,acești/ăștia,these
+Demonstrative pronouns,acel/ăla,that
+Demonstrative pronouns,acei/ăia,those
 Demonstrative pronouns,celălalt,the other
 Demonstrative pronouns,același,the same
 Objects,obiect,object
@@ -220,9 +219,8 @@ Objects,lumânare,candle
 Objects,bec,light bulb
 Objects,timbru,stamp
 Objects,lipici,glue
-Objects,ciocan,hammer
-Objects,motor,motor/engine
-Objects,portbagaj,boot/trunk
+Objects,motor,engine
+Objects,portbagaj,car boot
 Objects,roată,wheel
 Objects,semafor,traffic light
 Objects,oglindă,mirror
@@ -272,3 +270,99 @@ Numbers,primul,first
 Numbers,doua,second (f)
 Numbers,treilea,third (m)
 Numbers,ultimul,last
+Verbs,a înota,to swim
+Verbs,a alerga/a fugi,to run
+Verbs,a mânca,to eat
+Verbs,a cânta,to sing
+Verbs,a schimba,to change
+Verbs,a întreba,to ask
+Verbs,a asculta,to listen
+Verbs,a ajuta,to help
+Verbs,a cumpăra,to buy
+Verbs,a lua,to take
+Verbs,a vedea,to see
+Verbs,a putea,to be able to
+Verbs,a vrea,to want
+Verbs,a avea,to have
+Verbs,a cădea,to fall
+Verbs,a plăcea,to like
+Verbs,a părea,to look/seem
+Verbs,a bea,to drink
+Verbs,a apărea,to appear into view
+Verbs,a deschide,to open
+Verbs,a închide,to close
+Verbs,a merge,to go/walk
+Verbs,a face,to do
+Verbs,a scrie,to write
+Verbs,a atinge,to touch
+Verbs,a spune,to say
+Verbs,a începe,to start
+Verbs,a vinde,to sell
+Verbs,a citi,to read
+Verbs,a dormi,to sleep
+Verbs,a vorbi,to speak
+Verbs,a auzi,to hear
+Verbs,a dori,to wish
+Verbs,a găsi,to find
+Verbs,a ști,to know
+Verbs,a fi,to be
+Verbs,a iubi,to love
+Verbs,a hotărî,to decide
+Verbs,a urî,to hate
+Verbs,a coborî,to descend/get off
+Verbs,a doborî,to knock down
+Verbs,a lucra,to work
+Verbs,a umbla/plimba,to walk
+Verbs,a da,to give
+Verbs,a explica,to explain
+Verbs,a învăța,to learn
+Verbs,a spăla,to wash
+Verbs,a tăia,to cut
+Verbs,a se uita,to look at
+Verbs,a striga,to shout
+Verbs,a cauta,to look for
+Verbs,a fuma,to smoke
+Verbs,a turna,to pour
+Verbs,a strica,to ruin
+Verbs,a visa,to dream
+Verbs,a aduna,to collect
+Verbs,a vizita,to visit
+Verbs,a traversa,to cross
+Verbs,a vărsa,to spill
+Verbs,a rezolva,to solve
+Verbs,a disparea,to disappear
+Verbs,a scădea,to decrease
+Verbs,a cere,to ask for
+Verbs,a aduce,to bring
+Verbs,a alege,to choose
+Verbs,a minti,to lie
+Verbs,a întelege,to understand
+Verbs,a plânge,to cry
+Verbs,a rade,to laugh
+Verbs,a pune,to put
+Verbs,a conține,to contain
+Verbs,a presupune,to assume
+Verbs,a rămâne,to remain
+Verbs,a umple,to fill
+Verbs,a descrie,to describe
+Verbs,a răspunde,to respond
+Verbs,a dormi,to sleep
+Verbs,a adormi,to fall sleep
+Verbs,a sari,to jump
+Verbs,a suferi,to suffer
+Verbs,a veni,to come
+Verbs,a contribui,to contribute
+Verbs,a glumi,to joke
+Verbs,a găti,to cook
+Verbs,a obosi,to tire
+Verbs,a primi,to receive
+Verbs,a încălzi,to warm up
+Verbs,a răci,to cool down
+Verbs,a sosi,to arrive
+Verbs,a ajunge,to reach
+Verbs,a construi,to build
+Verbs,a locui,to live (somewhere)
+Verbs,a trăi,to live (life)
+Verbs,a ucide,to kill
+Verbs,a promite,to promise
+Verbs,a oferi,to offer
