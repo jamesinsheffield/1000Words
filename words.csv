@@ -270,6 +270,28 @@ Numbers,primul,first
 Numbers,doua,second (f)
 Numbers,treilea,third (m)
 Numbers,ultimul,last
+Body,braț,arm
+Body,buză,lip
+Body,cap,head
+Body,corp,body
+Body,deget,finger
+Body,dinte,tooth
+Body,față,face
+Body,genunchi,knee
+Body,gleznă,ankle
+Body,gură,mouth
+Body,gât,neck
+Body,mână,hand
+Body,nas,nose
+Body,obraz,cheek
+Body,ochi,eye
+Body,palmă,palm
+Body,picior,leg
+Body,păr,hair
+Body,spate,back
+Body,umăr,shoulder
+Body,unghie,nail
+Body,ureche,ear
 Verbs,a înota,to swim
 Verbs,a alerga/a fugi,to run
 Verbs,a mânca,to eat
@@ -347,7 +369,7 @@ Verbs,a umple,to fill
 Verbs,a descrie,to describe
 Verbs,a răspunde,to respond
 Verbs,a dormi,to sleep
-Verbs,a adormi,to fall sleep
+Verbs,a adormi,to fall asleep
 Verbs,a sari,to jump
 Verbs,a suferi,to suffer
 Verbs,a veni,to come
