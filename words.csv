@@ -83,17 +83,16 @@ Adjectives,sărac,poor
 Adjectives,bogat,rich
 Adjectives,plin,full
 Adjectives,gol,empty
-Adjectives,ud,wet
-Adjectives,uscat,dry
+Adjectives,ud,wet (objects)
+Adjectives,uscat,dry (objects)
 Adjectives,murdar,dirty
 Adjectives,curat,clean
 Adjectives,Românesc,Romanian
 Adjectives,Englezesc,English
 Adjectives,viu,alive/living
 Adjectives,nou,new
-Adjectives,iute,hot
-Adjectives,rece,cold
-Adjectives,cald,warm
+Adjectives,iute,hot (spicy)
+Adjectives,rece,cold (objects)
 Adjectives,tare,hard
 Adjectives,moale,soft
 Fruit & Veg,fructe,fruit
@@ -157,7 +156,7 @@ Occupations,instalator,plumber
 Occupations,fermier,farmer
 Occupations,tâmplar,carpenter
 Occupations,bucătar,cook
-Occupations,brutăr,baker
+Occupations,brutar,baker
 Occupations,măcelar,butcher
 Occupations,pescar,fisherman
 Occupations,croitor,tailor
@@ -175,7 +174,9 @@ Prepositions,fără,without
 Prepositions,pentru,for
 Prepositions,lângă,next to
 Prepositions,sub,under
-Prepositions,peste,above
+Prepositions,peste,over
+Prepositions,dedesubt,underneath
+Prepositions,deasupra,above
 Prepositions,după,after
 Prepositions,înainte,before
 Prepositions,până,until
@@ -187,7 +188,7 @@ Prepositions,prin,through
 Prepositions,în afară de,except (for)
 Prepositions,în loc de,instead of
 Prepositions,împreună cu,together with
-Prepositions,dintre,among
+Prepositions,dintre,between (out of)
 Prepositions,odată cu,at the same time as
 Demonstrative pronouns,acest/ăsta,this
 Demonstrative pronouns,acești/ăștia,these
@@ -292,6 +293,31 @@ Body,spate,back
 Body,umăr,shoulder
 Body,unghie,nail
 Body,ureche,ear
+
+Weather,nor,cloud
+Weather,înnorat,cloudy
+Weather,ceață,fog
+Weather,fierbinte,hot
+Weather,cald,warm
+Weather,frig,cold
+Weather,ploaie,rain
+Weather,plouă,raining
+Weather,zăpadă,snow
+Weather,ninge,snowing
+Weather,soare,sun
+Weather,însorit,sunny
+Weather,vânt,wind
+Weather,primăvară,Spring
+Weather,vară,Summer
+Weather,toamnă,Autumn
+Weather,iarnă,Winter
+Weather,furtună,storm
+Weather,afară,outside
+Weather,înăuntru,inside
+Weather,umed,wet
+Weather,vreme,weather
+Weather,arid,dry
+
 Verbs,a înota,to swim
 Verbs,a alerga/a fugi,to run
 Verbs,a mânca,to eat
