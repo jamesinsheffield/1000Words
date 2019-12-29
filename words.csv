@@ -224,7 +224,6 @@ Objects,motor,engine
 Objects,portbagaj,car boot
 Objects,roată,wheel
 Objects,semafor,traffic light
-Objects,oglindă,mirror
 Objects,clopot,bell
 Objects,telefon,telephone
 Objects,radio,radio
@@ -293,7 +292,6 @@ Body,spate,back
 Body,umăr,shoulder
 Body,unghie,nail
 Body,ureche,ear
-
 Weather,nor,cloud
 Weather,înnorat,cloudy
 Weather,ceață,fog
@@ -317,7 +315,26 @@ Weather,înăuntru,inside
 Weather,umed,wet
 Weather,vreme,weather
 Weather,arid,dry
-
+Furniture,masa,table
+Furniture,perete,wall
+Furniture,podea,floor
+Furniture,scara,stairs
+Furniture,semineu,fireplace
+Furniture,usa,door
+Furniture,covor,carpet
+Furniture,draperie,curtains
+Furniture,lampa,lamp
+Furniture,mocheta,rug
+Furniture,oglindă,mirror
+Furniture,birou,desk
+Furniture,bufet,cupboard
+Furniture,canapea,couch
+Furniture,fotoliu,armchair
+Furniture,pat,bed
+Furniture,raft,shelf
+Furniture,scaun,chair
+Furniture,sertar,drawer
+Furniture,sifonier,wardrobe
 Verbs,a înota,to swim
 Verbs,a alerga/a fugi,to run
 Verbs,a mânca,to eat
