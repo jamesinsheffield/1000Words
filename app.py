@@ -18,7 +18,7 @@ def ReadWordsCSV(cat='all'):
     return Words
 
 Words = ReadWordsCSV()
-categories = Words['Category'].unique()
+categories = sorted(Words['Category'].unique())
 catChoices = []
 for c in categories:
     catChoices.append((c,c))
