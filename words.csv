@@ -1,275 +1,55 @@
 Category,Romanian,English
-Greetings,bună dimineața,good morning
-Greetings,bună seara,good evening
-Greetings,bună ziua,hello/good day
-Greetings,la revedere,goodbye
-Countries,Australia,Australia
-Countries,Germania,Germany
-Countries,Franța,France
-Countries,Marea Britanie,Great Britain
-Countries,Scoția,Scotland
-Countries,Irlanda,Ireland
-Countries,țara Galilor,Wales
-Countries,Spania,Spain
-Countries,Rusia,Russia
-Colours,roșu,red
-Colours,galben,yellow
-Colours,albastru,blue
-Colours,portocaliu,orange
-Colours,albă,white
-Colours,negru,black
-Colours,verde,green
-Colours,culoare,colour
-Colours,mov,purple
-Colours,roz,pink
-Colours,maro,brown
-Colours,gri,grey
+Adjectives,bătrân,old (living things)
+Adjectives,bogat,rich
+Adjectives,bun,good
+Adjectives,curat,clean
+Adjectives,deștept,smart
+Adjectives,dulce,sweet
+Adjectives,Englezesc,English
+Adjectives,frumos,beautiful
+Adjectives,gol,empty
+Adjectives,gras,fat
+Adjectives,greu,heavy/difficult
+Adjectives,ieftin,cheap
+Adjectives,înalt,tall
+Adjectives,încet,slow
+Adjectives,iute,hot (spicy)
+Adjectives,larg,wide
+Adjectives,lung,long
+Adjectives,mare,big
+Adjectives,mic,small
+Adjectives,moale,soft
+Adjectives,murdar,dirty
+Adjectives,nou,new
+Adjectives,plin,full
+Adjectives,puternic,strong
+Adjectives,rapid,fast
+Adjectives,rău,bad
+Adjectives,rece,cold (objects)
+Adjectives,Românesc,Romanian
+Adjectives,sărac,poor
+Adjectives,scump,expensive
+Adjectives,scund,short
+Adjectives,slab,weak
+Adjectives,subțire,thin
+Adjectives,tânăr,young
+Adjectives,tare,hard
+Adjectives,ud,wet (objects)
+Adjectives,uscat,dry (objects)
+Adjectives,ușor,light/easy
+Adjectives,vechi,old (objects)
+Adjectives,viu,alive/living
 Animals,câine,dog
-Animals,pește,fish
 Animals,cal,horse
 Animals,iepure,rabbit
 Animals,oaie,sheep
+Animals,pește,fish
 Animals,pisică,cat
 Animals,porc,pig
+Animals,pui,chicken
 Animals,rață,duck
 Animals,tigru,tiger
 Animals,vacă,cow
-Animals,pui,chicken
-Clothes,pantaloni,trousers
-Clothes,cămaşă,shirt
-Clothes,rochie,dress
-Clothes,fustă,skirt
-Clothes,palton,coat
-Clothes,pantof,shoe
-Clothes,îmbrăcăminte,clothing
-Clothes,haine,clothes
-Clothes,costum,suit
-Clothes,pălărie,hat
-Clothes,cravată,tie
-Clothes,mănușă,glove
-Rooms,cameră,room
-Rooms,toaletă,toilet
-Rooms,birou,office
-Rooms,garaj,garage
-Rooms,dormitor,bedroom
-Rooms,bucătărie,kitchen
-Rooms,baie,bathroom
-Rooms,sufragerie,living room
-Adjectives,dulce,sweet
-Adjectives,frumos,beautiful
-Adjectives,mare,big
-Adjectives,mic,small
-Adjectives,ieftin,cheap
-Adjectives,scump,expensive
-Adjectives,greu,heavy/difficult
-Adjectives,ușor,light/easy
-Adjectives,lung,long
-Adjectives,larg,wide
-Adjectives,scund,short
-Adjectives,înalt,tall
-Adjectives,subțire,thin
-Adjectives,gras,fat
-Adjectives,slab,weak
-Adjectives,puternic,strong
-Adjectives,rapid,fast
-Adjectives,încet,slow
-Adjectives,bun,good
-Adjectives,rău,bad
-Adjectives,deștept,smart
-Adjectives,tânăr,young
-Adjectives,bătrân,old (living things)
-Adjectives,vechi,old (objects)
-Adjectives,sărac,poor
-Adjectives,bogat,rich
-Adjectives,plin,full
-Adjectives,gol,empty
-Adjectives,ud,wet (objects)
-Adjectives,uscat,dry (objects)
-Adjectives,murdar,dirty
-Adjectives,curat,clean
-Adjectives,Românesc,Romanian
-Adjectives,Englezesc,English
-Adjectives,viu,alive/living
-Adjectives,nou,new
-Adjectives,iute,hot (spicy)
-Adjectives,rece,cold (objects)
-Adjectives,tare,hard
-Adjectives,moale,soft
-Fruit & Veg,fructe,fruit
-Fruit & Veg,portocală,orange
-Fruit & Veg,banană,banana
-Fruit & Veg,măr,apple
-Fruit & Veg,pară,pear
-Fruit & Veg,căpșună,strawberry
-Fruit & Veg,cireașă,cherry
-Fruit & Veg,lămâie,lemon
-Fruit & Veg,strugure,grape
-Fruit & Veg,legume,vegetables
-Fruit & Veg,roșie,tomato
-Fruit & Veg,ardei,pepper
-Fruit & Veg,castravete,cucumber
-Fruit & Veg,ceapă,onion
-Fruit & Veg,ciupercă,mushroom
-Fruit & Veg,morcov,carrot
-Fruit & Veg,cartof,potato
-Family,părinte,parent
-Family,mamă,mother
-Family,tată,father
-Family,fiu,son
-Family,fiică,daughter
-Family,frate,brother
-Family,soră,sister
-Family,soț,husband
-Family,soție,wife
-Family,unchi,uncle
-Family,mătușă,aunt
-Family,verișoară,cousin
-Family,cumnat,brother-in-law
-Family,nepot,nephew/grandson
-Family,rudă,relative
-Family,bunic,grandfather
-Family,familie,family
-Family,nume,name
-Family,prenume,first name
-Family,soacră,mother-in-law
-Occupations,muncă,work
-Occupations,slujbe,job
-Occupations,învățător,teacher
-Occupations,student/elev,student
-Occupations,savant,scientist
-Occupations,doctor/medic,doctor
-Occupations,infirmier,nurse
-Occupations,scriitor,writer
-Occupations,artist,artist
-Occupations,actrița,actress
-Occupations,muziciană,musician
-Occupations,președinte,president
-Occupations,șef,boss
-Occupations,angajat,employee
-Occupations,angajator,employer
-Occupations,polițist,policeman
-Occupations,pompier,fireman
-Occupations,poștaș,postman
-Occupations,preot,priest
-Occupations,electrician,electrician
-Occupations,instalator,plumber
-Occupations,fermier,farmer
-Occupations,tâmplar,carpenter
-Occupations,bucătar,cook
-Occupations,brutar,baker
-Occupations,măcelar,butcher
-Occupations,pescar,fisherman
-Occupations,croitor,tailor
-Occupations,coafeză,hairdresser
-Occupations,mecanic,mechanic
-Occupations,taximetrist,taxi driver
-Prepositions,pe,on
-Prepositions,la,at
-Prepositions,de,of
-Prepositions,din/de la,from
-Prepositions,între,between
-Prepositions,în,in
-Prepositions,cu,with
-Prepositions,fără,without
-Prepositions,pentru,for
-Prepositions,lângă,next to
-Prepositions,sub,under
-Prepositions,peste,over
-Prepositions,dedesubt,underneath
-Prepositions,deasupra,above
-Prepositions,după,after
-Prepositions,înainte,before
-Prepositions,până,until
-Prepositions,spre/către,towards
-Prepositions,dinspre,from the direction of
-Prepositions,printre,among
-Prepositions,despre,about
-Prepositions,prin,through
-Prepositions,în afară de,except (for)
-Prepositions,în loc de,instead of
-Prepositions,împreună cu,together with
-Prepositions,dintre,between (out of)
-Prepositions,odată cu,at the same time as
-Demonstrative pronouns,acest/ăsta,this
-Demonstrative pronouns,acești/ăștia,these
-Demonstrative pronouns,acel/ăla,that
-Demonstrative pronouns,acei/ăia,those
-Demonstrative pronouns,celălalt,the other
-Demonstrative pronouns,același,the same
-Objects,obiect,object
-Objects,lucru,thing
-Objects,bucată,piece
-Objects,borcan,jar
-Objects,cutie,box
-Objects,pungă,bag
-Objects,pix,pen
-Objects,creion,pencil
-Objects,gumă de șters,eraser
-Objects,hârtie,paper
-Objects,ochelari,glasses
-Objects,umbrelă,umbrella
-Objects,foarfece,scissors
-Objects,cheie,key
-Objects,ceas,clock/watch
-Objects,portofel,wallet
-Objects,brățară,bracelet
-Objects,inel,ring
-Objects,lănțișor,chain/necklace
-Objects,baterie,battery
-Objects,lumânare,candle
-Objects,bec,light bulb
-Objects,timbru,stamp
-Objects,lipici,glue
-Objects,motor,engine
-Objects,portbagaj,car boot
-Objects,roată,wheel
-Objects,semafor,traffic light
-Objects,clopot,bell
-Objects,telefon,telephone
-Objects,radio,radio
-Objects,televizor,television
-Objects,calculator,computer
-Measure,metru,metre
-Measure,kilometru,kilometre
-Measure,milă,mile
-Measure,gram,gram
-Measure,litru,litre
-Measure,grad,degree
-Measure,greutate,weight
-Possessive,meu,my
-Possessive,al meu,mine
-Possessive,tău,your
-Possessive,lui,his
-Possessive,său,his/her/its
-Possessive,ei,her
-Possessive,nostru,our
-Possessive,vostru,your (p)
-Possessive,lor,their
-Numbers,unu,one
-Numbers,trei,three
-Numbers,patru,four
-Numbers,cinci,five
-Numbers,șase,six
-Numbers,șapte,seven
-Numbers,opt,eight
-Numbers,nouă,nine
-Numbers,zece,ten
-Numbers,câteva,a few
-Numbers,jumătate,half
-Numbers,puțin,little
-Numbers,număr,number
-Numbers,mult,many
-Numbers,destul,quite
-Numbers,an,year
-Numbers,milion,million
-Numbers,unsprezece,eleven
-Numbers,douăzeci,twenty
-Numbers,sută,hundred
-Numbers,mie,thousand
-Numbers,primul,first
-Numbers,doua,second (f)
-Numbers,treilea,third (m)
-Numbers,ultimul,last
 Body,braț,arm
 Body,buză,lip
 Body,cap,head
@@ -277,157 +57,399 @@ Body,corp,body
 Body,deget,finger
 Body,dinte,tooth
 Body,față,face
+Body,gât,neck
 Body,genunchi,knee
 Body,gleznă,ankle
 Body,gură,mouth
-Body,gât,neck
 Body,mână,hand
 Body,nas,nose
 Body,obraz,cheek
 Body,ochi,eye
 Body,palmă,palm
-Body,picior,leg
 Body,păr,hair
+Body,picior,leg
 Body,spate,back
 Body,umăr,shoulder
 Body,unghie,nail
 Body,ureche,ear
-Weather,nor,cloud
-Weather,înnorat,cloudy
-Weather,ceață,fog
-Weather,fierbinte,hot
-Weather,cald,warm
-Weather,frig,cold
-Weather,ploaie,rain
-Weather,plouă,raining
-Weather,zăpadă,snow
-Weather,ninge,snowing
-Weather,soare,sun
-Weather,însorit,sunny
-Weather,vânt,wind
-Weather,primăvară,Spring
-Weather,vară,Summer
-Weather,toamnă,Autumn
-Weather,iarnă,Winter
-Weather,furtună,storm
-Weather,afară,outside
-Weather,înăuntru,inside
-Weather,umed,wet
-Weather,vreme,weather
-Weather,arid,dry
-Furniture,masă,table
-Furniture,perete,wall
-Furniture,podea,floor
-Furniture,scară,stairs
-Furniture,șemineu,fireplace
-Furniture,ușă,door
-Furniture,covor,carpet
-Furniture,draperie,curtains
-Furniture,lampă,lamp
-Furniture,mochetă,rug
-Furniture,oglindă,mirror
+Clothes,cămaşă,shirt
+Clothes,costum,suit
+Clothes,cravată,tie
+Clothes,fustă,skirt
+Clothes,haine,clothes
+Clothes,îmbrăcăminte,clothing
+Clothes,mănușă,glove
+Clothes,pălărie,hat
+Clothes,palton,coat
+Clothes,pantaloni,trousers
+Clothes,pantof,shoe
+Clothes,rochie,dress
+Clothes,tricou,t-shirt
+Colours,albastru,blue
+Colours,albă,white
+Colours,culoare,colour
+Colours,galben,yellow
+Colours,gri,grey
+Colours,maro,brown
+Colours,mov,purple
+Colours,negru,black
+Colours,portocaliu,orange
+Colours,roșu,red
+Colours,roz,pink
+Colours,verde,green
+Countries,America,America
+Countries,Anglia,England
+Countries,Australia,Australia
+Countries,China,China
+Countries,Franța,France
+Countries,Germania,Germany
+Countries,Grecia,Greece
+Countries,India,India
+Countries,Irlanda,Ireland
+Countries,Italia,Italy
+Countries,Japonia,Japan
+Countries,Marea Britanie,Great Britain
+Countries,Rusia,Russia
+Countries,Scoția,Scotland
+Countries,Spania,Spain
+Countries,Țara Galilor,Wales
+Demonstrative pronouns,acei/ăia,those
+Demonstrative pronouns,acel/ăla,that
+Demonstrative pronouns,același,the same
+Demonstrative pronouns,acest/ăsta,this
+Demonstrative pronouns,acești/ăștia,these
+Demonstrative pronouns,celălalt,the other
+Family,bunic,grandfather
+Family,cumnat,brother-in-law
+Family,familie,family
+Family,fiică,daughter
+Family,fiu,son
+Family,frate,brother
+Family,mamă,mother
+Family,mătușă,aunt
+Family,nepot,nephew/grandson
+Family,nume,name
+Family,părinte,parent
+Family,prenume,first name
+Family,rudă,relative
+Family,soacră,mother-in-law
+Family,soră,sister
+Family,soț,husband
+Family,soție,wife
+Family,tată,father
+Family,unchi,uncle
+Family,verișoară,cousin
+Fruit & Veg,ardei,pepper
+Fruit & Veg,banană,banana
+Fruit & Veg,căpșună,strawberry
+Fruit & Veg,cartof,potato
+Fruit & Veg,castravete,cucumber
+Fruit & Veg,ceapă,onion
+Fruit & Veg,cireașă,cherry
+Fruit & Veg,ciupercă,mushroom
+Fruit & Veg,fructe,fruit
+Fruit & Veg,lămâie,lemon
+Fruit & Veg,legume,vegetables
+Fruit & Veg,măr,apple
+Fruit & Veg,morcov,carrot
+Fruit & Veg,pară,pear
+Fruit & Veg,portocală,orange
+Fruit & Veg,roșie,tomato
+Fruit & Veg,strugure,grape
 Furniture,birou,desk
 Furniture,bufet,cupboard
 Furniture,canapea,couch
+Furniture,covor,carpet
+Furniture,draperie,curtains
 Furniture,fotoliu,armchair
+Furniture,lampă,lamp
+Furniture,masă,table
+Furniture,mochetă,rug
+Furniture,oglindă,mirror
 Furniture,pat,bed
+Furniture,perete,wall
+Furniture,podea,floor
 Furniture,raft,shelf
+Furniture,scară,stairs
 Furniture,scaun,chair
+Furniture,șemineu,fireplace
 Furniture,sertar,drawer
 Furniture,șifonier,wardrobe
-Verbs,a înota,to swim
-Verbs,a alerga/a fugi,to run
-Verbs,a mânca,to eat
-Verbs,a cânta,to sing
-Verbs,a schimba,to change
-Verbs,a întreba,to ask
-Verbs,a asculta,to listen
-Verbs,a ajuta,to help
-Verbs,a cumpăra,to buy
-Verbs,a lua,to take
-Verbs,a vedea,to see
-Verbs,a putea,to be able to
-Verbs,a vrea,to want
-Verbs,a avea,to have
-Verbs,a cădea,to fall
-Verbs,a plăcea,to like
-Verbs,a părea,to look/seem
-Verbs,a bea,to drink
-Verbs,a apărea,to appear into view
-Verbs,a deschide,to open
-Verbs,a închide,to close
-Verbs,a merge,to go/walk
-Verbs,a face,to do
-Verbs,a scrie,to write
-Verbs,a atinge,to touch
-Verbs,a spune,to say
-Verbs,a începe,to start
-Verbs,a vinde,to sell
-Verbs,a citi,to read
-Verbs,a dormi,to sleep
-Verbs,a vorbi,to speak
-Verbs,a auzi,to hear
-Verbs,a dori,to wish
-Verbs,a găsi,to find
-Verbs,a ști,to know
-Verbs,a fi,to be
-Verbs,a iubi,to love
-Verbs,a hotărî,to decide
-Verbs,a urî,to hate
-Verbs,a coborî,to descend/get off
-Verbs,a doborî,to knock down
-Verbs,a lucra,to work
-Verbs,a umbla/plimba,to walk
-Verbs,a da,to give
-Verbs,a explica,to explain
-Verbs,a învăța,to learn
-Verbs,a spăla,to wash
-Verbs,a tăia,to cut
-Verbs,a se uita,to look at
-Verbs,a striga,to shout
-Verbs,a cauta,to look for
-Verbs,a fuma,to smoke
-Verbs,a turna,to pour
-Verbs,a strica,to ruin
-Verbs,a visa,to dream
-Verbs,a aduna,to collect
-Verbs,a vizita,to visit
-Verbs,a traversa,to cross
-Verbs,a vărsa,to spill
-Verbs,a rezolva,to solve
-Verbs,a disparea,to disappear
-Verbs,a scădea,to decrease
-Verbs,a cere,to ask for
-Verbs,a aduce,to bring
-Verbs,a alege,to choose
-Verbs,a minti,to lie
-Verbs,a întelege,to understand
-Verbs,a plânge,to cry
-Verbs,a rade,to laugh
-Verbs,a pune,to put
-Verbs,a conține,to contain
-Verbs,a presupune,to assume
-Verbs,a rămâne,to remain
-Verbs,a umple,to fill
-Verbs,a descrie,to describe
-Verbs,a răspunde,to respond
-Verbs,a dormi,to sleep
+Furniture,ușă,door
+Greetings,bună dimineața,good morning
+Greetings,bună seara,good evening
+Greetings,bună ziua,hello/good day
+Greetings,la revedere,goodbye
+Measure,grad,degree
+Measure,gram,gram
+Measure,greutate,weight
+Measure,kilometru,kilometre
+Measure,litru,litre
+Measure,metru,metre
+Measure,milă,mile
+Numbers,an,year
+Numbers,câteva,a few
+Numbers,cinci,five
+Numbers,destul,quite
+Numbers,doua,second (f)
+Numbers,douăzeci,twenty
+Numbers,jumătate,half
+Numbers,mie,thousand
+Numbers,milion,million
+Numbers,mult,many
+Numbers,nouă,nine
+Numbers,număr,number
+Numbers,opt,eight
+Numbers,patru,four
+Numbers,primul,first
+Numbers,puțin,little
+Numbers,șapte,seven
+Numbers,șase,six
+Numbers,sută,hundred
+Numbers,treilea,third (m)
+Numbers,trei,three
+Numbers,ultimul,last
+Numbers,unsprezece,eleven
+Numbers,unu,one
+Numbers,zece,ten
+Objects,baterie,battery
+Objects,bec,light bulb
+Objects,borcan,jar
+Objects,brățară,bracelet
+Objects,bucată,piece
+Objects,calculator,computer
+Objects,ceas,clock/watch
+Objects,cheie,key
+Objects,clopot,bell
+Objects,creion,pencil
+Objects,cutie,box
+Objects,foarfece,scissors
+Objects,gumă de șters,eraser
+Objects,hârtie,paper
+Objects,inel,ring
+Objects,lănțișor,chain/necklace
+Objects,lipici,glue
+Objects,lucru,thing
+Objects,lumânare,candle
+Objects,motor,engine
+Objects,obiect,object
+Objects,ochelari,glasses
+Objects,pix,pen
+Objects,portbagaj,car boot
+Objects,portofel,wallet
+Objects,pungă,bag
+Objects,radio,radio
+Objects,roată,wheel
+Objects,semafor,traffic light
+Objects,telefon,telephone
+Objects,televizor,television
+Objects,timbru,stamp
+Objects,umbrelă,umbrella
+Occupations,actrița,actress
+Occupations,angajat,employee
+Occupations,angajator,employer
+Occupations,artist,artist
+Occupations,avocat,lawyer
+Occupations,barman,barista
+Occupations,brutar,baker
+Occupations,bucătar,cook
+Occupations,chelner,waiter
+Occupations,coafeză,hairdresser
+Occupations,croitor,tailor
+Occupations,dentist,dentist
+Occupations,doctor/medic,doctor
+Occupations,electrician,electrician
+Occupations,fermier,farmer
+Occupations,frizer,barber
+Occupations,infirmier,nurse
+Occupations,instalator,plumber
+Occupations,învățător,teacher
+Occupations,măcelar,butcher
+Occupations,mecanic,mechanic
+Occupations,muncă,work
+Occupations,muncitor,worker
+Occupations,muzician,musician
+Occupations,pescar,fisherman
+Occupations,polițist,policeman
+Occupations,pompier,fireman
+Occupations,poștaș,postman
+Occupations,preot,priest
+Occupations,președinte,president
+Occupations,rege,king
+Occupations,savant,scientist
+Occupations,scriitor,writer
+Occupations,șef,boss
+Occupations,slujbe,job
+Occupations,student/elev,student
+Occupations,tâmplar,carpenter
+Occupations,taximetrist,taxi driver
+Possessive,al meu,mine
+Possessive,ei,her
+Possessive,lor,their
+Possessive,lui,his
+Possessive,meu,my
+Possessive,nostru,our
+Possessive,său,his/her/its
+Possessive,tău,your
+Possessive,vostru,your (p)
+Prepositions,cu,with
+Prepositions,deasupra,above
+Prepositions,dedesubt,underneath
+Prepositions,de,of
+Prepositions,despre,about
+Prepositions,din/de la,from
+Prepositions,dinspre,from the direction of
+Prepositions,dintre,between (out of)
+Prepositions,după,after
+Prepositions,fără,without
+Prepositions,împreună cu,together with
+Prepositions,în afară de,except (for)
+Prepositions,înainte,before
+Prepositions,în,in
+Prepositions,în loc de,instead of
+Prepositions,între,between
+Prepositions,la,at
+Prepositions,lângă,next to
+Prepositions,odată cu,at the same time as
+Prepositions,până,until
+Prepositions,pentru,for
+Prepositions,pe,on
+Prepositions,peste,over
+Prepositions,prin,through
+Prepositions,printre,among
+Prepositions,spre/către,towards
+Prepositions,sub,under
+Rooms,baie,bathroom
+Rooms,birou,office
+Rooms,bucătărie,kitchen
+Rooms,cameră,room
+Rooms,dormitor,bedroom
+Rooms,garaj,garage
+Rooms,sufragerie,living room
+Rooms,toaletă,toilet
+Shapes,cerc,circle
+Shapes,dreptunghi,rectangle
+Shapes,dungă,stripe
+Shapes,formă,shape
+Shapes,pătrat,square
+Shapes,punct,point
+Shapes,triunghi,triangle
 Verbs,a adormi,to fall asleep
-Verbs,a sari,to jump
-Verbs,a suferi,to suffer
-Verbs,a veni,to come
-Verbs,a contribui,to contribute
-Verbs,a glumi,to joke
-Verbs,a găti,to cook
-Verbs,a obosi,to tire
-Verbs,a primi,to receive
-Verbs,a încălzi,to warm up
-Verbs,a răci,to cool down
-Verbs,a sosi,to arrive
+Verbs,a aduce,to bring
+Verbs,a aduna,to collect
 Verbs,a ajunge,to reach
+Verbs,a ajuta,to help
+Verbs,a alege,to choose
+Verbs,a alerga/a fugi,to run
+Verbs,a apărea,to appear into view
+Verbs,a asculta,to listen
+Verbs,a atinge,to touch
+Verbs,a auzi,to hear
+Verbs,a avea,to have
+Verbs,a bea,to drink
+Verbs,a cădea,to fall
+Verbs,a cânta,to sing
+Verbs,a cauta,to look for
+Verbs,a cere,to ask for
+Verbs,a citi,to read
+Verbs,a coborî,to descend/get off
 Verbs,a construi,to build
+Verbs,a conține,to contain
+Verbs,a contribui,to contribute
+Verbs,a cumpăra,to buy
+Verbs,a da,to give
+Verbs,a deschide,to open
+Verbs,a descrie,to describe
+Verbs,a disparea,to disappear
+Verbs,a doborî,to knock down
+Verbs,a dori,to wish
+Verbs,a dormi,to sleep
+Verbs,a dormi,to sleep
+Verbs,a explica,to explain
+Verbs,a face,to do
+Verbs,a fi,to be
+Verbs,a fuma,to smoke
+Verbs,a găsi,to find
+Verbs,a găti,to cook
+Verbs,a glumi,to joke
+Verbs,a hotărî,to decide
+Verbs,a încălzi,to warm up
+Verbs,a începe,to start
+Verbs,a închide,to close
+Verbs,a înota,to swim
+Verbs,a întelege,to understand
+Verbs,a întreba,to ask
+Verbs,a învăța,to learn
+Verbs,a iubi,to love
 Verbs,a locui,to live (somewhere)
-Verbs,a trăi,to live (life)
-Verbs,a ucide,to kill
-Verbs,a promite,to promise
+Verbs,a lua,to take
+Verbs,a lucra,to work
+Verbs,a mânca,to eat
+Verbs,a merge,to go/walk
+Verbs,a minti,to lie
+Verbs,a obosi,to tire
 Verbs,a oferi,to offer
+Verbs,a părea,to look/seem
+Verbs,a plăcea,to like
+Verbs,a plânge,to cry
+Verbs,a presupune,to assume
+Verbs,a primi,to receive
+Verbs,a promite,to promise
+Verbs,a pune,to put
+Verbs,a putea,to be able to
+Verbs,a răci,to cool down
+Verbs,a rade,to laugh
+Verbs,a rămâne,to remain
+Verbs,a răspunde,to respond
+Verbs,a rezolva,to solve
+Verbs,a sari,to jump
+Verbs,a scădea,to decrease
+Verbs,a schimba,to change
+Verbs,a scrie,to write
+Verbs,a se uita,to look at
+Verbs,a sosi,to arrive
+Verbs,a spăla,to wash
+Verbs,a spune,to say
+Verbs,a ști,to know
+Verbs,a strica,to ruin
+Verbs,a striga,to shout
+Verbs,a suferi,to suffer
+Verbs,a tăia,to cut
+Verbs,a trăi,to live (life)
+Verbs,a traversa,to cross
+Verbs,a turna,to pour
+Verbs,a ucide,to kill
+Verbs,a umbla/plimba,to walk
+Verbs,a umple,to fill
+Verbs,a urî,to hate
+Verbs,a vărsa,to spill
+Verbs,a vedea,to see
+Verbs,a veni,to come
+Verbs,a vinde,to sell
+Verbs,a visa,to dream
+Verbs,a vizita,to visit
+Verbs,a vorbi,to speak
+Verbs,a vrea,to want
+Weather,afară,outside
+Weather,arid,dry
+Weather,cald,warm
+Weather,ceață,fog
+Weather,fierbinte,hot
+Weather,frig,cold
+Weather,furtună,storm
+Weather,iarnă,Winter
+Weather,înăuntru,inside
+Weather,înnorat,cloudy
+Weather,însorit,sunny
+Weather,ninge,snowing
+Weather,nor,cloud
+Weather,ploaie,rain
+Weather,plouă,raining
+Weather,primăvară,Spring
+Weather,soare,sun
+Weather,toamnă,Autumn
+Weather,umed,wet
+Weather,vânt,wind
+Weather,vară,Summer
+Weather,vreme,weather
+Weather,zăpadă,snow
