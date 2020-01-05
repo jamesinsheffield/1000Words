@@ -215,7 +215,7 @@ Greetings,bună ziua,hello/good day
 Greetings,la revedere,goodbye
 Kitchen,castron,bowl
 Kitchen,cană,mug
-Kitchen,craitiță,saucepan
+Kitchen,cratiță,saucepan
 Kitchen,cuțit,knife
 Kitchen,farfurie,plate
 Kitchen,furculiță,fork
@@ -503,7 +503,7 @@ Weather,ceață,fog
 Weather,fierbinte,hot
 Weather,frig,cold
 Weather,furtună,storm
-Weather,iarnă,Winter
+Weather,iarnă,winter
 Weather,înăuntru,inside
 Weather,înnorat,cloudy
 Weather,însorit,sunny
@@ -511,11 +511,11 @@ Weather,ninge,snowing
 Weather,nor,cloud
 Weather,ploaie,rain
 Weather,plouă,raining
-Weather,primăvară,Spring
+Weather,primăvară,spring
 Weather,soare,sun
-Weather,toamnă,Autumn
+Weather,toamnă,qutumn
 Weather,umed,wet
 Weather,vânt,wind
-Weather,vară,Summer
+Weather,vară,summer
 Weather,vreme,weather
 Weather,zăpadă,snow
