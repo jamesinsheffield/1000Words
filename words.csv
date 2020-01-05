@@ -59,7 +59,6 @@ Animals,rechin,shark
 Animals,șarpe,snake
 Animals,șoarece,mouse
 Animals,șobolan,rat
-Animals,tigru,tiger
 Animals,urs,bear
 Animals,gândac,bug
 Animals,albină,bee
@@ -73,9 +72,9 @@ Bathroom,balsam de păr,hair conditioner
 Bathroom,cadă,bathtub
 Bathroom,chiuvetă,sink
 Bathroom,cremă hidratantă,moisturiser
-Bathroom,deodorant,deoderant
+Bathroom,deodorant,deodorant
 Bathroom,duș,shower
-Bathroom,gel de dus,shower gel
+Bathroom,gel de duș,shower gel
 Bathroom,parfum,perfume
 Bathroom,pastă de dinți,toothpaste
 Bathroom,periuță de dinți,toothbrush
@@ -214,6 +213,24 @@ Greetings,bună dimineața,good morning
 Greetings,bună seara,good evening
 Greetings,bună ziua,hello/good day
 Greetings,la revedere,goodbye
+Kitchen,castron,bowl
+Kitchen,cană,mug
+Kitchen,craitiță,saucepan
+Kitchen,cuțit,knife
+Kitchen,farfurie,plate
+Kitchen,furculiță,fork
+Kitchen,lingură,spoon
+Kitchen,linguriță,teaspoon
+Kitchen,oală,pot
+Kitchen,pahar,glass
+Kitchen,tacâmuri,cutlery
+Kitchen,tavă,tray
+Kitchen,tigaie,frying pan
+Kitchen,cuptor,oven
+Kitchen,frigider,fridge
+Kitchen,congelator,freezer
+Kitchen,coș de gunoi,rubbish bin
+Kitchen,aragaz,stove/hob
 Measure,grad,degree
 Measure,gram,gram
 Measure,greutate,weight
