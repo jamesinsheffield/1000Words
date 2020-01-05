@@ -10,15 +10,15 @@ assert "APP_SETTINGS" in os.environ, "APP_SETTINGS environment variable not set"
 app.config.from_object(os.environ['APP_SETTINGS'])
 app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
 
-def ReadWordsCSV(cat='_All'):
+def ReadWordsCSV(cat='all'):
     Words = pd.read_csv('words.csv')
-    if not cat == '_All':
+    if not cat == 'all':
         Words = Words[Words['Category'] == cat]
         Words.reset_index(inplace=True)
     return Words
 
 Words = ReadWordsCSV()
-categories = ['_All','_Random']+sorted(Words['Category'].unique())
+categories = ['_Random']+sorted(Words['Category'].unique())
 catChoices = []
 for c in categories:
     catChoices.append((c,c))
@@ -35,7 +35,7 @@ def home():
         session.clear()
         cat = form.category.data
         if cat == '_Random':
-            cat = categories[rd.randrange(2,len(categories))]
+            cat = categories[rd.randrange(1,len(categories))]
         subWords = ReadWordsCSV(cat=cat)
         session['subWords'] = subWords.to_json()
         idx = list(range(len(subWords)))
@@ -47,7 +47,8 @@ def home():
         session['EngRom'] = form.EngRom.data
     else:
         if not 'i' in session:
-            subWords = ReadWordsCSV(cat='_All')
+            cat = categories[rd.randrange(1,len(categories))]
+            subWords = ReadWordsCSV(cat=cat)
             session['subWords'] = subWords.to_json()
             idx = list(range(len(subWords)))
             rd.shuffle(idx)
