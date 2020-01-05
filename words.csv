@@ -67,25 +67,6 @@ Animals,insectă,insect
 Animals,muscă,fly
 Animals,păianjen,spider
 Animals,țanțar,mosquito
-Appliances,aspirator,vacuum cleaner
-Appliances,fier de călcat,iron
-Appliances,uscător de păr,hairdryer
-Appliances,cuptor,oven
-Appliances,frigider,fridge
-Appliances,congelator,freezer
-Appliances,aragaz,stove/hob
-Appliances,microunde,microwave
-Appliances,mașină de spălat,washine machine
-Appliances,prăjitor de pâine,toaster
-Appliances,aer condiționat,air conditioner
-Appliances,telefon,telephone
-Appliances,televizor,television
-Appliances,fierbător,kettle
-Appliances,bec,light bulb
-Appliances,calculator,computer
-Applicances,aparat foto,camera
-Appliances,radiator,radiator
-Appliances,radio,radio
 Bathroom,aparat de ras,shaver
 Bathroom,balsam de păr,hair conditioner
 Bathroom,cadă,bathtub
@@ -170,6 +151,27 @@ Demonstrative pronouns,același,the same
 Demonstrative pronouns,acest/ăsta,this
 Demonstrative pronouns,acești/ăștia,these
 Demonstrative pronouns,celălalt,the other
+Electronics,aspirator,vacuum cleaner
+Electronics,fier de călcat,iron
+Electronics,uscător de păr,hairdryer
+Electronics,cuptor,oven
+Electronics,frigider,fridge
+Electronics,congelator,freezer
+Electronics,aragaz,stove/hob
+Electronics,cuptor cu microunde,microwave
+Electronics,mașină de spălat,washing machine
+Electronics,prăjitor de pâine,toaster
+Electronics,aer condiționat,air conditioner
+Electronics,telefon,telephone
+Electronics,televizor,television
+Electronics,fierbător,kettle
+Electronics,bec,light bulb
+Electronics,calculator,computer
+Electronics,aparat foto,camera
+Electronics,radiator,radiator
+Electronics,radio,radio
+Electronics,baterie,battery
+Electronics,ceas,clock/watch
 Family,bunic,grandfather
 Family,cumnat,brother-in-law
 Family,familie,family
@@ -278,11 +280,9 @@ Numbers,ultimul,last
 Numbers,unsprezece,eleven
 Numbers,unu,one
 Numbers,zece,ten
-Objects,baterie,battery
 Objects,borcan,jar
 Objects,brățară,bracelet
 Objects,bucată,piece
-Objects,ceas,clock/watch
 Objects,cheie,key
 Objects,clopot,bell
 Objects,creion,pencil
