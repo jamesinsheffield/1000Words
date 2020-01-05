@@ -67,6 +67,25 @@ Animals,insectă,insect
 Animals,muscă,fly
 Animals,păianjen,spider
 Animals,țanțar,mosquito
+Appliances,aspirator,vacuum cleaner
+Appliances,fier de călcat,iron
+Appliances,uscător de păr,hairdryer
+Appliances,cuptor,oven
+Appliances,frigider,fridge
+Appliances,congelator,freezer
+Appliances,aragaz,stove/hob
+Appliances,microunde,microwave
+Appliances,mașină de spălat,washine machine
+Appliances,prăjitor de pâine,toaster
+Appliances,aer condiționat,air conditioner
+Appliances,telefon,telephone
+Appliances,televizor,television
+Appliances,fierbător,kettle
+Appliances,bec,light bulb
+Appliances,calculator,computer
+Applicances,aparat foto,camera
+Appliances,radiator,radiator
+Appliances,radio,radio
 Bathroom,aparat de ras,shaver
 Bathroom,balsam de păr,hair conditioner
 Bathroom,cadă,bathtub
@@ -226,11 +245,7 @@ Kitchen,pahar,glass
 Kitchen,tacâmuri,cutlery
 Kitchen,tavă,tray
 Kitchen,tigaie,frying pan
-Kitchen,cuptor,oven
-Kitchen,frigider,fridge
-Kitchen,congelator,freezer
 Kitchen,coș de gunoi,rubbish bin
-Kitchen,aragaz,stove/hob
 Measure,grad,degree
 Measure,gram,gram
 Measure,greutate,weight
@@ -264,11 +279,9 @@ Numbers,unsprezece,eleven
 Numbers,unu,one
 Numbers,zece,ten
 Objects,baterie,battery
-Objects,bec,light bulb
 Objects,borcan,jar
 Objects,brățară,bracelet
 Objects,bucată,piece
-Objects,calculator,computer
 Objects,ceas,clock/watch
 Objects,cheie,key
 Objects,clopot,bell
@@ -289,11 +302,8 @@ Objects,pix,pen
 Objects,portbagaj,car boot
 Objects,portofel,wallet
 Objects,pungă,bag
-Objects,radio,radio
 Objects,roată,wheel
 Objects,semafor,traffic light
-Objects,telefon,telephone
-Objects,televizor,television
 Objects,timbru,stamp
 Objects,umbrelă,umbrella
 Occupations,actrița,actress
@@ -358,7 +368,7 @@ Possessive,tău,your
 Possessive,vostru,your (p)
 Prepositions,cu,with
 Prepositions,deasupra,above
-Prepositions,dedesubt,underneath
+Prepositions,dedesubt,below
 Prepositions,de,of
 Prepositions,despre,about
 Prepositions,din/de la,from
