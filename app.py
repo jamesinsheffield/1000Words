@@ -13,12 +13,15 @@ app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
 def ReadWordsCSV(cat='all'):
     Words = pd.read_csv('words.csv')
     if not cat == 'all':
-        Words = Words[Words['Category'] == cat]
+        if not cat == '30 random words':
+            Words = Words[Words['Category'] == cat]
+        else:
+            Words = Words.sample(n=30)
         Words.reset_index(inplace=True)
     return Words
 
 Words = ReadWordsCSV()
-categories = ['_Random']+sorted(Words['Category'].unique())
+categories = ['30 random words','Random category']+sorted(Words['Category'].unique())
 catChoices = []
 for c in categories:
     catChoices.append((c,c))
@@ -34,7 +37,7 @@ def home():
     if request.method == 'POST':
         session.clear()
         cat = form.category.data
-        if cat == '_Random':
+        if cat == 'Random category':
             cat = categories[rd.randrange(1,len(categories))]
         subWords = ReadWordsCSV(cat=cat)
         session['subWords'] = subWords.to_json()
@@ -47,7 +50,7 @@ def home():
         session['EngRom'] = form.EngRom.data
     else:
         if not 'i' in session:
-            cat = categories[rd.randrange(1,len(categories))]
+            cat = '30 random words'#categories[rd.randrange(1,len(categories))]
             subWords = ReadWordsCSV(cat=cat)
             session['subWords'] = subWords.to_json()
             idx = list(range(len(subWords)))

@@ -71,6 +71,7 @@ Bathroom,aparat de ras,shaver
 Bathroom,balsam de păr,hair conditioner
 Bathroom,cadă,bathtub
 Bathroom,chiuvetă,sink
+Bathroom,robinet,tap
 Bathroom,cremă hidratantă,moisturiser
 Bathroom,deodorant,deodorant
 Bathroom,duș,shower
@@ -344,6 +345,24 @@ Occupations,slujbe,job
 Occupations,student/elev,student
 Occupations,tâmplar,carpenter
 Occupations,taximetrist,taxi driver
+Outside,copac,tree
+Outside,floare,flower
+Outside,iarbă,grass
+Outside,plantă,plant
+Outside,terasă,terrace
+Outside,grădină,garden
+Outside,cer,sky
+Outside,câmp,field
+Outside,deal,hill
+Outside,insulă,island
+Outside,lac,lake
+Outside,mare,sea
+Outside,munte,mountain
+Outside,piatră,rock
+Outside,pădure,forest
+Outside,râu,river
+Outside,stea,star
+Outside,plajă,beach
 People,adolescent,teenager
 People,bebeluș,baby
 People,băiat,boy
@@ -523,7 +542,7 @@ Weather,ploaie,rain
 Weather,plouă,raining
 Weather,primăvară,spring
 Weather,soare,sun
-Weather,toamnă,qutumn
+Weather,toamnă,autumn
 Weather,umed,wet
 Weather,vânt,wind
 Weather,vară,summer
