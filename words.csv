@@ -1,44 +1,4 @@
 Category,Romanian,English
-Adjectives,bătrân,old (living things)
-Adjectives,bogat,rich
-Adjectives,bun,good
-Adjectives,curat,clean
-Adjectives,deștept,smart
-Adjectives,dulce,sweet
-Adjectives,Englezesc,English
-Adjectives,frumos,beautiful
-Adjectives,gol,empty
-Adjectives,gras,fat
-Adjectives,greu,heavy/difficult
-Adjectives,ieftin,cheap
-Adjectives,înalt,tall
-Adjectives,încet,slow
-Adjectives,iute,hot (spicy)
-Adjectives,larg,wide
-Adjectives,lung,long
-Adjectives,mare,big
-Adjectives,mic,small
-Adjectives,moale,soft
-Adjectives,murdar,dirty
-Adjectives,nou,new
-Adjectives,plin,full
-Adjectives,puternic,strong
-Adjectives,rapid,fast
-Adjectives,rău,bad
-Adjectives,rece,cold (objects)
-Adjectives,Românesc,Romanian
-Adjectives,sărac,poor
-Adjectives,scump,expensive
-Adjectives,scund,short
-Adjectives,slab,weak
-Adjectives,subțire,thin
-Adjectives,tânăr,young
-Adjectives,tare,hard
-Adjectives,ud,wet (objects)
-Adjectives,uscat,dry (objects)
-Adjectives,ușor,light/easy
-Adjectives,vechi,old (objects)
-Adjectives,viu,alive/living
 Animals,câine,dog
 Animals,cal,horse
 Animals,capră,goat
@@ -429,102 +389,20 @@ Shapes,formă,shape
 Shapes,pătrat,square
 Shapes,punct,point
 Shapes,triunghi,triangle
-Verbs,a adormi,to fall asleep
-Verbs,a aduce,to bring
-Verbs,a aduna,to collect
-Verbs,a ajunge,to reach
-Verbs,a ajuta,to help
-Verbs,a alege,to choose
-Verbs,a alerga/a fugi,to run
-Verbs,a apărea,to appear into view
-Verbs,a asculta,to listen
-Verbs,a atinge,to touch
-Verbs,a auzi,to hear
-Verbs,a avea,to have
-Verbs,a bea,to drink
-Verbs,a cădea,to fall
-Verbs,a cânta,to sing
-Verbs,a cauta,to look for
-Verbs,a cere,to ask for
-Verbs,a citi,to read
-Verbs,a coborî,to descend/get off
-Verbs,a construi,to build
-Verbs,a conține,to contain
-Verbs,a contribui,to contribute
-Verbs,a cumpăra,to buy
-Verbs,a da,to give
-Verbs,a deschide,to open
-Verbs,a descrie,to describe
-Verbs,a disparea,to disappear
-Verbs,a doborî,to knock down
-Verbs,a dori,to wish
-Verbs,a dormi,to sleep
-Verbs,a dormi,to sleep
-Verbs,a explica,to explain
-Verbs,a face,to do
-Verbs,a fi,to be
-Verbs,a fuma,to smoke
-Verbs,a găsi,to find
-Verbs,a găti,to cook
-Verbs,a glumi,to joke
-Verbs,a hotărî,to decide
-Verbs,a încălzi,to warm up
-Verbs,a începe,to start
-Verbs,a închide,to close
-Verbs,a înota,to swim
-Verbs,a întelege,to understand
-Verbs,a întreba,to ask
-Verbs,a învăța,to learn
-Verbs,a iubi,to love
-Verbs,a locui,to live (somewhere)
-Verbs,a lua,to take
-Verbs,a lucra,to work
-Verbs,a mânca,to eat
-Verbs,a merge,to go/walk
-Verbs,a minti,to lie
-Verbs,a obosi,to tire
-Verbs,a oferi,to offer
-Verbs,a părea,to look/seem
-Verbs,a plăcea,to like
-Verbs,a plânge,to cry
-Verbs,a presupune,to assume
-Verbs,a primi,to receive
-Verbs,a promite,to promise
-Verbs,a pune,to put
-Verbs,a putea,to be able to
-Verbs,a răci,to cool down
-Verbs,a rade,to laugh
-Verbs,a rămâne,to remain
-Verbs,a răspunde,to respond
-Verbs,a rezolva,to solve
-Verbs,a sari,to jump
-Verbs,a scădea,to decrease
-Verbs,a schimba,to change
-Verbs,a scrie,to write
-Verbs,a se uita,to look at
-Verbs,a sosi,to arrive
-Verbs,a spăla,to wash
-Verbs,a spune,to say
-Verbs,a ști,to know
-Verbs,a strica,to ruin
-Verbs,a striga,to shout
-Verbs,a suferi,to suffer
-Verbs,a tăia,to cut
-Verbs,a trăi,to live (life)
-Verbs,a traversa,to cross
-Verbs,a turna,to pour
-Verbs,a ucide,to kill
-Verbs,a umbla/plimba,to walk
-Verbs,a umple,to fill
-Verbs,a urî,to hate
-Verbs,a vărsa,to spill
-Verbs,a vedea,to see
-Verbs,a veni,to come
-Verbs,a vinde,to sell
-Verbs,a visa,to dream
-Verbs,a vizita,to visit
-Verbs,a vorbi,to speak
-Verbs,a vrea,to want
+Verbs: Speech, a apela, to call
+Verbs: Speech, a descrie, to descibe
+Verbs: Speech, a explica, to explain
+Verbs: Speech, a glumi, to joke
+Verbs: Speech, a întreba, to ask
+Verbs: Speech, a minți, to lie
+Verbs: Speech, a mulțumi, to thank
+Verbs: Speech, a povesti, to tell
+Verbs: Speech, a ruga, to ask
+Verbs: Speech, a răspunde, to answer
+Verbs: Speech, a scuza, to excuse
+Verbs: Speech, a spune, to tell
+Verbs: Speech, a vorbi, to talk
+Verbs: Speech, a zice, to say  
 Weather,afară,outside
 Weather,arid,dry
 Weather,cald,warm
