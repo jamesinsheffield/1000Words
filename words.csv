@@ -267,7 +267,7 @@ Objects,roată,wheel
 Objects,semafor,traffic light
 Objects,timbru,stamp
 Objects,umbrelă,umbrella
-Occupations,actrița,actress
+Occupations,actriță,actress
 Occupations,angajat,employee
 Occupations,angajator,employer
 Occupations,artist,artist
@@ -389,20 +389,50 @@ Shapes,formă,shape
 Shapes,pătrat,square
 Shapes,punct,point
 Shapes,triunghi,triangle
-Verbs: Speech, a apela, to call
-Verbs: Speech, a descrie, to descibe
-Verbs: Speech, a explica, to explain
-Verbs: Speech, a glumi, to joke
-Verbs: Speech, a întreba, to ask
-Verbs: Speech, a minți, to lie
-Verbs: Speech, a mulțumi, to thank
-Verbs: Speech, a povesti, to tell
-Verbs: Speech, a ruga, to ask
-Verbs: Speech, a răspunde, to answer
-Verbs: Speech, a scuza, to excuse
-Verbs: Speech, a spune, to tell
-Verbs: Speech, a vorbi, to talk
-Verbs: Speech, a zice, to say  
+Verbs: Speech,a suna,to call
+Verbs: Speech,a descrie,to descibe
+Verbs: Speech,a explica,to explain
+Verbs: Speech,a glumi,to joke
+Verbs: Speech,a întreba,to ask (a question)
+Verbs: Speech,a minți,to lie
+Verbs: Speech,a mulțumi,to thank
+Verbs: Speech,a povesti,to tell
+Verbs: Speech,a ruga,to request
+Verbs: Speech,a răspunde,to answer
+Verbs: Speech,a scuza,to excuse
+Verbs: Speech,a spune,to say
+Verbs: Speech,a vorbi,to speak
+Verbs: Speech,a cânta,to sing
+Verbs: Speech,a țipa,to shout
+Verbs: Speech,a șopti,to whisper
+Verbs: Leisure,a construi,to build
+Verbs: Leisure,a face,to make
+Verbs: Leisure,a (se) juca,to play
+Verbs: Leisure,a picta,to paint
+Verbs: Leisure,a fotografia,to photograph
+Verbs: Leisure,a colecționa,to collect
+Verbs: Leisure,a alerga,to run
+Verbs: Leisure,a dansa,to dance
+Verbs: Leisure,a înota,to swim
+Verbs: Leisure,a se plimba,to go for a walk
+Verbs: Leisure,a se cățăra,to climb
+Verbs: Motion,a ajunge,to arrive
+Verbs: Motion,a coborî,to descend/get off
+Verbs: Motion,a fugi,to run away
+Verbs: Motion,a merge, to go/walk
+Verbs: Motion,a cădea,to fall
+Verbs: Motion,a ieși,to exit
+Verbs: Motion,a intra,to enter
+Verbs: Motion,a (se) muta,to move
+Verbs: Motion,a pleca,to leave
+Verbs: Motion,a porni,to start something (e.g. the car)
+Verbs: Motion,a reveni,to come back to
+Verbs: Motion,a sări,to jump
+Verbs: Motion,a umbla,to wander
+Verbs: Motion,a urca,to ascend
+Verbs: Motion,a veni,to come
+Verbs: Motion,a zbura,to fly
+Verbs: Motion,a se duce,to go/take one's self
 Weather,afară,outside
 Weather,arid,dry
 Weather,cald,warm
