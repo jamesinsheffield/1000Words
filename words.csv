@@ -90,6 +90,17 @@ Colours,portocaliu,orange
 Colours,roșu,red
 Colours,roz,pink
 Colours,verde,green
+Conjunctions,ca să,in order to
+Conjunctions,dacă,if
+Conjunctions,dar,but
+Conjunctions,deci,so
+Conjunctions,deși,even though
+Conjunctions,iar,while/again
+Conjunctions,nici,neither
+Conjunctions,pentru că,because
+Conjunctions,până,until
+Conjunctions,sau,or
+Conjunctions,și,and
 Countries,America,America
 Countries,Anglia,England
 Countries,Australia,Australia
@@ -345,32 +356,45 @@ Possessive,nostru,our
 Possessive,său,his/her/its
 Possessive,tău,your
 Possessive,vostru,your (p)
+Prepositions,afară,outside
+Prepositions,aproape,near
+Prepositions,ca,like
+Prepositions,cam,approximately
 Prepositions,cu,with
+Prepositions,către,towards (a person)
 Prepositions,deasupra,above
+Prepositions,departe,far
 Prepositions,dedesubt,below
 Prepositions,de,of
 Prepositions,despre,about
-Prepositions,din/de la,from
+Prepositions,din/de la/de pe,from
+Prepositions,din cauza,because of
 Prepositions,dinspre,from the direction of
 Prepositions,dintre,between (out of)
 Prepositions,după,after
 Prepositions,fără,without
 Prepositions,împreună cu,together with
 Prepositions,în afară de,except (for)
+Prepositions,în fața,in front of
+Prepositions,în spatele
+Prepositions,înăuntru,inside
 Prepositions,înainte,before
 Prepositions,în,in
+Prepositions,în mijlocul,in the middle of
+Prepositions,în numele,on behalf of
+Prepositions,în timpul,during
+Prepositions,în jurul,around
 Prepositions,în loc de,instead of
 Prepositions,între,between
 Prepositions,la,at
 Prepositions,lângă,next to
 Prepositions,odată cu,at the same time as
-Prepositions,până,until
 Prepositions,pentru,for
 Prepositions,pe,on
 Prepositions,peste,over
 Prepositions,prin,through
 Prepositions,printre,among
-Prepositions,spre/către,towards
+Prepositions,spre,towards (a place/thing)
 Prepositions,sub,under
 Rooms,baie,bathroom
 Rooms,birou,office
@@ -433,7 +457,6 @@ Verbs: Motion,a urca,to ascend
 Verbs: Motion,a veni,to come
 Verbs: Motion,a zbura,to fly
 Verbs: Motion,a se duce,to go/take one's self
-Weather,afară,outside
 Weather,arid,dry
 Weather,cald,warm
 Weather,ceață,fog
@@ -441,7 +464,6 @@ Weather,fierbinte,hot
 Weather,frig,cold
 Weather,furtună,storm
 Weather,iarnă,winter
-Weather,înăuntru,inside
 Weather,înnorat,cloudy
 Weather,însorit,sunny
 Weather,ninge,snowing
