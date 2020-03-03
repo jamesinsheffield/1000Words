@@ -120,18 +120,24 @@ Body,umăr,shoulder
 Body,unghie,nail
 Body,ureche,ear
 Body,inimă,heart
+Clothes,blugi,jeans
 Clothes,cămaşă,shirt
 Clothes,costum,suit
+Clothes,chiloți,underwear
 Clothes,cravată,tie
+Clothes,fular,scarf
 Clothes,fustă,skirt
 Clothes,haine,clothes
 Clothes,îmbrăcăminte,clothing
+Clothes,jachetă,jacket
 Clothes,mănușă,glove
 Clothes,pălărie,hat
 Clothes,palton,coat
 Clothes,pantaloni,trousers
 Clothes,pantof,shoe
+Clothes,pulover,jumper
 Clothes,rochie,dress
+Clothes,şosetă,sock
 Clothes,tricou,t-shirt
 Colours,albastru,blue
 Colours,albă,white
@@ -519,6 +525,14 @@ Verbs: Motion,a urca,to ascend
 Verbs: Motion,a veni,to come
 Verbs: Motion,a zbura,to fly
 Verbs: Motion,a se duce,to go/take one's self
+Verbs: Perception,a arăta,to show
+Verbs: Perception,a asculta,to listen
+Verbs: Perception,a auzi,to hear
+Verbs: Perception,a gusta,to taste
+Verbs: Perception,a mirosi,to smell
+Verbs: Perception,a părea,to seem
+Verbs: Perception,a simți,to feel
+Verbs: Perception,a vedea,to see
 Weather,arid,dry
 Weather,cald,warm
 Weather,ceață,fog
