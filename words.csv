@@ -1,4 +1,59 @@
 Category,Romanian,English
+Adverbs: Time,acum,now
+Adverbs: Time,alaltăieri,the day before yesterday
+Adverbs: Time,apoi,afterwards
+Adverbs: Time,aseară,last night
+Adverbs: Time,atunci,then (in that case)
+Adverbs: Time,azi,today
+Adverbs: Time,cand,when
+Adverbs: Time,câteodată,sometimes
+Adverbs: Time,curând,soon
+Adverbs: Time,deja,already
+Adverbs: Time,des,often
+Adverbs: Time,devreme,early
+Adverbs: Time,deseară,tonight
+Adverbs: Time,iar,again
+Adverbs: Time,ieri,yesterday
+Adverbs: Time,înainte,before
+Adverbs: Time,lunar,monthly
+Adverbs: Time,mereu,always
+Adverbs: Time,mâine,tomorrow
+Adverbs: Time,poimaine,the day after tomorrow
+Adverbs: Time,niciodată,never
+Adverbs: Time,odată,once
+Adverbs: Time,oricând,anytime
+Adverbs: Time,rar,rarely
+Adverbs: Time,târziu,late
+Adverbs: Time,vreodată,ever
+Adverbs: Time,zilnic,daily
+Adverbs: Place,asacă,home
+Adverbs: Place,acolo,there
+Adverbs: Place,afară,outside
+Adverbs: Place,aici,here
+Adverbs: Place,altundeva,somewhere else
+Adverbs: Place,aproape,near
+Adverbs: Place,departe,far
+Adverbs: Place,înapoi,back
+Adverbs: Place,înăuntru,inside
+Adverbs: Place,jos,down
+Adverbs: Place,nicăieri,nowhere
+Adverbs: Place,oriunde,anywhere
+Adverbs: Place,sus,up
+Adverbs: Place,unde,where
+Adverbs: Place,undeva,somewhere
+Adverbs: Mode,doar,just
+Adverbs: Mode,altfel,otherwise
+Adverbs: Mode,așa,so
+Adverbs: Mode,bine,well
+Adverbs: Mode,cam,approximately
+Adverbs: Mode,chiar,really
+Adverbs: Mode,cum,how
+Adverbs: Mode,decât,than
+Adverbs: Mode,degeaba,in vain
+Adverbs: Mode,împreună,together
+Adverbs: Mode,încă,still
+Adverbs: Mode,numai,only
+Adverbs: Mode,prea,too
 Animals,câine,dog
 Animals,cal,horse
 Animals,capră,goat
@@ -95,7 +150,7 @@ Conjunctions,dacă,if
 Conjunctions,dar,but
 Conjunctions,deci,so
 Conjunctions,deși,even though
-Conjunctions,iar,while/again
+Conjunctions,iar,while
 Conjunctions,nici,neither
 Conjunctions,pentru că,because
 Conjunctions,până,until
@@ -117,29 +172,26 @@ Countries,Rusia,Russia
 Countries,Scoția,Scotland
 Countries,Spania,Spain
 Countries,Țara Galilor,Wales
-Pronouns,acela,that one
-Pronouns,același,the same one
-Pronouns,acesta,this one
+Pronouns,acela,that
+Pronouns,același,the same
+Pronouns,acesta,this
 Pronouns,altceva,somthing else
-Pronouns,altcineva,something else
-Pronouns,altul,another one
+Pronouns,altcineva,somebody else
+Pronouns,altul,another
 Pronouns,amândoi,both
-Pronouns,care,which one
+Pronouns,care,which
 Pronouns,ce,what
-Pronouns,celălalt,the other one
+Pronouns,celălalt,the other
 Pronouns,ceva,something
 Pronouns,cine,who
 Pronouns,cineva,somebody
 Pronouns,cât,how much
-Pronouns,câtva,some
-Pronouns,fiecare,every one
-Pronouns,niciunul,no one
+Pronouns,niște,some
+Pronouns,fiecare,every
 Pronouns,nimeni,nobody
 Pronouns,nimic,nothing
 Pronouns,orice,anything
 Pronouns,tot,everything
-Pronouns,unul,one
-Pronouns,vreunul,any one
 Electronics,aspirator,vacuum cleaner
 Electronics,fier de călcat,iron
 Electronics,uscător de păr,hairdryer
@@ -373,14 +425,10 @@ Possessive,nostru,our
 Possessive,său,his/her/its
 Possessive,tău,your
 Possessive,vostru,your (p)
-Prepositions,afară,outside
-Prepositions,aproape,near
 Prepositions,ca,like
-Prepositions,cam,approximately
 Prepositions,cu,with
 Prepositions,către,towards (a person)
 Prepositions,deasupra,above
-Prepositions,departe,far
 Prepositions,dedesubt,below
 Prepositions,de,of
 Prepositions,despre,about
@@ -390,12 +438,9 @@ Prepositions,dinspre,from the direction of
 Prepositions,dintre,between (out of)
 Prepositions,după,after
 Prepositions,fără,without
-Prepositions,împreună cu,together with
 Prepositions,în afară de,except (for)
 Prepositions,în fața,in front of
-Prepositions,în spatele
-Prepositions,înăuntru,inside
-Prepositions,înainte,before
+Prepositions,în spatele,behind
 Prepositions,în,in
 Prepositions,în mijlocul,in the middle of
 Prepositions,în numele,on behalf of
