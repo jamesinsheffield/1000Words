@@ -536,10 +536,13 @@ Verbs: Emotive,a plânge,to cry
 Verbs: Emotive,a râde,to laugh
 Verbs: Emotive,a urî,to hate
 Verbs: Emotive,a zâmbi,to smile
+Verbs: Emotive,a-i plăcea,to like
 Verbs: Learning,a citi,to read
 Verbs: Learning,a învăța,to learn
 Verbs: Learning,a repeta,to repeat
 Verbs: Learning,a scrie,to write
+Verbs: Learning,a încerca,to try
+Verbs: Learning,a lucra,to work
 Verbs: Giving,a cheltui,to spend (money)
 Verbs: Giving,a da,to give
 Verbs: Giving,a oferi,to offer
@@ -598,22 +601,16 @@ Verbs: Inactive,a dormi,to sleep
 Verbs: Inactive,a fi,to be
 Verbs: Inactive,a sta,to stay
 Verbs: Inactive,a tăcea,to be silent
-Verbs: Active,a încerca,to try
-Verbs: Active,a lucra,to work
-Verb: Misc,a aparea,to appear
-Verb: Misc,a bea,to drink
-Verb: Misc,a locui,to live (somewhere)
-Verb: Misc,a trăi,to live (life)
-Verb: Misc,a purta,to wear
-Verb: Misc,a putea,to be able to
-Verb: Misc,a scăpa,to drop
-Verb: Misc,a trebui,must
-Verb: Misc,a ține,to hold
-Verb: Misc,a urma,to follow
-Verb: Misc,a vizita,to visit
-Verbs: Dative,a-i lipsi,to miss
-Verbs: Dative,a-i plăcea,to like
-Verbs: Dative,a-i păsa,to care
+Verbs: Misc,a apărea,to appear
+Verbs: Misc,a bea,to drink
+Verbs: Misc,a locui,to live (somewhere)
+Verbs: Misc,a trăi,to live (life)
+Verbs: Misc,a purta,to wear
+Verbs: Misc,a putea,to be able to
+Verbs: Misc,a trebui,must
+Verbs: Misc,a ține,to hold
+Verbs: Misc,a urma,to follow
+Verbs: Misc,a vizita,to visit
 Verbs: Reflexive,a se bucara,to enjoy
 Verbs: Reflexive,a se culca,to lay down
 Verbs: Reflexive,a se îmbrăca,to dress
@@ -625,6 +622,7 @@ Verbs: Reflexive,a se supăra,to get upset
 Verbs: Reflexive,a se teme,to fear
 Verbs: Reflexive,a se trezi,to wake up
 Verbs: Reflexive,a se uita,to watch
+Verbs: Reflexive,a-și aminti,to rememeber
 Weather,arid,dry
 Weather,cald,warm
 Weather,ceață,fog
