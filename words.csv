@@ -1,4 +1,15 @@
 Category,Romanian,English
+Accessories,ceas,watch
+Accessories,cercel,earring
+Accessories,lănțișor,chain/necklace
+Accessories,geantă,handbag
+Accessories,inel,ring
+Accessories,ochelari,glasses
+Accessories,portofel,wallet
+Accessories,pungă,bag
+Accessories,poșetă,purse
+Accessories,umbrelă,umbrella
+Accessories,brățară,bracelet
 Adverbs: Time,acum,now
 Adverbs: Time,alaltăieri,the day before yesterday
 Adverbs: Time,apoi,then (afterwards)
@@ -135,6 +146,7 @@ Clothes,pălărie,hat
 Clothes,palton,coat
 Clothes,pantaloni,trousers
 Clothes,pantof,shoe
+Clothes,papuc,slipper
 Clothes,pulover,jumper
 Clothes,rochie,dress
 Clothes,şosetă,sock
@@ -218,7 +230,6 @@ Electronics,aparat foto,camera
 Electronics,radiator,radiator
 Electronics,radio,radio
 Electronics,baterie,battery
-Electronics,ceas,clock/watch
 Family,bunic,grandfather
 Family,cumnat,brother-in-law
 Family,familie,family
@@ -239,6 +250,52 @@ Family,soție,wife
 Family,tată,father
 Family,unchi,uncle
 Family,verișoară,cousin
+Food,brânză,cheese
+Food,carne,meat
+Food,cașcaval,pressed cheese
+Food,cereală,cereal
+Food,condiment,spice
+Food,fâină,flour
+Food,gem,jam
+Food,iaurt,yogurt
+Food,ingredient,ingredient
+Food,miere,honey
+Food,mâncare,food
+Food,nucă,nut
+Food,orez,rice
+Food,ou,egg
+Food,oțet,vinegar
+Food,piper,pepper
+Food,pâine,bread
+Food,sare,salt
+Food,smântână,sour cream
+Food,sos,sauce
+Food,șuncă presată,ham
+Food,ton,tuna
+Food,ulei,oil
+Food,unt,butter
+Food,zahăr,sugar
+Food,chiftea,meatball
+Food,cârnat,sausage
+Food,friptură,steak/roast
+Food,gustare,snack
+Food,omletă,omelette
+Food,paste,pasta
+Food,pizza,pizza
+Food,salată,salad
+Food,sandviș,sandwich
+Food,supă,soup
+Food,tocană,stew
+Dessert,dulciuri,sweets
+Dessert,ciocolată,chocolate
+Dessert,clătită,pancake
+Dessert,covrig,pretzel
+Dessert,gogoașă,donut
+Dessert,inghețată,ice-cream
+Dessert,jeleu,jelly
+Dessert,plăcintă,pie
+Dessert,prăjitură,cupcake
+Dessert,tort,cake
 Fruit & Veg,ardei,pepper
 Fruit & Veg,banană,banana
 Fruit & Veg,căpșună,strawberry
@@ -253,9 +310,13 @@ Fruit & Veg,legume,vegetables
 Fruit & Veg,măr,apple
 Fruit & Veg,morcov,carrot
 Fruit & Veg,pară,pear
+Fruit & Veg,pepene,melon
+Fruit & Veg,mazăre,pea
+Fruit & Veg,măslină,olive
 Fruit & Veg,portocală,orange
 Fruit & Veg,roșie,tomato
-Fruit & Veg,strugure,grape
+Fruit & Veg,stugure,grape
+Fruit & Veg,usturoi,garlic
 Furniture,birou,desk
 Furniture,bufet,cupboard
 Furniture,canapea,couch
@@ -328,7 +389,6 @@ Numbers,unsprezece,eleven
 Numbers,unu,one
 Numbers,zece,ten
 Objects,borcan,jar
-Objects,brățară,bracelet
 Objects,bucată,piece
 Objects,cheie,key
 Objects,clopot,bell
@@ -337,22 +397,16 @@ Objects,cutie,box
 Objects,foarfece,scissors
 Objects,gumă de șters,eraser
 Objects,hârtie,paper
-Objects,inel,ring
-Objects,lănțișor,chain/necklace
 Objects,lipici,glue
 Objects,lucru,thing
 Objects,lumânare,candle
 Objects,motor,engine
 Objects,obiect,object
-Objects,ochelari,glasses
 Objects,pix,pen
 Objects,portbagaj,car boot
-Objects,portofel,wallet
-Objects,pungă,bag
 Objects,roată,wheel
 Objects,semafor,traffic light
 Objects,timbru,stamp
-Objects,umbrelă,umbrella
 Occupations,actriță,actress
 Occupations,angajat,employee
 Occupations,angajator,employer
@@ -614,7 +668,6 @@ Verbs: Misc,a vizita,to visit
 Verbs: Reflexive,a se bucara,to enjoy
 Verbs: Reflexive,a se culca,to lay down
 Verbs: Reflexive,a se îmbrăca,to dress
-Verbs: Reflexive,a se întâlni,to meet
 Verbs: Reflexive,a se opri,to stop
 Verbs: Reflexive,a se plictisi,to get bored
 Verbs: Reflexive,a se rătăci,to get lost
