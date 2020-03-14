@@ -6,7 +6,6 @@ Accessories,geantă,handbag
 Accessories,inel,ring
 Accessories,ochelari,glasses
 Accessories,portofel,wallet
-Accessories,pungă,bag
 Accessories,poșetă,purse
 Accessories,umbrelă,umbrella
 Accessories,brățară,bracelet
@@ -106,6 +105,7 @@ Bathroom,parfum,perfume
 Bathroom,pastă de dinți,toothpaste
 Bathroom,periuță de dinți,toothbrush
 Bathroom,prosop,towel
+Bathroom,ruj,lipstick
 Bathroom,săpun,soap
 Bathroom,șampon,shampoo
 Body,braț,arm
@@ -296,6 +296,40 @@ Dessert,jeleu,jelly
 Dessert,plăcintă,pie
 Dessert,prăjitură,cupcake
 Dessert,tort,cake
+Drinks,apă,water
+Drinks,bere,beer
+Drinks,băutură,drink
+Drinks,cafea,coffee
+Drinks,ceai,tea
+Drinks,lapte,milk
+Drinks,limonadă,lemonade
+Drinks,suc,juice
+Drinks,vin,wine
+Containers & Fractions,borcan,jar
+Containers & Fractions,bucată/piesă,piece
+Containers & Fractions,conservă,can
+Containers & Fractions,cutie,box
+Containers & Fractions,felie,slice
+Containers & Fractions,jumătate,half
+Containers & Fractions,sfert,quarter
+Containers & Fractions,pachet,packet
+Containers & Fractions,parte,part
+Containers & Fractions,plasă,net
+Containers & Fractions,porție,portion
+Containers & Fractions,pungă,bag
+Containers & Fractions,sac,sack
+Containers & Fractions,sticlă,bottle
+Containers & Fractions,tub,tube
+Entertainment,cazinou,casino
+Entertainment,cinema,cinema
+Entertainment,club,club
+Entertainment,concert,concert
+Entertainment,distracție,fun
+Entertainment,eveniment,event
+Entertainment,galerie de artă,art gallery
+Entertainment,grădină botanică,botanical garden
+Entertainment,spetacol,show
+Entertainment,scenă,stage
 Fruit & Veg,ardei,pepper
 Fruit & Veg,banană,banana
 Fruit & Veg,căpșună,strawberry
@@ -356,6 +390,21 @@ Kitchen,tacâmuri,cutlery
 Kitchen,tavă,tray
 Kitchen,tigaie,frying pan
 Kitchen,coș de gunoi,rubbish bin
+Literature,banc,joke
+Literature,discurs,speech
+Literature,formular,form
+Literature,informație,information
+Literature,instrucțiune,instruction
+Literature,jurnal,diary
+Literature,mesaj,message
+Literature,pagină,page
+Literature,poezie,poem
+Literature,revistă,magazine
+Literature,roman,novel
+Literature,titlu,title
+Literature,ziar,newspaper
+Literature,scrisoare,letter
+Literature,timbru,stamp
 Measure,grad,degree
 Measure,gram,gram
 Measure,greutate,weight
@@ -363,13 +412,15 @@ Measure,kilometru,kilometre
 Measure,litru,litre
 Measure,metru,metre
 Measure,milă,mile
-Numbers,an,year
+Music,chitară,guitar
+Music,instrument,instrument
+Music,pian,piano
+Music,tobă,drum
 Numbers,câteva,a few
 Numbers,cinci,five
 Numbers,destul,quite
 Numbers,doua,second (f)
 Numbers,douăzeci,twenty
-Numbers,jumătate,half
 Numbers,mie,thousand
 Numbers,milion,million
 Numbers,mult,many
@@ -388,63 +439,55 @@ Numbers,ultimul,last
 Numbers,unsprezece,eleven
 Numbers,unu,one
 Numbers,zece,ten
-Objects,borcan,jar
-Objects,bucată,piece
-Objects,cheie,key
 Objects,clopot,bell
-Objects,creion,pencil
-Objects,cutie,box
-Objects,foarfece,scissors
-Objects,gumă de șters,eraser
-Objects,hârtie,paper
-Objects,lipici,glue
 Objects,lucru,thing
 Objects,lumânare,candle
-Objects,motor,engine
 Objects,obiect,object
-Objects,pix,pen
-Objects,portbagaj,car boot
-Objects,roată,wheel
-Objects,semafor,traffic light
-Objects,timbru,stamp
-Occupations,actriță,actress
-Occupations,angajat,employee
-Occupations,angajator,employer
-Occupations,artist,artist
-Occupations,avocat,lawyer
-Occupations,barman,barista
-Occupations,brutar,baker
-Occupations,bucătar,cook
-Occupations,chelner,waiter
-Occupations,coafeză,hairdresser
-Occupations,croitor,tailor
-Occupations,dentist,dentist
-Occupations,doctor/medic,doctor
-Occupations,electrician,electrician
-Occupations,fermier,farmer
-Occupations,frizer,barber
-Occupations,infirmier,nurse
-Occupations,instalator,plumber
-Occupations,învățător,teacher
-Occupations,măcelar,butcher
-Occupations,mecanic,mechanic
-Occupations,muncă,work
-Occupations,muncitor,worker
-Occupations,muzician,musician
-Occupations,pescar,fisherman
-Occupations,polițist,policeman
-Occupations,pompier,fireman
-Occupations,poștaș,postman
-Occupations,preot,priest
-Occupations,președinte,president
-Occupations,rege,king
-Occupations,savant,scientist
-Occupations,scriitor,writer
-Occupations,șef,boss
-Occupations,slujbe,job
-Occupations,student/elev,student
-Occupations,tâmplar,carpenter
-Occupations,taximetrist,taxi driver
+Objects,brichetă,lighter
+Work,actriță,actress
+Work,angajat,employee
+Work,angajator,employer
+Work,artist,artist
+Work,avocat,lawyer
+Work,barman,barista
+Work,brutar,baker
+Work,bucătar,cook
+Work,chelner,waiter
+Work,companie/firmă,company
+Work,coafeză,hairdresser
+Work,croitor,tailor
+Work,dentist,dentist
+Work,doctor/medic,doctor
+Work,electrician,electrician
+Work,fermier,farmer
+Work,frizer,barber
+Work,infirmier,nurse
+Work,instalator,plumber
+Work,învățător,teacher
+Work,măcelar,butcher
+Work,mecanic,mechanic
+Work,lucru/muncă,work
+Work,muncitor,worker
+Work,muzician,musician
+Work,mărire,raise
+Work,pescar,fisherman
+Work,polițist,policeman
+Work,pompier,fireman
+Work,poștaș,postman
+Work,pot,position
+Work,preot,priest
+Work,președinte,president
+Work,rege,king
+Work,om de știință,scientist
+Work,scriitor,writer
+Work,șef,boss
+Work,ședință,meeting
+Work,slujbe,job
+Work,salariu,salary
+Work,student/elev,student
+Work,tâmplar,carpenter
+Work,taximetrist,taxi driver
+Work,vânzător,shop assistant
 Outside,copac,tree
 Outside,floare,flower
 Outside,iarbă,grass
@@ -463,6 +506,8 @@ Outside,pădure,forest
 Outside,râu,river
 Outside,stea,star
 Outside,plajă,beach
+Outside,foc,fire
+Outside,lemn,wood
 People,adolescent,teenager
 People,bebeluș,baby
 People,băiat,boy
@@ -518,6 +563,15 @@ Prepositions,prin,through
 Prepositions,printre,among
 Prepositions,spre,towards (a place/thing)
 Prepositions,sub,under
+Party,aniversare,anniversary
+Party,balon,baloon
+Party,cadou,gift
+Party,felicitare,gift card
+Party,invitat,guest
+Party,invitație,invitation
+Party,petrecere,party
+Party,zi de naștere
+Party,surpriză,surprise
 Rooms,baie,bathroom
 Rooms,birou,office
 Rooms,bucătărie,kitchen
@@ -528,6 +582,21 @@ Rooms,sufragerie,living room
 Rooms,toaletă,toilet
 Rooms,casă,house
 Rooms,etaj,level/floor
+Sport,fotbal,football
+Sport,gol,goal
+Sport,golf,golf
+Sport,înot,swimming
+Sport,meci,match
+Sport,schi,skiing
+Sport,sport,sport
+Sport,jocuri,games
+Sport,tenis,tennis
+Sport,teren,pitch
+Sport,trofeu,trophy
+Sport,turneu,tournament
+Sport,bâtă,bat
+Sport,minge
+Sport,rachetă de tenis
 Shapes,cerc,circle
 Shapes,dreptunghi,rectangle
 Shapes,dungă,stripe
@@ -535,6 +604,151 @@ Shapes,formă,shape
 Shapes,pătrat,square
 Shapes,punct,point
 Shapes,triunghi,triangle
+Stationery,ascutitoare,sharpener
+Stationery,caiet,notebook
+Stationery,capsator,stapler
+Stationery,carnet,notepad
+Stationery,carte,book
+Stationery,coperta,cover
+Stationery,creion,pencil
+Stationery,ghiozdan,schoolbag
+Stationery,lipici,glue
+Stationery,penar,pencil case
+Stationery,perforator,hole punch
+Stationery,creion,pencil
+Stationery,foarfece,scissors
+Stationery,gumă de șters,eraser
+Stationery,hârtie,paper
+Stationery,riglă,ruler
+Shopping,alimentară,grocery shop
+Shopping,bani,money
+Shopping,cumpărături,shopping
+Shopping,listă de cumpărături,shopping list
+Shopping,magazin,shop
+Shopping,ofertă,offer
+Shopping,preț,price
+Shopping,măsură,size
+Shopping,raion,department
+Shopping,vitrină,shop window
+Town,aeroport,airport
+Town,apartament,flat
+Town,bar,bar
+Town,bloc,block of flats
+Town,centru,downtown
+Town,clădire,building
+Town,cofetărie,pastry shop
+Town,fabrică,factory
+Town,gară,train station
+Town,oraș,town
+Town,palat,palace
+Town,parc,park
+Town,parcare,parking lot
+Town,piață,market
+Town,restaurant,restaurant
+Town,stadion,stadium
+Town,stradă,street
+Town,șosea,road
+Time,an,year
+Time,apus,sunset
+Time,clipă,moment
+Time,dată,date
+Time,lună,month
+Time,minut,minute
+Time,moment,moment
+Time,oră,hour
+Time,perioadă,period
+Time,răsărit,sunrise
+Time,secundă,second
+Time,săptămână,week
+Time,timp,time
+Time,zi,day
+Time,dimineață,morning
+Time,amiază,noon
+Time,după-amiază,afternoon
+Time,seară,evening
+Time,noapte,night
+Time,luni,Monday
+Time,marți,Tuesday
+Time,miercuri,Wednesday
+Time,joi,Thursday
+Time,vineri,Friday
+Time,sâmbătă,Saturday
+Time,duminică,Sunday
+Time,primăvară,spring
+Time,vară,summer
+Time,toamnă,autumn
+Time,iarnă,winter
+Transport,autobuz,bus
+Transport,avion,plane
+Transport,barcă,boat
+Transport,bicicletă,bike
+Transport,centură de siguranță,seat belt
+Transport,cheie,key
+Transport,circulație,traffic
+Transport,mașină,car
+Transport,metrou,subway
+Transport,motor,engine
+Transport,motoretă,moped
+Transport,roată,wheel
+Transport,taxi,taxi
+Transport,tramvai,tram
+Transport,tren,train
+Transport,trotuar,pavement
+Transport,vapor,ship
+Transport,viteză,speed
+Transport,zbor,flight
+Transport,portbagaj,car boot
+Transport,semafor,traffic light
+Transport,bilet,ticket
+Transport,destinație,destination
+Transport,întârziere,delay
+Transport,loc,seat
+Transport,peron,platform
+Transport,rezervare,reservation
+Transport,stație,station
+Transport,vagon,carriage
+TV & Film,canal,channel
+TV & Film,comedie,comedy
+TV & Film,desen animat,cartoon
+TV & Film,documentar,documentary
+TV & Film,emisiune,TV show
+TV & Film,episod,episode
+TV & Film,floricele de porumb,popcorn
+TV & Film,film de acțiune,action film
+TV & Film,film de groază,horror film
+TV & Film,prezentator,presenter
+TV & Film,publicitate,commercial break
+TV & Film,reclamă,advert
+TV & Film,serial,series
+TV & Film,sezon,season
+TV & Film,știri,news
+TV & Film,telenovelă,soap opera
+Institutions,bancă,bank
+Institutions,bibliotecă,library
+Institutions,librarie,bookstore
+Institutions,biserică,church
+Institutions,liceu,highschool
+Institutions,muzeu,museum
+Institutions,poliție,police
+Institutions,poștă,post office
+Institutions,spital,hospital
+Institutions,școală,school
+Institutions,teatru,theatre
+Institutions,universitate,university
+Vacation,bagaj,luggage
+Vacation,vacanță,vacation
+Vacation,cort,tent
+Vacation,călătorie,journey
+Vacation,geamantan,suitcase
+Vacation,hartă,map
+Vacation,hotel,hotel
+Vacation,locație,location
+Vacation,nisip,sand
+Vacation,pașaport,passport
+Vacation,plecare,departure
+Vacation,plimbare,walk
+Vacation,stațiune,resort
+Vacation,străinătate,abroad
 Verbs: Speech,a suna,to call
 Verbs: Speech,a descrie,to descibe
 Verbs: Speech,a explica,to explain
@@ -615,9 +829,9 @@ Verbs: Cooking,a găti,to cook
 Verbs: Cooking,a mânca,to eat
 Verbs: Cooking,a spăla,to wash
 Verbs: Cooking,a tăia,to cut
-Verbs: Transportation,a călători,to travel
-Verbs: Transportation,a conduce,to drive
-Verbs: Transportation,a parca,to park
+Verbs: Transport,a călători,to travel
+Verbs: Transport,a conduce,to drive
+Verbs: Transport,a parca,to park
 Verbs: Changes,a adormi,to fall asleep
 Verbs: Changes,a deschide,to open
 Verbs: Changes,a începe,to begin
@@ -682,18 +896,14 @@ Weather,ceață,fog
 Weather,fierbinte,hot
 Weather,frig,cold
 Weather,furtună,storm
-Weather,iarnă,winter
 Weather,înnorat,cloudy
 Weather,însorit,sunny
 Weather,ninge,snowing
 Weather,nor,cloud
 Weather,ploaie,rain
 Weather,plouă,raining
-Weather,primăvară,spring
 Weather,soare,sun
-Weather,toamnă,autumn
 Weather,umed,wet
 Weather,vânt,wind
-Weather,vară,summer
 Weather,vreme,weather
 Weather,zăpadă,snow
