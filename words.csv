@@ -190,6 +190,13 @@ Countries,Rusia,Russia
 Countries,Scoția,Scotland
 Countries,Spania,Spain
 Countries,Țara Galilor,Wales
+Collective,cuplu,couple
+Collective,echipă,team
+Collective,grup,group
+Collective,lume,people
+Collective,pereche,pair
+Collective,popor,nation
+Collective,public,audience
 Pronouns,acela,that
 Pronouns,același,the same
 Pronouns,acesta,this
@@ -230,6 +237,19 @@ Electronics,aparat foto,camera
 Electronics,radiator,radiator
 Electronics,radio,radio
 Electronics,baterie,battery
+Feelings,dorință,desire
+Feelings,dragoste,love
+Feelings,emoție,emotion
+Feelings,fericire,happiness
+Feelings,frică,fear
+Feelings,grijă,worry
+Feelings,iubire,love
+Feelings,panică,panic
+Feelings,pasiune,passion
+Feelings,plăcere,pleasure
+Feelings,rușine,shame
+Feelings,sentiment,feeling
+Feelings,teamă,anxiety
 Family,bunic,grandfather
 Family,cumnat,brother-in-law
 Family,familie,family
@@ -405,6 +425,12 @@ Literature,titlu,title
 Literature,ziar,newspaper
 Literature,scrisoare,letter
 Literature,timbru,stamp
+Moral Qualities,atenție,carefulness
+Moral Qualities,curaj,courage
+Moral Qualities,frumusețe,beauty
+Moral Qualities,răbdare,patience
+Moral Qualities,optimism,optimism
+Moral Qualities,generozitate,generosity
 Measure,grad,degree
 Measure,gram,gram
 Measure,greutate,weight
@@ -572,6 +598,17 @@ Party,invitație,invitation
 Party,petrecere,party
 Party,zi de naștere
 Party,surpriză,surprise
+Physical Properties,aromă,flavour
+Physical Properties,cantitate,quantity
+Physical Properties,fel,sort/type
+Physical Properties,gust,taste
+Physical Properties,înălțime,height
+Physical Properties,lungime,length
+Physical Properties,lățime,width
+Physical Properties,model,model
+Physical Properties,mărime,size
+Physical Properties,stil,style
+Physical Properties,miros,smell
 Rooms,baie,bathroom
 Rooms,birou,office
 Rooms,bucătărie,kitchen
@@ -630,6 +667,17 @@ Shopping,preț,price
 Shopping,măsură,size
 Shopping,raion,department
 Shopping,vitrină,shop window
+States,energie,energy
+States,foame,hunger
+States,frig,cold
+States,încredere,trust
+States,motivație,motivation
+States,nerăbdare,impatience
+States,plictiseală,boredom
+States,sete,thirst
+States,somn,sleep
+States,stres,stress
+States,șoc,shock
 Town,aeroport,airport
 Town,apartament,flat
 Town,bar,bar
@@ -894,7 +942,6 @@ Weather,arid,dry
 Weather,cald,warm
 Weather,ceață,fog
 Weather,fierbinte,hot
-Weather,frig,cold
 Weather,furtună,storm
 Weather,înnorat,cloudy
 Weather,însorit,sunny
