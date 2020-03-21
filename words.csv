@@ -24,7 +24,8 @@ Adverbs: Time,devreme,early
 Adverbs: Time,deseară,tonight
 Adverbs: Time,iar,again
 Adverbs: Time,ieri,yesterday
-Adverbs: Time,înainte,before
+Adverbs: Time,înainte de,before
+Adverbs: Time,înainte,forwards
 Adverbs: Time,lunar,monthly
 Adverbs: Time,mereu,always
 Adverbs: Time,mâine,tomorrow
@@ -189,6 +190,7 @@ Conversation,scuză,excuse
 Conversation,secret,secret
 Conversation,sfat,advice
 Conversation,veste,news
+Conversation,cuvânt,word
 Countries,America,America
 Countries,Anglia,England
 Countries,Australia,Australia
@@ -830,6 +832,7 @@ Vacation,geamantan,suitcase
 Vacation,hartă,map
 Vacation,hotel,hotel
 Vacation,locație,location
+Vacation,loc,place
 Vacation,nisip,sand
 Vacation,pașaport,passport
 Vacation,plecare,departure
@@ -840,7 +843,7 @@ Verbs: Speech,a suna,to call
 Verbs: Speech,a descrie,to descibe
 Verbs: Speech,a explica,to explain
 Verbs: Speech,a glumi,to joke
-Verbs: Speech,a (se) întreba,to ask (a question)
+Verbs: Speech,a întreba,to ask (a question)
 Verbs: Speech,a minți,to lie
 Verbs: Speech,a mulțumi,to thank
 Verbs: Speech,a ruga,to request
@@ -848,9 +851,9 @@ Verbs: Speech,a răspunde,to answer
 Verbs: Speech,a scuza,to excuse
 Verbs: Speech,a spune,to say
 Verbs: Speech,a vorbi,to speak
-Verbs: Speech,a cânta,to sing
 Verbs: Speech,a țipa,to shout
 Verbs: Speech,a șopti,to whisper
+Verbs: Speech,a anunța,to announce
 Verbs: Leisure,a construi,to build
 Verbs: Leisure,a face,to make
 Verbs: Leisure,a (se) juca,to play
@@ -860,17 +863,20 @@ Verbs: Leisure,a alerga,to run
 Verbs: Leisure,a dansa,to dance
 Verbs: Leisure,a înota,to swim
 Verbs: Leisure,a se plimba,to go for a walk
-Verbs: Motion,a ajunge,to arrive
+Verbs: Leisure,a călători,to travel
+Verbs: Leisure,a conduce,to drive
+Verbs: Leisure,a cânta,to sing
+Verbs: Motion,a ajunge/sosi,to arrive
 Verbs: Motion,a coborî,to descend/get off
 Verbs: Motion,a fugi,to run away
 Verbs: Motion,a merge, to go/walk
 Verbs: Motion,a cădea,to fall
-Verbs: Motion,a ieși,to exit
+Verbs: Motion,a ieși,to exit/go out
 Verbs: Motion,a intra,to enter
 Verbs: Motion,a (se) muta,to move
-Verbs: Motion,a pleca,to leave
+Verbs: Motion,a pleca,to leave (somewhere)
 Verbs: Motion,a porni,to start something (e.g. the car)
-Verbs: Motion,a reveni,to come back to
+Verbs: Motion,a (se) întoarce,to return
 Verbs: Motion,a sări,to jump
 Verbs: Motion,a umbla,to wander
 Verbs: Motion,a urca,to ascend
@@ -878,6 +884,17 @@ Verbs: Motion,a veni,to come
 Verbs: Motion,a zbura,to fly
 Verbs: Motion,a (se) duce,to take (oneself)
 Verbs: Motion,a lovi,to hit
+Verbs: Motion,a arunca,to throw
+Verbs: Motion,a continua,to continue
+Verbs: Motion,a folosi,to use
+Verbs: Inactive,a aștepta,to wait
+Verbs: Inactive,a dormi,to sleep
+Verbs: Inactive,a fi,to be
+Verbs: Inactive,a sta,to stay
+Verbs: Inactive,a tăcea,to be silent
+Verbs: Inactive,a parca,to park
+Verbs: Inactive,a (se) ascunde,to hide (oneself)
+Verbs: Inactive,a rămâne,to remain
 Verbs: Perception,a arăta,to show
 Verbs: Perception,a asculta,to listen
 Verbs: Perception,a auzi,to hear
@@ -886,52 +903,64 @@ Verbs: Perception,a mirosi,to smell
 Verbs: Perception,a părea,to seem
 Verbs: Perception,a (se) simți,to feel (oneself)
 Verbs: Perception,a vedea,to see
+Verbs: Perception,a prefera,to prefer
 Verbs: Emotive,a iubi,to love
 Verbs: Emotive,a plânge,to cry
 Verbs: Emotive,a râde,to laugh
 Verbs: Emotive,a urî,to hate
 Verbs: Emotive,a zâmbi,to smile
 Verbs: Emotive,a-i plăcea,to like
+Verbs: Emotive,a îngriji,to look after
+Verbs: Emotive,a promite,to promise
+Verbs: Emotive,a săruta,to kiss
+Verbs: Emotive,a spera,to hope
 Verbs: Learning,a citi,to read
 Verbs: Learning,a învăța,to learn
 Verbs: Learning,a repeta,to repeat
 Verbs: Learning,a scrie,to write
 Verbs: Learning,a încerca,to try
 Verbs: Learning,a lucra,to work
-Verbs: Giving,a cheltui,to spend (money)
-Verbs: Giving,a da,to give
-Verbs: Giving,a oferi,to offer
-Verbs: Giving,a plăti,to pay
-Verbs: Giving,a trimite,to send
-Verbs: Giving,a vinde,to sell
-Verbs: Obtaining,a avea,to have
-Verbs: Obtaining,a cere,to ask
-Verbs: Obtaining,a cumpăra,to buy
-Verbs: Obtaining,a câștiga,to win
-Verbs: Obtaining,a găsi,to find
-Verbs: Obtaining,a lua,to take
-Verbs: Obtaining,a primi,to receive
+Verbs: Learning,a descoperi,to discover
+Verbs: Giving/receiving,a cheltui,to spend (money)
+Verbs: Giving/receiving,a da,to give
+Verbs: Giving/receiving,a oferi,to offer
+Verbs: Giving/receiving,a plăti,to pay
+Verbs: Giving/receiving,a trimite,to send
+Verbs: Giving/receiving,a vinde,to sell
+Verbs: Giving/receiving,a băga,to put in
+Verbs: Giving/receiving,a avea,to have
+Verbs: Giving/receiving,a cere,to ask
+Verbs: Giving/receiving,a cumpăra,to buy
+Verbs: Giving/receiving,a câștiga,to win
+Verbs: Giving/receiving,a găsi,to find
+Verbs: Giving/receiving,a lua,to takea pleca
+Verbs: Giving/receiving,a primi,to receive
+Verbs: Giving/receiving,a scoate,to take out
+Verbs: Giving/receiving,a lăsa,to leave (something)
+Verbs: Giving/receiving,a trece,to pass
 Verbs: Cooking,a cântări,to weigh
+Verbs: Cooking,a număra,to count
 Verbs: Cooking,a găti,to cook
 Verbs: Cooking,a mânca,to eat
 Verbs: Cooking,a spăla,to wash
 Verbs: Cooking,a tăia,to cut
-Verbs: Transport,a călători,to travel
-Verbs: Transport,a conduce,to drive
-Verbs: Transport,a parca,to park
+Verbs: Cooking,a vărsa,to spill
+Verbs: Cooking,a acoperi,to cover
+Verbs: Cooking,a încălzi,to warm
+Verbs: Cooking,a răci,to cool
+Verbs: Cooking,a despărți,to separate
 Verbs: Changes,a adormi,to fall asleep
+Verbs: Changes,a mușca,to bite
 Verbs: Changes,a deschide,to open
+Verbs: Changes,a închide,to close
 Verbs: Changes,a începe,to begin
 Verbs: Changes,a muri,to die
 Verbs: Changes,a obosi,to tire
 Verbs: Changes,a omorî,to kill
 Verbs: Changes,a (se) schimba,to change (oneself)
 Verbs: Changes,a termina,to finish
-Verbs: Hazard,a (se) arde,to burn (oneself)
-Verbs: Hazard,a mușca,to bite
-Verbs: Hazard,a pierde,to lose
-Verbs: Hazard,a (se) strica,to damage/break (oneself)
-Verbs: Hazard,a vărsa,to spill
+Verbs: Changes,a strica,to damage/break
+Verbs: Changes,a repara,to repair
 Verbs: Organizing,a aduce,to bring
 Verbs: Organizing,a aduna,to gather
 Verbs: Organizing,a ajuta,to help
@@ -940,6 +969,8 @@ Verbs: Organizing,a întâlni,to meet
 Verbs: Organizing,a întârzia,to be late
 Verbs: Organizing,a pune,to put
 Verbs: Organizing,a rezerva,to book
+Verbs: Organizing,a invita,to invite
+Verbs: Organizing,a pregăti,to prepare
 Verbs: Cognitive,a alege,to choose
 Verbs: Cognitive,a crede,to believe
 Verbs: Cognitive,a cunoaște,to know (a person)
@@ -951,11 +982,6 @@ Verbs: Cognitive,a ști,to know
 Verbs: Cognitive,a uita,to forget
 Verbs: Cognitive,a visa,to dream
 Verbs: Cognitive,a vrea,to want
-Verbs: Inactive,a aștepta,to wait
-Verbs: Inactive,a dormi,to sleep
-Verbs: Inactive,a fi,to be
-Verbs: Inactive,a sta,to stay
-Verbs: Inactive,a tăcea,to be silent
 Verbs: Misc,a apărea,to appear
 Verbs: Misc,a bea,to drink
 Verbs: Misc,a locui,to live (somewhere)
@@ -966,8 +992,10 @@ Verbs: Misc,a trebui,must
 Verbs: Misc,a ține,to hold
 Verbs: Misc,a urma,to follow
 Verbs: Misc,a vizita,to visit
+Verbs: Misc,a pierde,to lose
+Verbs: Misc,a arde,to burn
 Verbs: Reflexive,a se bucara,to enjoy
-Verbs: Reflexive,a se culca,to lay down
+Verbs: Reflexive,a se culca,to lay down/go to bed
 Verbs: Reflexive,a se îmbrăca,to dress
 Verbs: Reflexive,a se opri,to stop
 Verbs: Reflexive,a se plictisi,to get bored
@@ -975,8 +1003,8 @@ Verbs: Reflexive,a se rătăci,to get lost
 Verbs: Reflexive,a se supăra,to get upset
 Verbs: Reflexive,a se teme,to fear
 Verbs: Reflexive,a se trezi,to wake up
-Verbs: Reflexive,a se uita,to watch
-Verbs: Reflexive,a-și aminti,to rememeber
+Verbs: Reflexive,a se uita,to look at/watch
+Verbs: Reflexive,a-și aminti,to remember/remind
 Weather,arid,dry
 Weather,cald,warm
 Weather,ceață,fog
