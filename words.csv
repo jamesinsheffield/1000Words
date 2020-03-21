@@ -575,6 +575,7 @@ Outside,stea,star
 Outside,plajă,beach
 Outside,foc,fire
 Outside,lemn,wood
+Outside,vedere,view
 People,adolescent,teenager
 People,bebeluș,baby
 People,băiat,boy
@@ -856,7 +857,7 @@ Verbs: Speech,a șopti,to whisper
 Verbs: Speech,a anunța,to announce
 Verbs: Leisure,a construi,to build
 Verbs: Leisure,a face,to make
-Verbs: Leisure,a (se) juca,to play
+Verbs: Leisure,a juca,to play
 Verbs: Leisure,a picta,to paint
 Verbs: Leisure,a fotografia,to photograph
 Verbs: Leisure,a alerga,to run
@@ -873,16 +874,15 @@ Verbs: Motion,a merge, to go/walk
 Verbs: Motion,a cădea,to fall
 Verbs: Motion,a ieși,to exit/go out
 Verbs: Motion,a intra,to enter
-Verbs: Motion,a (se) muta,to move
+Verbs: Motion,a muta,to move
 Verbs: Motion,a pleca,to leave (somewhere)
 Verbs: Motion,a porni,to start something (e.g. the car)
-Verbs: Motion,a (se) întoarce,to return
+Verbs: Motion,a întoarce,to return
 Verbs: Motion,a sări,to jump
 Verbs: Motion,a umbla,to wander
 Verbs: Motion,a urca,to ascend
 Verbs: Motion,a veni,to come
 Verbs: Motion,a zbura,to fly
-Verbs: Motion,a (se) duce,to take (oneself)
 Verbs: Motion,a lovi,to hit
 Verbs: Motion,a arunca,to throw
 Verbs: Motion,a continua,to continue
@@ -893,7 +893,7 @@ Verbs: Inactive,a fi,to be
 Verbs: Inactive,a sta,to stay
 Verbs: Inactive,a tăcea,to be silent
 Verbs: Inactive,a parca,to park
-Verbs: Inactive,a (se) ascunde,to hide (oneself)
+Verbs: Inactive,a ascunde,to hide
 Verbs: Inactive,a rămâne,to remain
 Verbs: Perception,a arăta,to show
 Verbs: Perception,a asculta,to listen
@@ -901,7 +901,7 @@ Verbs: Perception,a auzi,to hear
 Verbs: Perception,a gusta,to taste
 Verbs: Perception,a mirosi,to smell
 Verbs: Perception,a părea,to seem
-Verbs: Perception,a (se) simți,to feel (oneself)
+Verbs: Perception,a simți,to feel
 Verbs: Perception,a vedea,to see
 Verbs: Perception,a prefera,to prefer
 Verbs: Emotive,a iubi,to love
@@ -933,7 +933,7 @@ Verbs: Giving/receiving,a cere,to ask
 Verbs: Giving/receiving,a cumpăra,to buy
 Verbs: Giving/receiving,a câștiga,to win
 Verbs: Giving/receiving,a găsi,to find
-Verbs: Giving/receiving,a lua,to takea pleca
+Verbs: Giving/receiving,a lua,to take
 Verbs: Giving/receiving,a primi,to receive
 Verbs: Giving/receiving,a scoate,to take out
 Verbs: Giving/receiving,a lăsa,to leave (something)
@@ -957,7 +957,7 @@ Verbs: Changes,a începe,to begin
 Verbs: Changes,a muri,to die
 Verbs: Changes,a obosi,to tire
 Verbs: Changes,a omorî,to kill
-Verbs: Changes,a (se) schimba,to change (oneself)
+Verbs: Changes,a schimba,to change
 Verbs: Changes,a termina,to finish
 Verbs: Changes,a strica,to damage/break
 Verbs: Changes,a repara,to repair
@@ -976,7 +976,7 @@ Verbs: Cognitive,a crede,to believe
 Verbs: Cognitive,a cunoaște,to know (a person)
 Verbs: Cognitive,a decide,to decide
 Verbs: Cognitive,a dori,to wish for
-Verbs: Cognitive,a (se) gândi,to think
+Verbs: Cognitive,a gândi,to think
 Verbs: Cognitive,a înțelege,to understand
 Verbs: Cognitive,a ști,to know
 Verbs: Cognitive,a uita,to forget
@@ -1005,6 +1005,7 @@ Verbs: Reflexive,a se teme,to fear
 Verbs: Reflexive,a se trezi,to wake up
 Verbs: Reflexive,a se uita,to look at/watch
 Verbs: Reflexive,a-și aminti,to remember/remind
+Verbs: Motion,a se duce,to take oneself
 Weather,arid,dry
 Weather,cald,warm
 Weather,ceață,fog

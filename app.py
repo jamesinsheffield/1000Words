@@ -13,15 +13,17 @@ app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
 def ReadWordsCSV(cat='all'):
     Words = pd.read_csv('words.csv')
     if not cat == 'all':
-        if not cat == '30 random words':
-            Words = Words[Words['Category'] == cat]
-        else:
+        if cat == '30 random words':
             Words = Words.sample(n=30)
+        elif cat == '30 random verbs':
+            Words = Words[Words['Category'].str.startswith('Verbs:')].sample(n=30)
+        else:
+            Words = Words[Words['Category'] == cat]
         Words.reset_index(inplace=True)
     return Words
 
 Words = ReadWordsCSV()
-categories = ['30 random words','Random category']+sorted(Words['Category'].unique())
+categories = ['30 random words','30 random verbs','Random category']+sorted(Words['Category'].unique())
 catChoices = []
 for c in categories:
     catChoices.append((c,c))
@@ -50,7 +52,7 @@ def home():
         session['EngRom'] = form.EngRom.data
     else:
         if not 'i' in session:
-            cat = '30 random words'#categories[rd.randrange(1,len(categories))]
+            cat = '30 random words'
             subWords = ReadWordsCSV(cat=cat)
             session['subWords'] = subWords.to_json()
             idx = list(range(len(subWords)))
