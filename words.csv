@@ -1,4 +1,147 @@
 Category,Romanian,English
+Adjectives: Mood,calm,calm
+Adjectives: Mood,nervos,nervous
+Adjectives: Mood,fericit,happy
+Adjectives: Mood,trist,sad
+Adjectives: Mood,furios,angry
+Adjectives: Mood,mulţumit,pleased
+Adjectives: Mood,obosit,tired
+Adjectives: Mood,treaz,awake
+Adjectives: Mood,plictisit,bored
+Adjectives: Appearance,blond,blonde
+Adjectives: Appearance,brunet,brunette
+Adjectives: Appearance,frumos,beautiful
+Adjectives: Appearance,gras,fat
+Adjectives: Appearance,înalt,tall
+Adjectives: Appearance,ondulat,wavy
+Adjectives: Appearance,creț,curly
+Adjectives: Appearance,drept,straight
+Adjectives: Appearance,puternic,strong
+Adjectives: Appearance,scund,short
+Adjectives: Appearance,slab,thin
+Adjectives: Appearance,sănătos,healthy
+Adjectives: Appearance,urât,ugly
+Adjectives: Appearance,bogat,rich
+Adjectives: Appearance,sărac,poor
+Adjectives: Personality,amabil,kind
+Adjectives: Personality,amuzant,funny
+Adjectives: Personality,atent,careful
+Adjectives: Personality,blând,gentle
+Adjectives: Personality,curajos,brave
+Adjectives: Personality,drăguț,cute
+Adjectives: Personality,egoist,selfish
+Adjectives: Personality,leneș,lazy
+Adjectives: Personality,mândru,proud
+Adjectives: Personality,onest,honest
+Adjectives: Personality,optimist,optimistic
+Adjectives: Personality,ordonat,tidy
+Adjectives: Personality,pasionat,passionate
+Adjectives: Personality,pesimist,pessimistic
+Adjectives: Personality,plictisitor,boring
+Adjectives: Personality,politicos,polite
+Adjectives: Personality,prietenos,friendly
+Adjectives: Personality,rău,mean
+Adjectives: Personality,sensibil,sensible
+Adjectives: Personality,strict,strict
+Adjectives: Personality,talentat,talented
+Adjectives: Personality,interesant,interested
+Adjectives: Physical properties,ascuțit,sharp
+Adjectives: Physical properties,curat,clean
+Adjectives: Physical properties,gol,empty
+Adjectives: Physical properties,murdar,dirty
+Adjectives: Physical properties,stricat,damaged
+Adjectives: Physical properties,subțire,thin
+Adjectives: Dimension,adânc,deep
+Adjectives: Dimension,gros,thick
+Adjectives: Dimension,îngust,narrow
+Adjectives: Dimension,larg,wide
+Adjectives: Dimension,lung,long
+Adjectives: Dimension,mare,big
+Adjectives: Dimension,mic,small
+Adjectives: Quantity,destul,enough
+Adjectives: Quantity,plin,full
+Adjectives: Quantity,puțin,little
+Adjectives: Quantity,singur,single
+Adjectives: Quantity,toate,all
+Adjectives: Quantity,suficient,sufficient
+Adjectives: Difficulty,complicat,complicated
+Adjectives: Difficulty,dificil,difficult
+Adjectives: Difficulty,greu,hard
+Adjectives: Difficulty,imposibil,impossible
+Adjectives: Difficulty,simplu,simple
+Adjectives: Difficulty,stupid,stupid
+Adjectives: Difficulty,teribil,terrible
+Adjectives: Difficulty,ușor,easy
+Adjectives: Taste,acru,sour
+Adjectives: Taste,amar,bitter
+Adjectives: Taste,bun,good
+Adjectives: Taste,picant,spicy
+Adjectives: Taste,crud,raw
+Adjectives: Taste,delicios,delicious
+Adjectives: Taste,dulce,sweet
+Adjectives: Taste,extraordinar,extraordinary
+Adjectives: Taste,fantastic,fantastic
+Adjectives: Taste,gustos,tasty
+Adjectives: Taste,iute,hot
+Adjectives: Taste,sărat,salty
+Adjectives: Touch,aspru,rough
+Adjectives: Touch,fin,smooth
+Adjectives: Touch,lipicios,sticky
+Adjectives: Touch,moale,soft
+Adjectives: Touch,tare,hard
+Adjectives: Touch,ud,wet
+Adjectives: Touch,umed,moist
+Adjectives: Touch,uscat,dry
+Adjectives: Sound,gălăgios,noisy
+Adjectives: Sound,agresiv,aggressive
+Adjectives: Sound,musical,musical
+Adjectives: Sound,plăcut,pleasent
+Adjectives: Sound,tare,loud
+Adjectives: Sound,liniștit,quiet
+Adjectives: Price,scump,expensive
+Adjectives: Price,ieftin,cheap
+Adjectives: Price,redus,reduced
+Adjectives: Price,gratuit,free
+Adjectives: Weather,cald,warm
+Adjectives: Weather,fierbinte,hot
+Adjectives: Weather,înnorat,cloudy
+Adjectives: Weather,însorit,sunny
+Adjectives: Weather,rece,cold
+Adjectives: Weather,arid,dry
+Adjectives: Time & Age,bătrân,old (person)
+Adjectives: Time & Age,incet,slow
+Adjectives: Time & Age,rapid,fast
+Adjectives: Time & Age,tânăr,young
+Adjectives: Time & Age,vechi,old (thing)
+Adjectives: Food,copt,baked
+Adjectives: Food,fiert,boiled
+Adjectives: Food,proaspăt,fresh
+Adjectives: Food,prăjit,fried
+Adjectives: Food,murat,pickled
+Adjectives: Clothes,confortabil,comfortable
+Adjectives: Clothes,nou,new
+Adjectives: Clothes,îmbrăcat,dressed
+Adjectives: Place,deschis,open
+Adjectives: Place,închis,closed
+Adjectives: Place,liber,free
+Adjectives: Place,luminos,bright
+Adjectives: Place,neobișnuit,unusual
+Adjectives: Place,periculos,dangerous
+Adjectives: Misc,acoperit,covered
+Adjectives: Misc,adevărat,true
+Adjectives: Misc,greșit,wrong
+Adjectives: Misc,important,important
+Adjectives: Misc,interesat,interested
+Adjectives: Misc,mort,dead
+Adjectives: Misc,necesar,necessary
+Adjectives: Misc,personal,private
+Adjectives: Misc,negativ,negative
+Adjectives: Misc,positiv,positive
+Adjectives: Misc,plecat,gone
+Adjectives: Misc,real,real
+Adjectives: Misc,realist,realistic
+Adjectives: Misc,reușit,successful
+Adjectives: Misc,pierdut,lost
 Accessories,ceas,watch
 Accessories,cercel,earring
 Accessories,lănțișor,chain/necklace
@@ -65,6 +208,7 @@ Adverbs: Mode,împreună,together
 Adverbs: Mode,încă,still
 Adverbs: Mode,numai,only
 Adverbs: Mode,prea,too
+Adverbs: Mode,de obicei,usually
 Animals,câine,dog
 Animals,cal,horse
 Animals,capră,goat
@@ -164,6 +308,7 @@ Colours,portocaliu,orange
 Colours,roșu,red
 Colours,roz,pink
 Colours,verde,green
+Colours,colorat,coloured
 Conjunctions,ca să,in order to
 Conjunctions,dacă,if
 Conjunctions,dar,but
@@ -257,7 +402,6 @@ Electronics,baterie,battery
 Feelings,dorință,desire
 Feelings,dragoste/iubire,love
 Feelings,emoție,emotion
-Feelings,fericire,happiness
 Feelings,frică,fear
 Feelings,grijă,worry
 Feelings,panică,panic
@@ -458,9 +602,41 @@ Music,chitară,guitar
 Music,instrument,instrument
 Music,pian,piano
 Music,tobă,drum
+Misc,ajutor,help
+Misc,alegere,choice
+Misc,amintire,memory
+Misc,bancomat,ATM
+Misc,calitate,quality
+Misc,cină,dinner
+Misc,clopot,bell
+Misc,drept,right
+Misc,ecran,screen
+Misc,gând,thought
+Misc,glumă,joke
+Misc,geografie,geography
+Misc,idee,idea
+Misc,istorie,history
+Misc,joc,game
+Misc,jucărie,toy
+Misc,limbă,language
+Misc,mic dejun,breakfast
+Misc,nuntă,wedding
+Misc,prânz,lunch
+Misc,sărut,kiss
+Misc,sărbătoare,holiday
+Misc,schimbare,change
+Misc,trupă,band
+Misc,țară,country
+Misc,țigară,cigarette
+Misc,umbră,shadow
+Misc,viață,life
+Misc,vis,dream
+Misc,vizată,visit
+Misc,vârstă,age
+Misc,zâmbet,smile
 Numbers,câteva,a few
 Numbers,cinci,five
-Numbers,destul,quite
+Numbers,destul de,quite
 Numbers,doua,second (f)
 Numbers,douăzeci,twenty
 Numbers,mie,thousand
@@ -471,7 +647,6 @@ Numbers,număr,number
 Numbers,opt,eight
 Numbers,patru,four
 Numbers,primul,first
-Numbers,puțin,little
 Numbers,șapte,seven
 Numbers,șase,six
 Numbers,sută,hundred
@@ -486,10 +661,10 @@ Objects,lucru,thing
 Objects,lumânare,candle
 Objects,obiect,object
 Objects,brichetă,lighter
-Opposites,advantaj,avantaj
+Opposites,avantaj,advantage
 Opposites,cauză,cause
 Opposites,noroc,luck
-Opposites,liniște,silence
+Opposites,tăcere,silence
 Opposites,gălăgie,noise
 Opposites,adevăr,truth
 Opposites,minciună,lie
@@ -498,10 +673,9 @@ Opposites,siguranță,safety
 Opposites,pericol,danger
 Opposites,problemă,problem
 Opposites,soluție,solution
-Opposites,adevărat,true
 Opposites,fals,false
 Opposites,regulă,rule
-Opposites,exepție,exception
+Opposites,excepție,exception
 Opposites,trecut,past
 Opposites,prezent,present
 Opposites,viitor,future
@@ -638,7 +812,7 @@ Party,felicitare,gift card
 Party,invitat,guest
 Party,invitație,invitation
 Party,petrecere,party
-Party,zi de naștere
+Party,zi de naștere,birthday
 Party,surpriză,surprise
 Physical Properties,aromă,flavour
 Physical Properties,cantitate,quantity
@@ -683,6 +857,7 @@ Shapes,formă,shape
 Shapes,pătrat,square
 Shapes,punct,point
 Shapes,triunghi,triangle
+Shapes,rotund,round
 Stationery,ascutitoare,sharpener
 Stationery,caiet,notebook
 Stationery,capsator,stapler
@@ -715,7 +890,6 @@ States,frig,cold
 States,încredere,trust
 States,motivație,motivation
 States,nerăbdare,impatience
-States,plictiseală,boredom
 States,sete,thirst
 States,somn,sleep
 States,stres,stress
@@ -955,11 +1129,10 @@ Verbs: Changes,a deschide,to open
 Verbs: Changes,a închide,to close
 Verbs: Changes,a începe,to begin
 Verbs: Changes,a muri,to die
-Verbs: Changes,a obosi,to tire
 Verbs: Changes,a omorî,to kill
 Verbs: Changes,a schimba,to change
 Verbs: Changes,a termina,to finish
-Verbs: Changes,a strica,to damage/break
+Verbs: Changes,a strica,to damage
 Verbs: Changes,a repara,to repair
 Verbs: Organizing,a aduce,to bring
 Verbs: Organizing,a aduna,to gather
@@ -998,7 +1171,6 @@ Verbs: Reflexive,a se bucara,to enjoy
 Verbs: Reflexive,a se culca,to lay down/go to bed
 Verbs: Reflexive,a se îmbrăca,to dress
 Verbs: Reflexive,a se opri,to stop
-Verbs: Reflexive,a se plictisi,to get bored
 Verbs: Reflexive,a se rătăci,to get lost
 Verbs: Reflexive,a se supăra,to get upset
 Verbs: Reflexive,a se teme,to fear
@@ -1006,19 +1178,13 @@ Verbs: Reflexive,a se trezi,to wake up
 Verbs: Reflexive,a se uita,to look at/watch
 Verbs: Reflexive,a-și aminti,to remember/remind
 Verbs: Motion,a se duce,to take oneself
-Weather,arid,dry
-Weather,cald,warm
 Weather,ceață,fog
-Weather,fierbinte,hot
 Weather,furtună,storm
-Weather,înnorat,cloudy
-Weather,însorit,sunny
 Weather,ninge,snowing
 Weather,nor,cloud
 Weather,ploaie,rain
 Weather,plouă,raining
 Weather,soare,sun
-Weather,umed,wet
 Weather,vânt,wind
 Weather,vreme,weather
 Weather,zăpadă,snow
