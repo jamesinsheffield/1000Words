@@ -4,6 +4,7 @@ import pandas as pd
 import random as rd
 from wtforms import Form, SelectField, RadioField, validators
 import json
+import tablib
 
 app = Flask(__name__)
 assert "APP_SETTINGS" in os.environ, "APP_SETTINGS environment variable not set"
@@ -28,6 +29,10 @@ catChoices = []
 for c in categories:
     catChoices.append((c,c))
 EngRomChoices = [('Eng2Rom','English to Romanian'),('Rom2Eng','Romanian to English')]
+
+Words_tablib = tablib.Dataset()
+with open('words.csv') as f:
+    Words_tablib.csv = f.read()
 
 class CategoriesForm(Form):
     EngRom = RadioField(choices=EngRomChoices, default='Eng2Rom', validators = [validators.Required()])
@@ -100,6 +105,10 @@ def repeat():
 def clear():
     session.clear()
     return 'session cleared'
+
+@app.route('/words')
+def words():
+    return Words_tablib.html
 
 if __name__ == "__main__":
     app.run()

@@ -10,6 +10,7 @@ flask = "*"
 gunicorn = "*"
 pandas = "*"
 wtforms = "*"
+tablib = {extras = ["html"],version = "*"}
 
 [requires]
 python_version = "3.6"
