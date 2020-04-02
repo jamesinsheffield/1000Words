@@ -18,13 +18,15 @@ def ReadWordsCSV(cat='all'):
             Words = Words.sample(n=30)
         elif cat == '30 random verbs':
             Words = Words[Words['Category'].str.startswith('Verbs:')].sample(n=30)
+        elif cat == '30 random adjectives':
+            Words = Words[Words['Category'].str.startswith('Adjectives:')].sample(n=30)
         else:
             Words = Words[Words['Category'] == cat]
         Words.reset_index(inplace=True)
     return Words
 
 Words = ReadWordsCSV()
-categories = ['30 random words','30 random verbs','Random category']+sorted(Words['Category'].unique())
+categories = ['30 random words','30 random verbs','30 random adjectives','Random category']+sorted(Words['Category'].unique())
 catChoices = []
 for c in categories:
     catChoices.append((c,c))
