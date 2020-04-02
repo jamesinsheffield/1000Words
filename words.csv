@@ -40,11 +40,11 @@ Adjectives: Personality,pesimist,pessimistic
 Adjectives: Personality,plictisitor,boring
 Adjectives: Personality,politicos,polite
 Adjectives: Personality,prietenos,friendly
-Adjectives: Personality,rău,mean
+Adjectives: Personality,rău,bad/mean
 Adjectives: Personality,sensibil,sensible
 Adjectives: Personality,strict,strict
 Adjectives: Personality,talentat,talented
-Adjectives: Personality,interesant,interested
+Adjectives: Personality,interesant,interesting
 Adjectives: Physical properties,ascuțit,sharp
 Adjectives: Physical properties,curat,clean
 Adjectives: Physical properties,gol,empty
@@ -109,7 +109,7 @@ Adjectives: Weather,însorit,sunny
 Adjectives: Weather,rece,cold
 Adjectives: Weather,arid,dry
 Adjectives: Time & Age,bătrân,old (person)
-Adjectives: Time & Age,incet,slow
+Adjectives: Time & Age,încet,slow
 Adjectives: Time & Age,rapid,fast
 Adjectives: Time & Age,tânăr,young
 Adjectives: Time & Age,vechi,old (thing)
@@ -123,7 +123,7 @@ Adjectives: Clothes,nou,new
 Adjectives: Clothes,îmbrăcat,dressed
 Adjectives: Place,deschis,open
 Adjectives: Place,închis,closed
-Adjectives: Place,liber,free
+Adjectives: Place,liber,free (not money)
 Adjectives: Place,luminos,bright
 Adjectives: Place,neobișnuit,unusual
 Adjectives: Place,periculos,dangerous
@@ -276,6 +276,7 @@ Body,umăr,shoulder
 Body,unghie,nail
 Body,ureche,ear
 Body,inimă,heart
+Body,os,bone
 Clothes,blugi,jeans
 Clothes,cămaşă,shirt
 Clothes,costum,suit
