@@ -1,14 +1,4 @@
 Category,Romanian,English
-Accessories,brățară,bracelet
-Accessories,ceas,watch
-Accessories,cercel,earring
-Accessories,geantă,handbag
-Accessories,inel,ring
-Accessories,lănțișor,chain/necklace
-Accessories,ochelari,glasses
-Accessories,portofel,wallet
-Accessories,poșetă,purse
-Accessories,umbrelă,umbrella
 Adjectives: Appearance,blond,blonde
 Adjectives: Appearance,bogat,rich
 Adjectives: Appearance,brunet,brunette
@@ -27,6 +17,18 @@ Adjectives: Appearance,urât,ugly
 Adjectives: Clothes,confortabil,comfortable
 Adjectives: Clothes,îmbrăcat,dressed
 Adjectives: Clothes,nou,new
+Adjectives: Colours,albastru,blue
+Adjectives: Colours,albă,white
+Adjectives: Colours,colorat,coloured
+Adjectives: Colours,galben,yellow
+Adjectives: Colours,gri,grey
+Adjectives: Colours,maro,brown
+Adjectives: Colours,mov,purple
+Adjectives: Colours,negru,black
+Adjectives: Colours,portocaliu,orange
+Adjectives: Colours,roșu,red
+Adjectives: Colours,roz,pink
+Adjectives: Colours,verde,green
 Adjectives: Difficulty,complicat,complicated
 Adjectives: Difficulty,dificil,difficult
 Adjectives: Difficulty,greu,hard
@@ -42,6 +44,7 @@ Adjectives: Dimension,larg,wide
 Adjectives: Dimension,lung,long
 Adjectives: Dimension,mare,big
 Adjectives: Dimension,mic,small
+Adjectives: Dimension,rotund,round
 Adjectives: Food,copt,baked
 Adjectives: Food,fiert,boiled
 Adjectives: Food,murat,pickled
@@ -49,6 +52,7 @@ Adjectives: Food,prăjit,fried
 Adjectives: Food,proaspăt,fresh
 Adjectives: Misc,acoperit,covered
 Adjectives: Misc,adevărat,true
+Adjectives: Misc,fals,false
 Adjectives: Misc,greșit,wrong
 Adjectives: Misc,important,important
 Adjectives: Misc,interesat,interested
@@ -71,6 +75,25 @@ Adjectives: Mood,obosit,tired
 Adjectives: Mood,plictisit,bored
 Adjectives: Mood,treaz,awake
 Adjectives: Mood,trist,sad
+Adjectives: Numbers,cinci,five
+Adjectives: Numbers,doua,second (f)
+Adjectives: Numbers,douăzeci,twenty
+Adjectives: Numbers,mie,thousand
+Adjectives: Numbers,milion,million
+Adjectives: Numbers,mult,many
+Adjectives: Numbers,nouă,nine
+Adjectives: Numbers,opt,eight
+Adjectives: Numbers,patru,four
+Adjectives: Numbers,primul,first
+Adjectives: Numbers,șapte,seven
+Adjectives: Numbers,șase,six
+Adjectives: Numbers,sută,hundred
+Adjectives: Numbers,treilea,third (m)
+Adjectives: Numbers,trei,three
+Adjectives: Numbers,ultimul,last
+Adjectives: Numbers,unsprezece,eleven
+Adjectives: Numbers,unu,one
+Adjectives: Numbers,zece,ten
 Adjectives: Personality,amabil,kind
 Adjectives: Personality,amuzant,funny
 Adjectives: Personality,atent,careful
@@ -101,10 +124,12 @@ Adjectives: Physical properties,stricat,damaged
 Adjectives: Physical properties,subțire,thin
 Adjectives: Place,deschis,open
 Adjectives: Place,închis,closed
+Adjectives: Place,left,stânga
 Adjectives: Place,liber,free (not money)
 Adjectives: Place,luminos,bright
 Adjectives: Place,neobișnuit,unusual
 Adjectives: Place,periculos,dangerous
+Adjectives: Place,right,dreapta
 Adjectives: Price,gratuit,free
 Adjectives: Price,ieftin,cheap
 Adjectives: Price,redus,reduced
@@ -156,11 +181,13 @@ Adverbs: Mode,altfel,otherwise
 Adverbs: Mode,așa,so
 Adverbs: Mode,bine,well
 Adverbs: Mode,cam,approximately
+Adverbs: Mode,câteva,several
 Adverbs: Mode,chiar,even
 Adverbs: Mode,cum,how
 Adverbs: Mode,decât,than
 Adverbs: Mode,degeaba,in vain
 Adverbs: Mode,de obicei,usually
+Adverbs: Mode,destul de,quite
 Adverbs: Mode,doar,just
 Adverbs: Mode,împreună,together
 Adverbs: Mode,încă,still
@@ -209,114 +236,6 @@ Adverbs: Time,rar,rarely
 Adverbs: Time,târziu,late
 Adverbs: Time,vreodată,ever
 Adverbs: Time,zilnic,daily
-Animals,albină,bee
-Animals,broască,frog
-Animals,câine,dog
-Animals,cal,horse
-Animals,capră,goat
-Animals,delfin,dolphin
-Animals,fluture,butterfly
-Animals,gândac,bug
-Animals,iepure,rabbit
-Animals,insectă,insect
-Animals,leu,lion
-Animals,muscă,fly
-Animals,oaie,sheep
-Animals,păianjen,spider
-Animals,pasăre,bird
-Animals,pește,fish
-Animals,pisică,cat
-Animals,porc,pig
-Animals,pui/găină,chicken
-Animals,rață,duck
-Animals,rechin,shark
-Animals,șarpe,snake
-Animals,șoarece,mouse
-Animals,șobolan,rat
-Animals,țanțar,mosquito
-Animals,tigru,tiger
-Animals,urs,bear
-Animals,vacă,cow
-Bathroom,aparat de ras,shaver
-Bathroom,balsam de păr,hair conditioner
-Bathroom,cadă,bathtub
-Bathroom,chiuvetă,sink
-Bathroom,cremă hidratantă,moisturiser
-Bathroom,deodorant,deodorant
-Bathroom,duș,shower
-Bathroom,gel de duș,shower gel
-Bathroom,parfum,perfume
-Bathroom,pastă de dinți,toothpaste
-Bathroom,periuță de dinți,toothbrush
-Bathroom,prosop,towel
-Bathroom,robinet,tap
-Bathroom,ruj,lipstick
-Bathroom,șampon,shampoo
-Bathroom,săpun,soap
-Body,braț,arm
-Body,buză,lip
-Body,cap,head
-Body,corp,body
-Body,deget,finger
-Body,dinte,tooth
-Body,față,face
-Body,gât,neck
-Body,genunchi,knee
-Body,gleznă,ankle
-Body,gură,mouth
-Body,inimă,heart
-Body,mână,hand
-Body,nas,nose
-Body,obraz,cheek
-Body,ochi,eye
-Body,os,bone
-Body,palmă,palm
-Body,păr,hair
-Body,picior,leg
-Body,spate,back
-Body,umăr,shoulder
-Body,unghie,nail
-Body,ureche,ear
-Clothes,blugi,jeans
-Clothes,cămaşă,shirt
-Clothes,chiloți,underwear
-Clothes,costum,suit
-Clothes,cravată,tie
-Clothes,fular,scarf
-Clothes,fustă,skirt
-Clothes,haine,clothes
-Clothes,îmbrăcăminte,clothing
-Clothes,jachetă,jacket
-Clothes,mănușă,glove
-Clothes,pălărie,hat
-Clothes,palton,coat
-Clothes,pantaloni,trousers
-Clothes,pantof,shoe
-Clothes,papuc,slipper
-Clothes,pulover,jumper
-Clothes,rochie,dress
-Clothes,şosetă,sock
-Clothes,tricou,t-shirt
-Collective,cuplu,couple
-Collective,echipă,team
-Collective,grup,group
-Collective,lume,people
-Collective,pereche,pair
-Collective,popor,nation
-Collective,public,audience
-Colours,albastru,blue
-Colours,albă,white
-Colours,colorat,coloured
-Colours,culoare,colour
-Colours,galben,yellow
-Colours,gri,grey
-Colours,maro,brown
-Colours,mov,purple
-Colours,negru,black
-Colours,portocaliu,orange
-Colours,roșu,red
-Colours,roz,pink
-Colours,verde,green
 Conjunctions,ca să,in order to
 Conjunctions,dacă,if
 Conjunctions,dar,but
@@ -328,419 +247,721 @@ Conjunctions,până,until
 Conjunctions,pentru că,because
 Conjunctions,sau,or
 Conjunctions,și,and
-Containers & Fractions,borcan,jar
-Containers & Fractions,bucată/piesă,piece
-Containers & Fractions,conservă,can
-Containers & Fractions,cutie,box
-Containers & Fractions,felie,slice
-Containers & Fractions,jumătate,half
-Containers & Fractions,pachet,packet
-Containers & Fractions,parte,part
-Containers & Fractions,plasă,net
-Containers & Fractions,porție,portion
-Containers & Fractions,pungă,bag
-Containers & Fractions,sac,sack
-Containers & Fractions,sfert,quarter
-Containers & Fractions,sticlă,bottle
-Containers & Fractions,tub,tube
-Conversation,conversație,conversation
-Conversation,cuvânt,word
-Conversation,detaliu,detail
-Conversation,discuție,discussion
-Conversation,exemplu,example
-Conversation,greșeală,mistake
-Conversation,încurăatură,confusion
-Conversation,indiciu,clue
-Conversation,motiv,motive
-Conversation,părere,opinion
-Conversation,promisiune,promise
-Conversation,reacție,reaction
-Conversation,scuză,excuse
-Conversation,secret,secret
-Conversation,sfat,advice
-Conversation,veste,news
-Countries,America,America
-Countries,Anglia,England
-Countries,Australia,Australia
-Countries,China,China
-Countries,Franța,France
-Countries,Germania,Germany
-Countries,Grecia,Greece
-Countries,India,India
-Countries,Irlanda,Ireland
-Countries,Italia,Italy
-Countries,Japonia,Japan
-Countries,Marea Britanie,Great Britain
-Countries,Rusia,Russia
-Countries,Scoția,Scotland
-Countries,Spania,Spain
-Countries,Țara Galilor,Wales
-Dessert,ciocolată,chocolate
-Dessert,clătită,pancake
-Dessert,covrig,pretzel
-Dessert,dulciuri,sweets
-Dessert,gogoașă,donut
-Dessert,inghețată,ice-cream
-Dessert,jeleu,jelly
-Dessert,plăcintă,pie
-Dessert,prăjitură,cupcake
-Dessert,tort,cake
-Drinks,apă,water
-Drinks,băutură,drink
-Drinks,bere,beer
-Drinks,cafea,coffee
-Drinks,ceai,tea
-Drinks,lapte,milk
-Drinks,limonadă,lemonade
-Drinks,suc,juice
-Drinks,vin,wine
-Electronics,aer condiționat,air conditioner
-Electronics,aparat foto,camera
-Electronics,aragaz,stove/hob
-Electronics,aspirator,vacuum cleaner
-Electronics,baterie,battery
-Electronics,bec,light bulb
-Electronics,calculator,computer
-Electronics,congelator,freezer
-Electronics,cuptor cu microunde,microwave
-Electronics,cuptor,oven
-Electronics,fierbător,kettle
-Electronics,fier de călcat,iron
-Electronics,frigider,fridge
-Electronics,mașină de spălat,washing machine
-Electronics,prăjitor de pâine,toaster
-Electronics,radiator,radiator
-Electronics,radio,radio
-Electronics,telefon,telephone
-Electronics,televizor,television
-Electronics,uscător de păr,hairdryer
-Entertainment,cazinou,casino
-Entertainment,cinema,cinema
-Entertainment,club,club
-Entertainment,concert,concert
-Entertainment,distracție,fun
-Entertainment,eveniment,event
-Entertainment,galerie de artă,art gallery
-Entertainment,grădină botanică,botanical garden
-Entertainment,scenă,stage
-Entertainment,spetacol,show
-Family,bunic,grandfather
-Family,cumnat,brother-in-law
-Family,familie,family
-Family,fiică,daughter
-Family,fiu,son
-Family,frate,brother
-Family,mamă,mother
-Family,mătușă,aunt
-Family,nepot,nephew/grandson
-Family,nume,name
-Family,părinte,parent
-Family,prenume,first name
-Family,rudă,relative
-Family,soacră,mother-in-law
-Family,soră,sister
-Family,soț,husband
-Family,soție,wife
-Family,tată,father
-Family,unchi,uncle
-Family,verișoară,cousin
-Feelings,dorință,desire
-Feelings,dragoste/iubire,love
-Feelings,emoție,emotion
-Feelings,frică,fear
-Feelings,grijă,worry
-Feelings,panică,panic
-Feelings,pasiune,passion
-Feelings,plăcere,pleasure
-Feelings,rușine,shame
-Feelings,sentiment,feeling
-Feelings,teamă,anxiety
-Food,brânză,cheese
-Food,cârnat,sausage
-Food,carne,meat
-Food,cașcaval,pressed cheese
-Food,cereală,cereal
-Food,chiftea,meatball
-Food,condiment,spice
-Food,fâină,flour
-Food,friptură,steak/roast
-Food,gem,jam
-Food,gustare,snack
-Food,iaurt,yogurt
-Food,ingredient,ingredient
-Food,mâncare,food
-Food,miere,honey
-Food,nucă,nut
-Food,omletă,omelette
-Food,orez,rice
-Food,oțet,vinegar
-Food,ou,egg
-Food,pâine,bread
-Food,paste,pasta
-Food,piper,pepper
-Food,pizza,pizza
-Food,salată,salad
-Food,sandviș,sandwich
-Food,sare,salt
-Food,smântână,sour cream
-Food,sos,sauce
-Food,șuncă presată,ham
-Food,supă,soup
-Food,tocană,stew
-Food,ton,tuna
-Food,ulei,oil
-Food,unt,butter
-Food,zahăr,sugar
-Fruit & Veg,ardei,pepper
-Fruit & Veg,banană,banana
-Fruit & Veg,căpșună,strawberry
-Fruit & Veg,cartof,potato
-Fruit & Veg,castravete,cucumber
-Fruit & Veg,ceapă,onion
-Fruit & Veg,cireașă,cherry
-Fruit & Veg,ciupercă,mushroom
-Fruit & Veg,fructe,fruit
-Fruit & Veg,lămâie,lemon
-Fruit & Veg,legume,vegetables
-Fruit & Veg,măr,apple
-Fruit & Veg,măslină,olive
-Fruit & Veg,mazăre,pea
-Fruit & Veg,morcov,carrot
-Fruit & Veg,pară,pear
-Fruit & Veg,pepene,melon
-Fruit & Veg,portocală,orange
-Fruit & Veg,roșie,tomato
-Fruit & Veg,stugure,grape
-Fruit & Veg,usturoi,garlic
-Furniture,birou,desk
-Furniture,bufet,cupboard
-Furniture,canapea,couch
-Furniture,covor,carpet
-Furniture,draperie,curtains
-Furniture,fereastră,window
-Furniture,fotoliu,armchair
-Furniture,lampă,lamp
-Furniture,masă,table
-Furniture,mochetă,rug
-Furniture,oglindă,mirror
-Furniture,pat,bed
-Furniture,perete,wall
-Furniture,podea,floor
-Furniture,raft,shelf
-Furniture,scară,stairs
-Furniture,scaun,chair
-Furniture,șemineu,fireplace
-Furniture,sertar,drawer
-Furniture,șifonier,wardrobe
-Furniture,ușă,door
 Greetings,bună dimineața,good morning
 Greetings,bună seara,good evening
 Greetings,bună ziua,hello/good day
 Greetings,la revedere,goodbye
-Institutions,bancă,bank
-Institutions,bibliotecă,library
-Institutions,biserică,church
-Institutions,librarie,bookstore
-Institutions,liceu,highschool
-Institutions,muzeu,museum
-Institutions,poliție,police
-Institutions,poștă,post office
-Institutions,școală,school
-Institutions,spital,hospital
-Institutions,teatru,theatre
-Institutions,universitate,university
-Kitchen,cană,mug
-Kitchen,castron,bowl
-Kitchen,coș de gunoi,rubbish bin
-Kitchen,cratiță,saucepan
-Kitchen,cuțit,knife
-Kitchen,farfurie,plate
-Kitchen,furculiță,fork
-Kitchen,lingură,spoon
-Kitchen,linguriță,teaspoon
-Kitchen,oală,pot
-Kitchen,pahar,glass
-Kitchen,tacâmuri,cutlery
-Kitchen,tavă,tray
-Kitchen,tigaie,frying pan
-Literature,banc,joke
-Literature,discurs,speech
-Literature,formular,form
-Literature,informație,information
-Literature,instrucțiune,instruction
-Literature,jurnal,diary
-Literature,mesaj,message
-Literature,pagină,page
-Literature,poezie,poem
-Literature,revistă,magazine
-Literature,roman,novel
-Literature,scrisoare,letter
-Literature,timbru,stamp
-Literature,titlu,title
-Literature,ziar,newspaper
-Measure,grad,degree
-Measure,gram,gram
-Measure,greutate,weight
-Measure,kilometru,kilometre
-Measure,litru,litre
-Measure,metru,metre
-Measure,milă,mile
-Misc,ajutor,help
-Misc,alegere,choice
-Misc,amintire,memory
-Misc,bancomat,ATM
-Misc,calitate,quality
-Misc,cină,dinner
-Misc,clopot,bell
-Misc,drept,right
-Misc,ecran,screen
-Misc,gând,thought
-Misc,geografie,geography
-Misc,glumă,joke
-Misc,idee,idea
-Misc,istorie,history
-Misc,joc,game
-Misc,jucărie,toy
-Misc,limbă,language
-Misc,mic dejun,breakfast
-Misc,nuntă,wedding
-Misc,prânz,lunch
-Misc,sărbătoare,holiday
-Misc,sărut,kiss
-Misc,schimbare,change
-Misc,țară,country
-Misc,țigară,cigarette
-Misc,trupă,band
-Misc,umbră,shadow
-Misc,vârstă,age
-Misc,viață,life
-Misc,vis,dream
-Misc,vizată,visit
-Misc,zâmbet,smile
-Moral Qualities,atenție,carefulness
-Moral Qualities,curaj,courage
-Moral Qualities,frumusețe,beauty
-Moral Qualities,generozitate,generosity
-Moral Qualities,optimism,optimism
-Moral Qualities,răbdare,patience
-Music,chitară,guitar
-Music,instrument,instrument
-Music,pian,piano
-Music,tobă,drum
-Numbers,câteva,a few
-Numbers,cinci,five
-Numbers,destul de,quite
-Numbers,doua,second (f)
-Numbers,douăzeci,twenty
-Numbers,mie,thousand
-Numbers,milion,million
-Numbers,mult,many
-Numbers,nouă,nine
-Numbers,număr,number
-Numbers,opt,eight
-Numbers,patru,four
-Numbers,primul,first
-Numbers,șapte,seven
-Numbers,șase,six
-Numbers,sută,hundred
-Numbers,treilea,third (m)
-Numbers,trei,three
-Numbers,ultimul,last
-Numbers,unsprezece,eleven
-Numbers,unu,one
-Numbers,zece,ten
-Objects,brichetă,lighter
-Objects,clopot,bell
-Objects,lucru,thing
-Objects,lumânare,candle
-Objects,obiect,object
-Opposites,adevăr,truth
-Opposites,avantaj,advantage
-Opposites,cauză,cause
-Opposites,dezordine,mess
-Opposites,excepție,exception
-Opposites,fals,false
-Opposites,gălăgie,noise
-Opposites,început,start
-Opposites,întrebare,question
-Opposites,întuneric,dark
-Opposites,lumină,light
-Opposites,minciună,lie
-Opposites,noroc,luck
-Opposites,pericol,danger
-Opposites,prezent,present
-Opposites,problemă,problem
-Opposites,răspuns,answer
-Opposites,regulă,rule
-Opposites,sfârșit,end
-Opposites,siguranță,safety
-Opposites,soluție,solution
-Opposites,tăcere,silence
-Opposites,trecut,past
-Opposites,viitor,future
-Outside,câmp,field
-Outside,cer,sky
-Outside,copac,tree
-Outside,deal,hill
-Outside,floare,flower
-Outside,foc,fire
-Outside,grădină,garden
-Outside,iarbă,grass
-Outside,insulă,island
-Outside,lac,lake
-Outside,lemn,wood
-Outside,mare,sea
-Outside,munte,mountain
-Outside,pădure,forest
-Outside,piatră,rock
-Outside,plajă,beach
-Outside,plantă,plant
-Outside,râu,river
-Outside,stea,star
-Outside,terasă,terrace
-Outside,vedere,view
-Party,aniversare,anniversary
-Party,balon,baloon
-Party,cadou,gift
-Party,felicitare,gift card
-Party,invitat,guest
-Party,invitație,invitation
-Party,petrecere,party
-Party,surpriză,surprise
-Party,zi de naștere,birthday
-People,adolescent,teenager
-People,băiat,boy
-People,bărbat,man
-People,bebeluș,baby
-People,copil,child
-People,fată,girl
-People,femeie,woman
-People,om,human
-People,partener,partner
-People,persoană,person
-People,prieten,friend
-People,turist,tourist
-People,vecin,neighbour
-Physical Properties,aromă,flavour
-Physical Properties,cantitate,quantity
-Physical Properties,fel,sort/type
-Physical Properties,gust,taste
-Physical Properties,înălțime,height
-Physical Properties,lățime,width
-Physical Properties,lungime,length
-Physical Properties,mărime,size
-Physical Properties,miros,smell
-Physical Properties,model,model
-Physical Properties,stil,style
-Possessive,al meu,mine
-Possessive,ei,her
-Possessive,lor,their
-Possessive,lui,his
-Possessive,meu,my
-Possessive,nostru,our
-Possessive,său,his/her/its
-Possessive,tău,your
-Possessive,vostru,your (p)
+Greetings,poftim,pardon/here you are
+Greetings,thank you,mulţumesc
+Greetings,vă rog,please
+Nouns: Accessories,brățară,bracelet
+Nouns: Accessories,ceas,watch
+Nouns: Accessories,cercel,earring
+Nouns: Accessories,geantă,handbag
+Nouns: Accessories,inel,ring
+Nouns: Accessories,lănțișor,chain/necklace
+Nouns: Accessories,ochelari,glasses
+Nouns: Accessories,portofel,wallet
+Nouns: Accessories,poșetă,purse
+Nouns: Accessories,umbrelă,umbrella
+Nouns: Animals,albină,bee
+Nouns: Animals,broască,frog
+Nouns: Animals,câine,dog
+Nouns: Animals,cal,horse
+Nouns: Animals,capră,goat
+Nouns: Animals,delfin,dolphin
+Nouns: Animals,fluture,butterfly
+Nouns: Animals,gândac,bug
+Nouns: Animals,iepure,rabbit
+Nouns: Animals,insectă,insect
+Nouns: Animals,leu,lion
+Nouns: Animals,muscă,fly
+Nouns: Animals,oaie,sheep
+Nouns: Animals,păianjen,spider
+Nouns: Animals,pasăre,bird
+Nouns: Animals,pește,fish
+Nouns: Animals,pisică,cat
+Nouns: Animals,porc,pig
+Nouns: Animals,pui/găină,chicken
+Nouns: Animals,rață,duck
+Nouns: Animals,rechin,shark
+Nouns: Animals,șarpe,snake
+Nouns: Animals,șoarece,mouse
+Nouns: Animals,șobolan,rat
+Nouns: Animals,țanțar,mosquito
+Nouns: Animals,tigru,tiger
+Nouns: Animals,urs,bear
+Nouns: Animals,vacă,cow
+Nouns: Bathroom,aparat de ras,shaver
+Nouns: Bathroom,balsam de păr,hair conditioner
+Nouns: Bathroom,cadă,bathtub
+Nouns: Bathroom,chiuvetă,sink
+Nouns: Bathroom,cremă hidratantă,moisturiser
+Nouns: Bathroom,deodorant,deodorant
+Nouns: Bathroom,duș,shower
+Nouns: Bathroom,gel de duș,shower gel
+Nouns: Bathroom,parfum,perfume
+Nouns: Bathroom,pastă de dinți,toothpaste
+Nouns: Bathroom,periuță de dinți,toothbrush
+Nouns: Bathroom,prosop,towel
+Nouns: Bathroom,robinet,tap
+Nouns: Bathroom,ruj,lipstick
+Nouns: Bathroom,șampon,shampoo
+Nouns: Bathroom,săpun,soap
+Nouns: Body,braț,arm
+Nouns: Body,buză,lip
+Nouns: Body,cap,head
+Nouns: Body,corp,body
+Nouns: Body,deget,finger
+Nouns: Body,dinte,tooth
+Nouns: Body,față,face
+Nouns: Body,gât,neck
+Nouns: Body,genunchi,knee
+Nouns: Body,gleznă,ankle
+Nouns: Body,gură,mouth
+Nouns: Body,inimă,heart
+Nouns: Body,mână,hand
+Nouns: Body,nas,nose
+Nouns: Body,obraz,cheek
+Nouns: Body,ochi,eye
+Nouns: Body,os,bone
+Nouns: Body,palmă,palm
+Nouns: Body,păr,hair
+Nouns: Body,picior,leg
+Nouns: Body,spate,back
+Nouns: Body,umăr,shoulder
+Nouns: Body,unghie,nail
+Nouns: Body,ureche,ear
+Nouns: Clothes,blugi,jeans
+Nouns: Clothes,cămaşă,shirt
+Nouns: Clothes,chiloți,underwear
+Nouns: Clothes,costum,suit
+Nouns: Clothes,cravată,tie
+Nouns: Clothes,fular,scarf
+Nouns: Clothes,fustă,skirt
+Nouns: Clothes,haine,clothes
+Nouns: Clothes,îmbrăcăminte,clothing
+Nouns: Clothes,jachetă,jacket
+Nouns: Clothes,mănușă,glove
+Nouns: Clothes,pălărie,hat
+Nouns: Clothes,palton,coat
+Nouns: Clothes,pantaloni,trousers
+Nouns: Clothes,pantof,shoe
+Nouns: Clothes,papuc,slipper
+Nouns: Clothes,pulover,jumper
+Nouns: Clothes,rochie,dress
+Nouns: Clothes,şosetă,sock
+Nouns: Clothes,tricou,t-shirt
+Nouns: Collective,cuplu,couple
+Nouns: Collective,echipă,team
+Nouns: Collective,grup,group
+Nouns: Collective,lume,people
+Nouns: Collective,pereche,pair
+Nouns: Collective,popor,nation
+Nouns: Collective,public,audience
+Nouns: Containers & Fractions,borcan,jar
+Nouns: Containers & Fractions,bucată/piesă,piece
+Nouns: Containers & Fractions,conservă,can
+Nouns: Containers & Fractions,cutie,box
+Nouns: Containers & Fractions,felie,slice
+Nouns: Containers & Fractions,jumătate,half
+Nouns: Containers & Fractions,pachet,packet
+Nouns: Containers & Fractions,parte,part
+Nouns: Containers & Fractions,plasă,net
+Nouns: Containers & Fractions,porție,portion
+Nouns: Containers & Fractions,pungă,bag
+Nouns: Containers & Fractions,sac,sack
+Nouns: Containers & Fractions,sfert,quarter
+Nouns: Containers & Fractions,sticlă,bottle
+Nouns: Containers & Fractions,tub,tube
+Nouns: Conversation,conversație,conversation
+Nouns: Conversation,cuvânt,word
+Nouns: Conversation,detaliu,detail
+Nouns: Conversation,discuție,discussion
+Nouns: Conversation,exemplu,example
+Nouns: Conversation,greșeală,mistake
+Nouns: Conversation,încurăatură,confusion
+Nouns: Conversation,indiciu,clue
+Nouns: Conversation,motiv,motive
+Nouns: Conversation,părere,opinion
+Nouns: Conversation,promisiune,promise
+Nouns: Conversation,reacție,reaction
+Nouns: Conversation,scuză,excuse
+Nouns: Conversation,secret,secret
+Nouns: Conversation,sfat,advice
+Nouns: Conversation,veste,news
+Nouns: Countries,America,America
+Nouns: Countries,Anglia,England
+Nouns: Countries,Australia,Australia
+Nouns: Countries,China,China
+Nouns: Countries,Franța,France
+Nouns: Countries,Germania,Germany
+Nouns: Countries,Grecia,Greece
+Nouns: Countries,India,India
+Nouns: Countries,Irlanda,Ireland
+Nouns: Countries,Italia,Italy
+Nouns: Countries,Japonia,Japan
+Nouns: Countries,Marea Britanie,Great Britain
+Nouns: Countries,Rusia,Russia
+Nouns: Countries,Scoția,Scotland
+Nouns: Countries,Spania,Spain
+Nouns: Countries,țară,country
+Nouns: Countries,Țara Galilor,Wales
+Nouns: Dessert,ciocolată,chocolate
+Nouns: Dessert,clătită,pancake
+Nouns: Dessert,covrig,pretzel
+Nouns: Dessert,dulciuri,sweets
+Nouns: Dessert,gogoașă,donut
+Nouns: Dessert,inghețată,ice-cream
+Nouns: Dessert,jeleu,jelly
+Nouns: Dessert,plăcintă,pie
+Nouns: Dessert,prăjitură,cupcake
+Nouns: Dessert,tort,cake
+Nouns: Drinks,apă,water
+Nouns: Drinks,băutură,drink
+Nouns: Drinks,bere,beer
+Nouns: Drinks,cafea,coffee
+Nouns: Drinks,ceai,tea
+Nouns: Drinks,lapte,milk
+Nouns: Drinks,limonadă,lemonade
+Nouns: Drinks,suc,juice
+Nouns: Drinks,vin,wine
+Nouns: Electronics,aer condiționat,air conditioner
+Nouns: Electronics,aparat foto,camera
+Nouns: Electronics,aragaz,stove/hob
+Nouns: Electronics,aspirator,vacuum cleaner
+Nouns: Electronics,baterie,battery
+Nouns: Electronics,bec,light bulb
+Nouns: Electronics,calculator,computer
+Nouns: Electronics,congelator,freezer
+Nouns: Electronics,cuptor cu microunde,microwave
+Nouns: Electronics,cuptor,oven
+Nouns: Electronics,fierbător,kettle
+Nouns: Electronics,fier de călcat,iron
+Nouns: Electronics,frigider,fridge
+Nouns: Electronics,mașină de spălat,washing machine
+Nouns: Electronics,prăjitor de pâine,toaster
+Nouns: Electronics,radiator,radiator
+Nouns: Electronics,radio,radio
+Nouns: Electronics,telefon,telephone
+Nouns: Electronics,televizor,television
+Nouns: Electronics,uscător de păr,hairdryer
+Nouns: Entertainment,cazinou,casino
+Nouns: Entertainment,cinema,cinema
+Nouns: Entertainment,club,club
+Nouns: Entertainment,concert,concert
+Nouns: Entertainment,distracție,fun
+Nouns: Entertainment,eveniment,event
+Nouns: Entertainment,galerie de artă,art gallery
+Nouns: Entertainment,grădină botanică,botanical garden
+Nouns: Entertainment,scenă,stage
+Nouns: Entertainment,spectacol,show
+Nouns: Family,bunic,grandfather
+Nouns: Family,cumnat,brother-in-law
+Nouns: Family,familie,family
+Nouns: Family,fiică,daughter
+Nouns: Family,fiu,son
+Nouns: Family,frate,brother
+Nouns: Family,mamă,mother
+Nouns: Family,mătușă,aunt
+Nouns: Family,nepot,nephew/grandson
+Nouns: Family,nume,name
+Nouns: Family,părinte,parent
+Nouns: Family,prenume,first name
+Nouns: Family,rudă,relative
+Nouns: Family,soacră,mother-in-law
+Nouns: Family,soră,sister
+Nouns: Family,soț,husband
+Nouns: Family,soție,wife
+Nouns: Family,tată,father
+Nouns: Family,unchi,uncle
+Nouns: Family,verișoară,cousin
+Nouns: Feelings,dorință,desire
+Nouns: Feelings,dragoste/iubire,love
+Nouns: Feelings,emoție,emotion
+Nouns: Feelings,frică,fear
+Nouns: Feelings,grijă,worry
+Nouns: Feelings,panică,panic
+Nouns: Feelings,pasiune,passion
+Nouns: Feelings,plăcere,pleasure
+Nouns: Feelings,rușine,shame
+Nouns: Feelings,sentiment,feeling
+Nouns: Feelings,teamă,anxiety
+Nouns: Food,brânză,cheese
+Nouns: Food,cârnat,sausage
+Nouns: Food,carne,meat
+Nouns: Food,cașcaval,pressed cheese
+Nouns: Food,cereală,cereal
+Nouns: Food,chiftea,meatball
+Nouns: Food,condiment,spice
+Nouns: Food,fâină,flour
+Nouns: Food,friptură,steak/roast
+Nouns: Food,gem,jam
+Nouns: Food,gustare,snack
+Nouns: Food,iaurt,yogurt
+Nouns: Food,ingredient,ingredient
+Nouns: Food,mâncare,food
+Nouns: Food,miere,honey
+Nouns: Food,nucă,nut
+Nouns: Food,omletă,omelette
+Nouns: Food,orez,rice
+Nouns: Food,oțet,vinegar
+Nouns: Food,ou,egg
+Nouns: Food,pâine,bread
+Nouns: Food,paste,pasta
+Nouns: Food,piper,pepper
+Nouns: Food,pizza,pizza
+Nouns: Food,salată,salad
+Nouns: Food,sandviș,sandwich
+Nouns: Food,sare,salt
+Nouns: Food,smântână,sour cream
+Nouns: Food,sos,sauce
+Nouns: Food,șuncă presată,ham
+Nouns: Food,supă,soup
+Nouns: Food,tocană,stew
+Nouns: Food,ton,tuna
+Nouns: Food,ulei,oil
+Nouns: Food,unt,butter
+Nouns: Food,zahăr,sugar
+Nouns: Fruit & Veg,ardei,pepper
+Nouns: Fruit & Veg,banană,banana
+Nouns: Fruit & Veg,căpșună,strawberry
+Nouns: Fruit & Veg,cartof,potato
+Nouns: Fruit & Veg,castravete,cucumber
+Nouns: Fruit & Veg,ceapă,onion
+Nouns: Fruit & Veg,cireașă,cherry
+Nouns: Fruit & Veg,ciupercă,mushroom
+Nouns: Fruit & Veg,fructe,fruit
+Nouns: Fruit & Veg,lămâie,lemon
+Nouns: Fruit & Veg,legume,vegetables
+Nouns: Fruit & Veg,măr,apple
+Nouns: Fruit & Veg,măslină,olive
+Nouns: Fruit & Veg,mazăre,pea
+Nouns: Fruit & Veg,morcov,carrot
+Nouns: Fruit & Veg,pară,pear
+Nouns: Fruit & Veg,pepene,melon
+Nouns: Fruit & Veg,portocală,orange
+Nouns: Fruit & Veg,roșie,tomato
+Nouns: Fruit & Veg,stugure,grape
+Nouns: Fruit & Veg,usturoi,garlic
+Nouns: Furniture,birou,desk
+Nouns: Furniture,bufet,cupboard
+Nouns: Furniture,canapea,couch
+Nouns: Furniture,covor,carpet
+Nouns: Furniture,draperie,curtains
+Nouns: Furniture,fereastră,window
+Nouns: Furniture,fotoliu,armchair
+Nouns: Furniture,lampă,lamp
+Nouns: Furniture,masă,table
+Nouns: Furniture,mochetă,rug
+Nouns: Furniture,oglindă,mirror
+Nouns: Furniture,pat,bed
+Nouns: Furniture,perete,wall
+Nouns: Furniture,podea,floor
+Nouns: Furniture,raft,shelf
+Nouns: Furniture,scară,stairs
+Nouns: Furniture,scaun,chair
+Nouns: Furniture,șemineu,fireplace
+Nouns: Furniture,sertar,drawer
+Nouns: Furniture,șifonier,wardrobe
+Nouns: Furniture,ușă,door
+Nouns: Institutions,bancă,bank
+Nouns: Institutions,bibliotecă,library
+Nouns: Institutions,biserică,church
+Nouns: Institutions,librarie,bookstore
+Nouns: Institutions,liceu,highschool
+Nouns: Institutions,muzeu,museum
+Nouns: Institutions,poliție,police
+Nouns: Institutions,poștă,post office
+Nouns: Institutions,școală,school
+Nouns: Institutions,spital,hospital
+Nouns: Institutions,teatru,theatre
+Nouns: Institutions,universitate,university
+Nouns: Kitchen,cană,mug
+Nouns: Kitchen,castron,bowl
+Nouns: Kitchen,coș de gunoi,rubbish bin
+Nouns: Kitchen,cratiță,saucepan
+Nouns: Kitchen,cuțit,knife
+Nouns: Kitchen,farfurie,plate
+Nouns: Kitchen,furculiță,fork
+Nouns: Kitchen,lingură,spoon
+Nouns: Kitchen,linguriță,teaspoon
+Nouns: Kitchen,oală,pot
+Nouns: Kitchen,pahar,glass
+Nouns: Kitchen,tacâmuri,cutlery
+Nouns: Kitchen,tavă,tray
+Nouns: Literature,banc,joke
+Nouns: Literature,discurs,speech
+Nouns: Literature,formular,form
+Nouns: Literature,informație,information
+Nouns: Literature,instrucțiune,instruction
+Nouns: Literature,jurnal,diary
+Nouns: Literature,mesaj,message
+Nouns: Literature,pagină,page
+Nouns: Literature,poezie,poem
+Nouns: Literature,revistă,magazine
+Nouns: Literature,roman,novel
+Nouns: Literature,scrisoare,letter
+Nouns: Literature,timbru,stamp
+Nouns: Literature,titlu,title
+Nouns: Literature,ziar,newspaper
+Nouns: Measure,grad,degree
+Nouns: Measure,gram,gram
+Nouns: Measure,greutate,weight
+Nouns: Measure,kilometru,kilometre
+Nouns: Measure,litru,litre
+Nouns: Measure,metru,metre
+Nouns: Measure,milă,mile
+Nouns: Misc,ajutor,help
+Nouns: Misc,alegere,choice
+Nouns: Misc,amintire,memory
+Nouns: Misc,bancomat,ATM
+Nouns: Misc,brichetă,lighter
+Nouns: Misc,calitate,quality
+Nouns: Misc,cină,dinner
+Nouns: Misc,clopot,bell
+Nouns: Misc,clopot,bell
+Nouns: Misc,ecran,screen
+Nouns: Misc,gând,thought
+Nouns: Misc,geografie,geography
+Nouns: Misc,glumă,joke
+Nouns: Misc,idee,idea
+Nouns: Misc,istorie,history
+Nouns: Misc,jucărie,toy
+Nouns: Misc,limbă,language
+Nouns: Misc,lucru,thing
+Nouns: Misc,lumânare,candle
+Nouns: Misc,mic dejun,breakfast
+Nouns: Misc,număr,number
+Nouns: Misc,nuntă,wedding
+Nouns: Misc,obiect,object
+Nouns: Misc,prânz,lunch
+Nouns: Misc,prezent,present (tense)
+Nouns: Misc,sărbătoare,holiday
+Nouns: Misc,sărut,kiss
+Nouns: Misc,țigară,cigarette
+Nouns: Misc,trupă,band
+Nouns: Misc,umbră,shadow
+Nouns: Misc,vârstă,age
+Nouns: Misc,viață,life
+Nouns: Misc,vis,dream
+Nouns: Misc,zâmbet,smile
+Nouns: Moral Qualities,atenție,carefulness
+Nouns: Moral Qualities,curaj,courage
+Nouns: Moral Qualities,frumusețe,beauty
+Nouns: Moral Qualities,generozitate,generosity
+Nouns: Moral Qualities,optimism,optimism
+Nouns: Moral Qualities,răbdare,patience
+Nouns: Music,chitară,guitar
+Nouns: Music,instrument,instrument
+Nouns: Music,pian,piano
+Nouns: Music,tobă,drum
+Nouns: Nouns: Kitchen,tigaie,frying pan
+Nouns: Opposites,adevăr,truth
+Nouns: Opposites,avantaj,advantage
+Nouns: Opposites,cauză,cause
+Nouns: Opposites,dezordine,mess
+Nouns: Opposites,excepție,exception
+Nouns: Opposites,gălăgie,noise
+Nouns: Opposites,început,start
+Nouns: Opposites,întrebare,question
+Nouns: Opposites,întuneric,dark
+Nouns: Opposites,lumină,light
+Nouns: Opposites,minciună,lie
+Nouns: Opposites,noroc,luck
+Nouns: Opposites,pericol,danger
+Nouns: Opposites,problemă,problem
+Nouns: Opposites,răspuns,answer
+Nouns: Opposites,regulă,rule
+Nouns: Opposites,sfârșit,end
+Nouns: Opposites,siguranță,safety
+Nouns: Opposites,soluție,solution
+Nouns: Opposites,tăcere,silence
+Nouns: Opposites,trecut,past
+Nouns: Opposites,viitor,future
+Nouns: Outside,câmp,field
+Nouns: Outside,cer,sky
+Nouns: Outside,copac,tree
+Nouns: Outside,deal,hill
+Nouns: Outside,floare,flower
+Nouns: Outside,foc,fire
+Nouns: Outside,grădină,garden
+Nouns: Outside,iarbă,grass
+Nouns: Outside,insulă,island
+Nouns: Outside,lac,lake
+Nouns: Outside,lemn,wood
+Nouns: Outside,mare,sea
+Nouns: Outside,munte,mountain
+Nouns: Outside,pădure,forest
+Nouns: Outside,piatră,rock
+Nouns: Outside,plajă,beach
+Nouns: Outside,plantă,plant
+Nouns: Outside,râu,river
+Nouns: Outside,stea,star
+Nouns: Outside,terasă,terrace
+Nouns: Outside,vedere,view
+Nouns: Party,aniversare,anniversary
+Nouns: Party,balon,baloon
+Nouns: Party,cadou,gift
+Nouns: Party,felicitare,gift card
+Nouns: Party,invitat,guest
+Nouns: Party,invitație,invitation
+Nouns: Party,petrecere,party
+Nouns: Party,surpriză,surprise
+Nouns: Party,zi de naștere,birthday
+Nouns: People,adolescent,teenager
+Nouns: People,băiat,boy
+Nouns: People,bărbat,man
+Nouns: People,bebeluș,baby
+Nouns: People,copil,child
+Nouns: People,fată,girl
+Nouns: People,femeie,woman
+Nouns: People,om,human
+Nouns: People,partener,partner
+Nouns: People,persoană,person
+Nouns: People,prieten,friend
+Nouns: People,turist,tourist
+Nouns: People,vecin,neighbour
+Nouns: Physical Properties,aromă,flavour
+Nouns: Physical Properties,cantitate,quantity
+Nouns: Physical Properties,colour,culoare
+Nouns: Physical Properties,fel,sort/type
+Nouns: Physical Properties,gust,taste
+Nouns: Physical Properties,înălțime,height
+Nouns: Physical Properties,lățime,width
+Nouns: Physical Properties,lungime,length
+Nouns: Physical Properties,mărime,size
+Nouns: Physical Properties,miros,smell
+Nouns: Physical Properties,model,model
+Nouns: Physical Properties,stil,style
+Nouns: Rooms,baie,bathroom
+Nouns: Rooms,birou,office
+Nouns: Rooms,bucătărie,kitchen
+Nouns: Rooms,cameră,room
+Nouns: Rooms,casă,house
+Nouns: Rooms,dormitor,bedroom
+Nouns: Rooms,etaj,level/floor
+Nouns: Rooms,garaj,garage
+Nouns: Rooms,sufragerie,living room
+Nouns: Rooms,toaletă,toilet
+Nouns: Shapes,cerc,circle
+Nouns: Shapes,dreptunghi,rectangle
+Nouns: Shapes,dungă,stripe
+Nouns: Shapes,formă,shape
+Nouns: Shapes,pătrat,square
+Nouns: Shapes,punct,point
+Nouns: Shapes,triunghi,triangle
+Nouns: Shopping,alimentară,grocery shop
+Nouns: Shopping,bani,money
+Nouns: Shopping,cumpărături,shopping
+Nouns: Shopping,listă de cumpărături,shopping list
+Nouns: Shopping,magazin,shop
+Nouns: Shopping,ofertă,offer
+Nouns: Shopping,preț,price
+Nouns: Shopping,raion,department
+Nouns: Shopping,vitrină,shop window
+Nouns: Sport,bâtă,bat
+Nouns: Sport,fotbal,football
+Nouns: Sport,golf,golf
+Nouns: Sport,gol,goal
+Nouns: Sport,înot,swimming
+Nouns: Sport,joc,game
+Nouns: Sport,meci,match
+Nouns: Sport,minge,ball
+Nouns: Sport,schi,skiing
+Nouns: Sport,sport,sport
+Nouns: Sport,tenis,tennis
+Nouns: Sport,teren,pitch
+Nouns: Sport,trofeu,trophy
+Nouns: Sport,turneu,tournament
+Nouns: States,energie,energy
+Nouns: States,foame,hunger
+Nouns: States,frig,cold
+Nouns: States,încredere,trust
+Nouns: States,motivație,motivation
+Nouns: States,nerăbdare,impatience
+Nouns: States,sete,thirst
+Nouns: States,șoc,shock
+Nouns: States,somn,sleep
+Nouns: States,stres,stress
+Nouns: Stationery,ascutitoare,sharpener
+Nouns: Stationery,caiet,notebook
+Nouns: Stationery,capsator,stapler
+Nouns: Stationery,carnet,notepad
+Nouns: Stationery,carte,book
+Nouns: Stationery,coperta,cover
+Nouns: Stationery,creion,pencil
+Nouns: Stationery,creion,pencil
+Nouns: Stationery,foarfece,scissors
+Nouns: Stationery,ghiozdan,schoolbag
+Nouns: Stationery,gumă de șters,eraser
+Nouns: Stationery,hârtie,paper
+Nouns: Stationery,lipici,glue
+Nouns: Stationery,penar,pencil case
+Nouns: Stationery,perforator,hole punch
+Nouns: Stationery,riglă,ruler
+Nouns: Time,amiază,noon
+Nouns: Time,an,year
+Nouns: Time,apus,sunset
+Nouns: Time,clipă,moment
+Nouns: Time,dată,date
+Nouns: Time,dimineață,morning
+Nouns: Time,duminică,Sunday
+Nouns: Time,după-amiază,afternoon
+Nouns: Time,iarnă,winter
+Nouns: Time,joi,Thursday
+Nouns: Time,lună,month
+Nouns: Time,luni,Monday
+Nouns: Time,marți,Tuesday
+Nouns: Time,miercuri,Wednesday
+Nouns: Time,minut,minute
+Nouns: Time,moment,moment
+Nouns: Time,noapte,night
+Nouns: Time,oră,hour
+Nouns: Time,perioadă,period
+Nouns: Time,primăvară,spring
+Nouns: Time,răsărit,sunrise
+Nouns: Time,sâmbătă,Saturday
+Nouns: Time,săptămână,week
+Nouns: Time,seară,evening
+Nouns: Time,secundă,second
+Nouns: Time,timp,time
+Nouns: Time,toamnă,autumn
+Nouns: Time,vară,summer
+Nouns: Time,vineri,Friday
+Nouns: Time,zi,day
+Nouns: Town,aeroport,airport
+Nouns: Town,apartament,flat
+Nouns: Town,bar,bar
+Nouns: Town,bloc,block of flats
+Nouns: Town,centru,downtown
+Nouns: Town,clădire,building
+Nouns: Town,cofetărie,pastry shop
+Nouns: Town,fabrică,factory
+Nouns: Town,gară,train station
+Nouns: Town,oraș,town
+Nouns: Town,palat,palace
+Nouns: Town,parcare,parking lot
+Nouns: Town,parc,park
+Nouns: Town,piață,market
+Nouns: Town,restaurant,restaurant
+Nouns: Town,șosea,road
+Nouns: Town,stadion,stadium
+Nouns: Town,stradă,street
+Nouns: Transport,autobuz,bus
+Nouns: Transport,avion,plane
+Nouns: Transport,barcă,boat
+Nouns: Transport,bicicletă,bike
+Nouns: Transport,bilet,ticket
+Nouns: Transport,centură de siguranță,seat belt
+Nouns: Transport,cheie,key
+Nouns: Transport,circulație,traffic
+Nouns: Transport,destinație,destination
+Nouns: Transport,întârziere,delay
+Nouns: Transport,loc,seat
+Nouns: Transport,mașină,car
+Nouns: Transport,metrou,subway
+Nouns: Transport,motor,engine
+Nouns: Transport,motoretă,moped
+Nouns: Transport,peron,platform
+Nouns: Transport,portbagaj,car boot
+Nouns: Transport,rezervare,reservation
+Nouns: Transport,roată,wheel
+Nouns: Transport,semafor,traffic light
+Nouns: Transport,stație,station
+Nouns: Transport,taxi,taxi
+Nouns: Transport,tramvai,tram
+Nouns: Transport,tren,train
+Nouns: Transport,trotuar,pavement
+Nouns: Transport,vagon,carriage
+Nouns: Transport,vapor,ship
+Nouns: Transport,viteză,speed
+Nouns: Transport,zbor,flight
+Nouns: TV & Film,canal,channel
+Nouns: TV & Film,comedie,comedy
+Nouns: TV & Film,desen animat,cartoon
+Nouns: TV & Film,documentar,documentary
+Nouns: TV & Film,emisiune,TV show
+Nouns: TV & Film,episod,episode
+Nouns: TV & Film,film de acțiune,action film
+Nouns: TV & Film,film de groază,horror film
+Nouns: TV & Film,floricele de porumb,popcorn
+Nouns: TV & Film,prezentator,presenter
+Nouns: TV & Film,publicitate,commercial break
+Nouns: TV & Film,reclamă,advert
+Nouns: TV & Film,serial,series
+Nouns: TV & Film,sezon,season
+Nouns: TV & Film,știri,news
+Nouns: TV & Film,telenovelă,soap opera
+Nouns: Vacation,bagaj,luggage
+Nouns: Vacation,călătorie,journey
+Nouns: Vacation,cort,tent
+Nouns: Vacation,geamantan,suitcase
+Nouns: Vacation,hartă,map
+Nouns: Vacation,hotel,hotel
+Nouns: Vacation,locație,location
+Nouns: Vacation,loc,place
+Nouns: Vacation,nisip,sand
+Nouns: Vacation,pașaport,passport
+Nouns: Vacation,plecare,departure
+Nouns: Vacation,plimbare,walk
+Nouns: Vacation,stațiune,resort
+Nouns: Vacation,străinătate,abroad
+Nouns: Vacation,vacanță,vacation
+Nouns: Weather,ceață,fog
+Nouns: Weather,curcubeu,rainbow
+Nouns: Weather,furtună,storm
+Nouns: Weather,gheață,ice
+Nouns: Weather,nor,cloud
+Nouns: Weather,ploaie,rain
+Nouns: Weather,soare,sun
+Nouns: Weather,vânt,wind
+Nouns: Weather,vreme,weather
+Nouns: Weather,zăpadă,snow
+Nouns: Work,actriță,actress
+Nouns: Work,angajat,employee
+Nouns: Work,angajator,employer
+Nouns: Work,artist,artist
+Nouns: Work,avocat,lawyer
+Nouns: Work,barman,barista
+Nouns: Work,brutar,baker
+Nouns: Work,bucătar,cook
+Nouns: Work,chelner,waiter
+Nouns: Work,coafeză,hairdresser
+Nouns: Work,companie/firmă,company
+Nouns: Work,croitor,tailor
+Nouns: Work,dentist,dentist
+Nouns: Work,doctor/medic,doctor
+Nouns: Work,electrician,electrician
+Nouns: Work,fermier,farmer
+Nouns: Work,frizer,barber
+Nouns: Work,infirmier,nurse
+Nouns: Work,instalator,plumber
+Nouns: Work,învățător,teacher
+Nouns: Work,lucru/muncă,work
+Nouns: Work,măcelar,butcher
+Nouns: Work,mărire,raise
+Nouns: Work,mecanic,mechanic
+Nouns: Work,muncitor,worker
+Nouns: Work,muzician,musician
+Nouns: Work,om de știință,scientist
+Nouns: Work,pescar,fisherman
+Nouns: Work,polițist,policeman
+Nouns: Work,pompier,fireman
+Nouns: Work,poștaș,postman
+Nouns: Work,pot,position
+Nouns: Work,preot,priest
+Nouns: Work,președinte,president
+Nouns: Work,rege,king
+Nouns: Work,salariu,salary
+Nouns: Work,scriitor,writer
+Nouns: Work,ședință,meeting
+Nouns: Work,șef,boss
+Nouns: Work,slujbe,job
+Nouns: Work,student/elev,student
+Nouns: Work,tâmplar,carpenter
+Nouns: Work,taximetrist,taxi driver
+Nouns: Work,vânzător,shop assistant
 Prepositions,ca,like
 Prepositions,către,towards (a person)
 Prepositions,cu,with
@@ -774,203 +995,85 @@ Prepositions,prin,through
 Prepositions,printre,among
 Prepositions,spre,towards (a place/thing)
 Prepositions,sub,under
-Pronouns,același,the same
-Pronouns,acela,that
-Pronouns,acesta,this
-Pronouns,altceva,somthing else
-Pronouns,altcineva,somebody else
-Pronouns,altul,another
-Pronouns,amândoi,both
-Pronouns,care,which
-Pronouns,cât,how much
-Pronouns,celălalt,the other
-Pronouns,ceva,something
-Pronouns,ce,what
-Pronouns,cineva,somebody
-Pronouns,cine,who
-Pronouns,fiecare,every
-Pronouns,nimeni,nobody
-Pronouns,nimic,nothing
-Pronouns,niște,some
-Pronouns,orice,anything
-Pronouns,tot,everything
-Rooms,baie,bathroom
-Rooms,birou,office
-Rooms,bucătărie,kitchen
-Rooms,cameră,room
-Rooms,casă,house
-Rooms,dormitor,bedroom
-Rooms,etaj,level/floor
-Rooms,garaj,garage
-Rooms,sufragerie,living room
-Rooms,toaletă,toilet
-Shapes,cerc,circle
-Shapes,dreptunghi,rectangle
-Shapes,dungă,stripe
-Shapes,formă,shape
-Shapes,pătrat,square
-Shapes,punct,point
-Shapes,rotund,round
-Shapes,triunghi,triangle
-Shopping,alimentară,grocery shop
-Shopping,bani,money
-Shopping,cumpărături,shopping
-Shopping,listă de cumpărături,shopping list
-Shopping,magazin,shop
-Shopping,măsură,size
-Shopping,ofertă,offer
-Shopping,preț,price
-Shopping,raion,department
-Shopping,vitrină,shop window
-Sport,bâtă,bat
-Sport,fotbal,football
-Sport,golf,golf
-Sport,gol,goal
-Sport,înot,swimming
-Sport,jocuri,games
-Sport,meci,match
-Sport,minge,ball
-Sport,rachetă de tenis,tennis racket
-Sport,schi,skiing
-Sport,sport,sport
-Sport,tenis,tennis
-Sport,teren,pitch
-Sport,trofeu,trophy
-Sport,turneu,tournament
-States,energie,energy
-States,foame,hunger
-States,frig,cold
-States,încredere,trust
-States,motivație,motivation
-States,nerăbdare,impatience
-States,sete,thirst
-States,șoc,shock
-States,somn,sleep
-States,stres,stress
-Stationery,ascutitoare,sharpener
-Stationery,caiet,notebook
-Stationery,capsator,stapler
-Stationery,carnet,notepad
-Stationery,carte,book
-Stationery,coperta,cover
-Stationery,creion,pencil
-Stationery,creion,pencil
-Stationery,foarfece,scissors
-Stationery,ghiozdan,schoolbag
-Stationery,gumă de șters,eraser
-Stationery,hârtie,paper
-Stationery,lipici,glue
-Stationery,penar,pencil case
-Stationery,perforator,hole punch
-Stationery,riglă,ruler
-Time,amiază,noon
-Time,an,year
-Time,apus,sunset
-Time,clipă,moment
-Time,dată,date
-Time,dimineață,morning
-Time,duminică,Sunday
-Time,după-amiază,afternoon
-Time,iarnă,winter
-Time,joi,Thursday
-Time,lună,month
-Time,luni,Monday
-Time,marți,Tuesday
-Time,miercuri,Wednesday
-Time,minut,minute
-Time,moment,moment
-Time,noapte,night
-Time,oră,hour
-Time,perioadă,period
-Time,primăvară,spring
-Time,răsărit,sunrise
-Time,sâmbătă,Saturday
-Time,săptămână,week
-Time,seară,evening
-Time,secundă,second
-Time,timp,time
-Time,toamnă,autumn
-Time,vară,summer
-Time,vineri,Friday
-Time,zi,day
-Town,aeroport,airport
-Town,apartament,flat
-Town,bar,bar
-Town,bloc,block of flats
-Town,centru,downtown
-Town,clădire,building
-Town,cofetărie,pastry shop
-Town,fabrică,factory
-Town,gară,train station
-Town,oraș,town
-Town,palat,palace
-Town,parcare,parking lot
-Town,parc,park
-Town,piață,market
-Town,restaurant,restaurant
-Town,șosea,road
-Town,stadion,stadium
-Town,stradă,street
-Transport,autobuz,bus
-Transport,avion,plane
-Transport,barcă,boat
-Transport,bicicletă,bike
-Transport,bilet,ticket
-Transport,centură de siguranță,seat belt
-Transport,cheie,key
-Transport,circulație,traffic
-Transport,destinație,destination
-Transport,întârziere,delay
-Transport,loc,seat
-Transport,mașină,car
-Transport,metrou,subway
-Transport,motor,engine
-Transport,motoretă,moped
-Transport,peron,platform
-Transport,portbagaj,car boot
-Transport,rezervare,reservation
-Transport,roată,wheel
-Transport,semafor,traffic light
-Transport,stație,station
-Transport,taxi,taxi
-Transport,tramvai,tram
-Transport,tren,train
-Transport,trotuar,pavement
-Transport,vagon,carriage
-Transport,vapor,ship
-Transport,viteză,speed
-Transport,zbor,flight
-TV & Film,canal,channel
-TV & Film,comedie,comedy
-TV & Film,desen animat,cartoon
-TV & Film,documentar,documentary
-TV & Film,emisiune,TV show
-TV & Film,episod,episode
-TV & Film,film de acțiune,action film
-TV & Film,film de groază,horror film
-TV & Film,floricele de porumb,popcorn
-TV & Film,prezentator,presenter
-TV & Film,publicitate,commercial break
-TV & Film,reclamă,advert
-TV & Film,serial,series
-TV & Film,sezon,season
-TV & Film,știri,news
-TV & Film,telenovelă,soap opera
-Vacation,bagaj,luggage
-Vacation,călătorie,journey
-Vacation,cort,tent
-Vacation,geamantan,suitcase
-Vacation,hartă,map
-Vacation,hotel,hotel
-Vacation,locație,location
-Vacation,loc,place
-Vacation,nisip,sand
-Vacation,pașaport,passport
-Vacation,plecare,departure
-Vacation,plimbare,walk
-Vacation,stațiune,resort
-Vacation,străinătate,abroad
-Vacation,vacanță,vacation
+Pronouns: Accusative personal (stressed),îi,they (m)
+Pronouns: Accusative personal (stressed),îl,he
+Pronouns: Accusative personal (stressed),le,they (f)
+Pronouns: Accusative personal (stressed),mine,me
+Pronouns: Accusative personal (stressed),ne,we
+Pronouns: Accusative personal (stressed),o,she
+Pronouns: Accusative personal (stressed),tine,you (s)
+Pronouns: Accusative personal (stressed),vă,you (p)
+Pronouns: Accusative personal (unstressed),îi,they (m)
+Pronouns: Accusative personal (unstressed),îl,he
+Pronouns: Accusative personal (unstressed),le,they (f)
+Pronouns: Accusative personal (unstressed),mă,me/I
+Pronouns: Accusative personal (unstressed),ne,we
+Pronouns: Accusative personal (unstressed),o,she
+Pronouns: Accusative personal (unstressed),te,you (s)
+Pronouns: Accusative personal (unstressed),vă,you (p)
+Pronouns: Accusative reflexive (unstressed),mă,I
+Pronouns: Accusative reflexive (unstressed),ne,we
+Pronouns: Accusative reflexive (unstressed),se,he/she
+Pronouns: Accusative reflexive (unstressed),se,they (m/f)
+Pronouns: Accusative reflexive (unstressed),te,you (s)
+Pronouns: Accusative reflexive (unstressed),vă,you (p)
+Pronouns: Dative personal (stressed),ei,she
+Pronouns: Dative personal (stressed),lor,they (m/f)
+Pronouns: Dative personal (stressed),lui,he
+Pronouns: Dative personal (stressed),mie,me
+Pronouns: Dative personal (stressed),nouă,we
+Pronouns: Dative personal (stressed),ție,you (s)
+Pronouns: Dative personal (stressed),vouă,you (p)
+Pronouns: Dative personal (unstressed),îi,he/she
+Pronouns: Dative personal (unstressed),îmi,I
+Pronouns: Dative personal (unstressed),îți,you (s)
+Pronouns: Dative personal (unstressed),le,they (m/f)
+Pronouns: Dative personal (unstressed),ne,we
+Pronouns: Dative personal (unstressed),vă,you (p)
+Pronouns: Dative reflexive (unstressed),îmi,I
+Pronouns: Dative reflexive (unstressed),își,he/she
+Pronouns: Dative reflexive (unstressed),își,they (m/f)
+Pronouns: Dative reflexive (unstressed),îți,you (s)
+Pronouns: Dative reflexive (unstressed),ne,we
+Pronouns: Dative reflexive (unstressed),vă,you (p)
+Pronouns: Genitive personal,ei,her
+Pronouns: Genitive personal,lor,their (m/f)
+Pronouns: Genitive personal,lui,his
+Pronouns: Genitive personal,meu,my
+Pronouns: Genitive personal,nostru,our
+Pronouns: Genitive personal,său,his/her/its
+Pronouns: Genitive personal,tău,your (s)
+Pronouns: Genitive personal,vostru,your (p)
+Pronouns: Misc,același,the same
+Pronouns: Misc,acela,that
+Pronouns: Misc,acesta,this
+Pronouns: Misc,altceva,somthing else
+Pronouns: Misc,altcineva,somebody else
+Pronouns: Misc,altul,another
+Pronouns: Misc,amândoi,both
+Pronouns: Misc,care,which
+Pronouns: Misc,cât,how much
+Pronouns: Misc,celălalt,the other
+Pronouns: Misc,ceva,something
+Pronouns: Misc,ce,what
+Pronouns: Misc,cineva,somebody
+Pronouns: Misc,cine,who
+Pronouns: Misc,fiecare,every
+Pronouns: Misc,nimeni,nobody
+Pronouns: Misc,nimic,nothing
+Pronouns: Misc,niște,some
+Pronouns: Misc,orice,anything
+Pronouns: Misc,oricine,anybody
+Pronouns: Misc,tot,everything
+Pronouns: Nominative personal,dumneavoastră,you (formal)
+Pronouns: Nominative personal,ea,she
+Pronouns: Nominative personal,ei,they (m)
+Pronouns: Nominative personal,ele,they (f)
+Pronouns: Nominative personal,el,he
+Pronouns: Nominative personal,eu,I
+Pronouns: Nominative personal,noi,we
+Pronouns: Nominative personal,tu, you (s)
+Pronouns: Nominative personal,voi,you (p)
 Verbs: Changes,a adormi,to fall asleep
 Verbs: Changes,a deschide,to open
 Verbs: Changes,a începe,to begin
@@ -1062,7 +1165,9 @@ Verbs: Misc,a apărea,to appear
 Verbs: Misc,a arde,to burn
 Verbs: Misc,a bea,to drink
 Verbs: Misc,a locui,to live (somewhere)
+Verbs: Misc,,a ninge,to snow
 Verbs: Misc,a pierde,to lose
+Verbs: Misc,,a ploua,to rain
 Verbs: Misc,a purta,to wear
 Verbs: Misc,a putea,to be able to
 Verbs: Misc,a ține,to hold
@@ -1135,57 +1240,3 @@ Verbs: Speech,a spune,to say
 Verbs: Speech,a suna,to call
 Verbs: Speech,a țipa,to shout
 Verbs: Speech,a vorbi,to speak
-Weather,ceață,fog
-Weather,furtună,storm
-Weather,ninge,snowing
-Weather,nor,cloud
-Weather,ploaie,rain
-Weather,plouă,raining
-Weather,soare,sun
-Weather,vânt,wind
-Weather,vreme,weather
-Weather,zăpadă,snow
-Work,actriță,actress
-Work,angajat,employee
-Work,angajator,employer
-Work,artist,artist
-Work,avocat,lawyer
-Work,barman,barista
-Work,brutar,baker
-Work,bucătar,cook
-Work,chelner,waiter
-Work,coafeză,hairdresser
-Work,companie/firmă,company
-Work,croitor,tailor
-Work,dentist,dentist
-Work,doctor/medic,doctor
-Work,electrician,electrician
-Work,fermier,farmer
-Work,frizer,barber
-Work,infirmier,nurse
-Work,instalator,plumber
-Work,învățător,teacher
-Work,lucru/muncă,work
-Work,măcelar,butcher
-Work,mărire,raise
-Work,mecanic,mechanic
-Work,muncitor,worker
-Work,muzician,musician
-Work,om de știință,scientist
-Work,pescar,fisherman
-Work,polițist,policeman
-Work,pompier,fireman
-Work,poștaș,postman
-Work,pot,position
-Work,preot,priest
-Work,președinte,president
-Work,rege,king
-Work,salariu,salary
-Work,scriitor,writer
-Work,ședință,meeting
-Work,șef,boss
-Work,slujbe,job
-Work,student/elev,student
-Work,tâmplar,carpenter
-Work,taximetrist,taxi driver
-Work,vânzător,shop assistant
