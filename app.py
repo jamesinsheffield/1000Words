@@ -75,13 +75,14 @@ def home():
     else:
         bFinished = False
         subWordsJSON = json.loads(session['subWords'])
+        Ctgry = subWordsJSON['Category'][str(session['idxList'][session['i']])]
         if session['EngRom'] == 'Eng2Rom':
             Qu = subWordsJSON['English'][str(session['idxList'][session['i']])]
             Ans = subWordsJSON['Romanian'][str(session['idxList'][session['i']])]
         else:
             Qu = subWordsJSON['Romanian'][str(session['idxList'][session['i']])]
             Ans = subWordsJSON['English'][str(session['idxList'][session['i']])]
-        return render_template('main.html', Qu=Qu, Ans=Ans, form=form, bFinished=bFinished)
+        return render_template('main.html', Qu=Qu, Ans=Ans, form=form, Ctgry=Ctgry, bFinished=bFinished)
 
 @app.route("/next")
 def next():
