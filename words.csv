@@ -1033,12 +1033,12 @@ Pronouns: Reflexive (accusative),se,himself/herself
 Pronouns: Reflexive (accusative),se,themselves (m/f)
 Pronouns: Reflexive (accusative),te,yourself (s)
 Pronouns: Reflexive (accusative),vă,yourselves (p)
-Pronouns: Reflexive (accusative, stressed),(pe) mine,myself
-Pronouns: Reflexive (accusative, stressed),(pe) noi,ourselves
-Pronouns: Reflexive (accusative, stressed),(pe) sine,himself/herself
-Pronouns: Reflexive (accusative, stressed),(pe) sine,themselves (m/f)
-Pronouns: Reflexive (accusative, stressed),(pe) tine,yourself (s)
-Pronouns: Reflexive (accusative, stressed),(pe) voi,yourselves (p)
+Pronouns: Reflexive (accusative stressed),(pe) mine,myself
+Pronouns: Reflexive (accusative stressed),(pe) noi,ourselves
+Pronouns: Reflexive (accusative stressed),(pe) sine,himself/herself
+Pronouns: Reflexive (accusative stressed),(pe) sine,themselves (m/f)
+Pronouns: Reflexive (accusative stressed),(pe) tine,yourself (s)
+Pronouns: Reflexive (accusative stressed),(pe) voi,yourselves (p)
 Pronouns: Dative,îi,him/her
 Pronouns: Dative,îmi,me
 Pronouns: Dative,îți,you (s)
@@ -1058,12 +1058,12 @@ Pronouns: Reflexive (dative),își,themselves (m/f)
 Pronouns: Reflexive (dative),îți,yourself (s)
 Pronouns: Reflexive (dative),ne,ourselves
 Pronouns: Reflexive (dative),vă,yourselves (p)
-Pronouns: Reflexive (dative, stressed),mie,myself
-Pronouns: Reflexive (dative, stressed),sie/sieși,himself/herself
-Pronouns: Reflexive (dative, stressed),sieși,themselves (m/f)
-Pronouns: Reflexive (dative, stressed),ție,yourself (s)
-Pronouns: Reflexive (dative, stressed),nouă,ourselves
-Pronouns: Reflexive (dative, stressed),vouă,yourselves (p)
+Pronouns: Reflexive (dative stressed),mie,myself
+Pronouns: Reflexive (dative stressed),sie/sieși,himself/herself
+Pronouns: Reflexive (dative stressed),sieși,themselves (m/f)
+Pronouns: Reflexive (dative stressed),ție,yourself (s)
+Pronouns: Reflexive (dative stressed),nouă,ourselves
+Pronouns: Reflexive (dative stressed),vouă,yourselves (p)
 Pronouns: Genitive,al ei,hers
 Pronouns: Genitive,al lor,theirs (m/f)
 Pronouns: Genitive,al lui,his
