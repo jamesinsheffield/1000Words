@@ -14,9 +14,7 @@ Adjectives: Appearance,sărac,poor
 Adjectives: Appearance,scund,short
 Adjectives: Appearance,slab,thin
 Adjectives: Appearance,urât,ugly
-Adjectives: Clothes,confortabil,comfortable
-Adjectives: Clothes,îmbrăcat,dressed
-Adjectives: Clothes,nou,new
+Adjectives: Appearance,îmbrăcat,dressed
 Adjectives: Colours,albastru,blue
 Adjectives: Colours,albă,white
 Adjectives: Colours,colorat,coloured
@@ -66,6 +64,7 @@ Adjectives: Misc,positiv,positive
 Adjectives: Misc,realist,realistic
 Adjectives: Misc,real,real
 Adjectives: Misc,reușit,successful
+Adjectives: Misc,întreg,whole
 Adjectives: Mood,calm,calm
 Adjectives: Mood,fericit,happy
 Adjectives: Mood,furios,angry
@@ -130,6 +129,14 @@ Adjectives: Place,luminos,bright
 Adjectives: Place,neobișnuit,unusual
 Adjectives: Place,periculos,dangerous
 Adjectives: Place,right,dreapta
+Adjectives: Possessive,ei,her
+Adjectives: Possessive,lor,their (m/f)
+Adjectives: Possessive,lui,his
+Adjectives: Possessive,meu,my
+Adjectives: Possessive,nostru,our
+Adjectives: Possessive,său,his/her/its
+Adjectives: Possessive,tău,your (s)
+Adjectives: Possessive,vostru,your (p)
 Adjectives: Price,gratuit,free
 Adjectives: Price,ieftin,cheap
 Adjectives: Price,redus,reduced
@@ -163,6 +170,7 @@ Adjectives: Time & Age,încet,slow
 Adjectives: Time & Age,rapid,fast
 Adjectives: Time & Age,tânăr,young
 Adjectives: Time & Age,vechi,old (thing)
+Adjectives: Time & Age,nou,new
 Adjectives: Touch,aspru,rough
 Adjectives: Touch,fin,smooth
 Adjectives: Touch,lipicios,sticky
@@ -171,6 +179,7 @@ Adjectives: Touch,tare,hard
 Adjectives: Touch,ud,wet
 Adjectives: Touch,umed,moist
 Adjectives: Touch,uscat,dry
+Adjectives: Touch,confortabil,comfortable
 Adjectives: Weather,arid,dry
 Adjectives: Weather,cald,warm
 Adjectives: Weather,fierbinte,hot
@@ -179,6 +188,7 @@ Adjectives: Weather,însorit,sunny
 Adjectives: Weather,rece,cold
 Adverbs: Mode,altfel,otherwise
 Adverbs: Mode,așa,so
+Adverbs: Mode,atât,so much
 Adverbs: Mode,bine,well
 Adverbs: Mode,cam,approximately
 Adverbs: Mode,câteva,several
@@ -186,6 +196,7 @@ Adverbs: Mode,chiar,even
 Adverbs: Mode,cum,how
 Adverbs: Mode,decât,than
 Adverbs: Mode,degeaba,in vain
+Adverbs: Mode,deloc,not at all
 Adverbs: Mode,de obicei,usually
 Adverbs: Mode,destul de,quite
 Adverbs: Mode,doar,just
@@ -205,6 +216,7 @@ Adverbs: Place,înăuntru,inside
 Adverbs: Place,jos,down
 Adverbs: Place,nicăieri,nowhere
 Adverbs: Place,oriunde,anywhere
+Adverbs: Place,pretutindeni,everywhere
 Adverbs: Place,sus,up
 Adverbs: Place,undeva,somewhere
 Adverbs: Place,unde,where
@@ -476,6 +488,7 @@ Nouns: Family,soție,wife
 Nouns: Family,tată,father
 Nouns: Family,unchi,uncle
 Nouns: Family,verișoară,cousin
+Nouns: Feelings,bucurie,joy
 Nouns: Feelings,dorință,desire
 Nouns: Feelings,dragoste/iubire,love
 Nouns: Feelings,emoție,emotion
@@ -590,6 +603,7 @@ Nouns: Kitchen,oală,pot
 Nouns: Kitchen,pahar,glass
 Nouns: Kitchen,tacâmuri,cutlery
 Nouns: Kitchen,tavă,tray
+Nouns: Kitchen,tigaie,frying pan
 Nouns: Literature,banc,joke
 Nouns: Literature,discurs,speech
 Nouns: Literature,formular,form
@@ -637,6 +651,7 @@ Nouns: Misc,nuntă,wedding
 Nouns: Misc,obiect,object
 Nouns: Misc,prânz,lunch
 Nouns: Misc,prezent,present (tense)
+Nouns: Misc,privire,look/glance
 Nouns: Misc,sărbătoare,holiday
 Nouns: Misc,sărut,kiss
 Nouns: Misc,țigară,cigarette
@@ -656,7 +671,6 @@ Nouns: Music,chitară,guitar
 Nouns: Music,instrument,instrument
 Nouns: Music,pian,piano
 Nouns: Music,tobă,drum
-Nouns: Nouns: Kitchen,tigaie,frying pan
 Nouns: Opposites,adevăr,truth
 Nouns: Opposites,avantaj,advantage
 Nouns: Opposites,cauză,cause
@@ -845,7 +859,9 @@ Nouns: Town,parcare,parking lot
 Nouns: Town,parc,park
 Nouns: Town,piață,market
 Nouns: Town,restaurant,restaurant
+Nouns: Town,sat,village
 Nouns: Town,șosea,road
+Nouns: Town,drum,way
 Nouns: Town,stadion,stadium
 Nouns: Town,stradă,street
 Nouns: Transport,autobuz,bus
@@ -995,55 +1011,67 @@ Prepositions,prin,through
 Prepositions,printre,among
 Prepositions,spre,towards (a place/thing)
 Prepositions,sub,under
-Pronouns: Accusative personal (stressed),îi,they (m)
-Pronouns: Accusative personal (stressed),îl,he
-Pronouns: Accusative personal (stressed),le,they (f)
-Pronouns: Accusative personal (stressed),mine,me
-Pronouns: Accusative personal (stressed),ne,we
-Pronouns: Accusative personal (stressed),o,she
-Pronouns: Accusative personal (stressed),tine,you (s)
-Pronouns: Accusative personal (stressed),vă,you (p)
-Pronouns: Accusative personal (unstressed),îi,they (m)
-Pronouns: Accusative personal (unstressed),îl,he
-Pronouns: Accusative personal (unstressed),le,they (f)
-Pronouns: Accusative personal (unstressed),mă,me/I
-Pronouns: Accusative personal (unstressed),ne,we
-Pronouns: Accusative personal (unstressed),o,she
-Pronouns: Accusative personal (unstressed),te,you (s)
-Pronouns: Accusative personal (unstressed),vă,you (p)
-Pronouns: Accusative reflexive (unstressed),mă,I
-Pronouns: Accusative reflexive (unstressed),ne,we
-Pronouns: Accusative reflexive (unstressed),se,he/she
-Pronouns: Accusative reflexive (unstressed),se,they (m/f)
-Pronouns: Accusative reflexive (unstressed),te,you (s)
-Pronouns: Accusative reflexive (unstressed),vă,you (p)
-Pronouns: Dative personal (stressed),ei,she
-Pronouns: Dative personal (stressed),lor,they (m/f)
-Pronouns: Dative personal (stressed),lui,he
-Pronouns: Dative personal (stressed),mie,me
-Pronouns: Dative personal (stressed),nouă,we
-Pronouns: Dative personal (stressed),ție,you (s)
-Pronouns: Dative personal (stressed),vouă,you (p)
-Pronouns: Dative personal (unstressed),îi,he/she
-Pronouns: Dative personal (unstressed),îmi,I
-Pronouns: Dative personal (unstressed),îți,you (s)
-Pronouns: Dative personal (unstressed),le,they (m/f)
-Pronouns: Dative personal (unstressed),ne,we
-Pronouns: Dative personal (unstressed),vă,you (p)
-Pronouns: Dative reflexive (unstressed),îmi,I
-Pronouns: Dative reflexive (unstressed),își,he/she
-Pronouns: Dative reflexive (unstressed),își,they (m/f)
-Pronouns: Dative reflexive (unstressed),îți,you (s)
-Pronouns: Dative reflexive (unstressed),ne,we
-Pronouns: Dative reflexive (unstressed),vă,you (p)
-Pronouns: Genitive personal,ei,her
-Pronouns: Genitive personal,lor,their (m/f)
-Pronouns: Genitive personal,lui,his
-Pronouns: Genitive personal,meu,my
-Pronouns: Genitive personal,nostru,our
-Pronouns: Genitive personal,său,his/her/its
-Pronouns: Genitive personal,tău,your (s)
-Pronouns: Genitive personal,vostru,your (p)
+Pronouns: Accusative,îi,them (m)
+Pronouns: Accusative,îl,him
+Pronouns: Accusative,le,them (f)
+Pronouns: Accusative,mă,me
+Pronouns: Accusative,ne,us
+Pronouns: Accusative,o,her
+Pronouns: Accusative,te,you (s)
+Pronouns: Accusative,vă,you (p)
+Pronouns: Accusative (stressed),(pe) ei,them (m)
+Pronouns: Accusative (stressed),(pe) el,him
+Pronouns: Accusative (stressed),(pe) ele,them (f)
+Pronouns: Accusative (stressed),(pe) mine,me
+Pronouns: Accusative (stressed),(pe) noi,us
+Pronouns: Accusative (stressed),(pe) ea,her
+Pronouns: Accusative (stressed),(pe) tine,you (s)
+Pronouns: Accusative (stressed),(pe) voi,you (p)
+Pronouns: Reflexive (accusative),mă,myself
+Pronouns: Reflexive (accusative),ne,ourselves
+Pronouns: Reflexive (accusative),se,himself/herself
+Pronouns: Reflexive (accusative),se,themselves (m/f)
+Pronouns: Reflexive (accusative),te,yourself (s)
+Pronouns: Reflexive (accusative),vă,yourselves (p)
+Pronouns: Reflexive (accusative, stressed),(pe) mine,myself
+Pronouns: Reflexive (accusative, stressed),(pe) noi,ourselves
+Pronouns: Reflexive (accusative, stressed),(pe) sine,himself/herself
+Pronouns: Reflexive (accusative, stressed),(pe) sine,themselves (m/f)
+Pronouns: Reflexive (accusative, stressed),(pe) tine,yourself (s)
+Pronouns: Reflexive (accusative, stressed),(pe) voi,yourselves (p)
+Pronouns: Dative,îi,him/her
+Pronouns: Dative,îmi,me
+Pronouns: Dative,îți,you (s)
+Pronouns: Dative,le,them (m/f)
+Pronouns: Dative,ne,us
+Pronouns: Dative,vă,you (p)
+Pronouns: Dative (stressed),lui,him
+Pronouns: Dative (stressed),ei,her
+Pronouns: Dative (stressed),mie,me
+Pronouns: Dative (stressed),ție,you (s)
+Pronouns: Dative (stressed),lor,them (m/f)
+Pronouns: Dative (stressed),nouă,us
+Pronouns: Dative (stressed),vouă,you (p)
+Pronouns: Reflexive (dative),îmi,myself
+Pronouns: Reflexive (dative),își,himself/herself
+Pronouns: Reflexive (dative),își,themselves (m/f)
+Pronouns: Reflexive (dative),îți,yourself (s)
+Pronouns: Reflexive (dative),ne,ourselves
+Pronouns: Reflexive (dative),vă,yourselves (p)
+Pronouns: Reflexive (dative, stressed),mie,myself
+Pronouns: Reflexive (dative, stressed),sie/sieși,himself/herself
+Pronouns: Reflexive (dative, stressed),sieși,themselves (m/f)
+Pronouns: Reflexive (dative, stressed),ție,yourself (s)
+Pronouns: Reflexive (dative, stressed),nouă,ourselves
+Pronouns: Reflexive (dative, stressed),vouă,yourselves (p)
+Pronouns: Genitive,al ei,hers
+Pronouns: Genitive,al lor,theirs (m/f)
+Pronouns: Genitive,al lui,his
+Pronouns: Genitive,al meu,mine
+Pronouns: Genitive,al nostru,ours
+Pronouns: Genitive,al său,his/hers/its
+Pronouns: Genitive,al tău,yours (s)
+Pronouns: Genitive,al vostru,yours (p)
 Pronouns: Misc,același,the same
 Pronouns: Misc,acela,that
 Pronouns: Misc,acesta,this
@@ -1065,15 +1093,15 @@ Pronouns: Misc,niște,some
 Pronouns: Misc,orice,anything
 Pronouns: Misc,oricine,anybody
 Pronouns: Misc,tot,everything
-Pronouns: Nominative personal,dumneavoastră,you (formal)
-Pronouns: Nominative personal,ea,she
-Pronouns: Nominative personal,ei,they (m)
-Pronouns: Nominative personal,ele,they (f)
-Pronouns: Nominative personal,el,he
-Pronouns: Nominative personal,eu,I
-Pronouns: Nominative personal,noi,we
-Pronouns: Nominative personal,tu, you (s)
-Pronouns: Nominative personal,voi,you (p)
+Pronouns: Nominative,dumneavoastră,you (formal)
+Pronouns: Nominative,ea,she
+Pronouns: Nominative,ei,they (m)
+Pronouns: Nominative,ele,they (f)
+Pronouns: Nominative,el,he
+Pronouns: Nominative,eu,I
+Pronouns: Nominative,noi,we
+Pronouns: Nominative,tu, you (s)
+Pronouns: Nominative,voi,you (p)
 Verbs: Changes,a adormi,to fall asleep
 Verbs: Changes,a deschide,to open
 Verbs: Changes,a începe,to begin
@@ -1107,6 +1135,7 @@ Verbs: Cooking,a răci,to cool
 Verbs: Cooking,a spăla,to wash
 Verbs: Cooking,a tăia,to cut
 Verbs: Cooking,a vărsa,to spill
+Verbs: Emotive,a dezamăgi,to disappoint
 Verbs: Emotive,a îngriji,to look after
 Verbs: Emotive,a-i plăcea,to like
 Verbs: Emotive,a iubi,to love
@@ -1130,11 +1159,13 @@ Verbs: Giving/receiving,a lua,to take
 Verbs: Giving/receiving,a oferi,to offer
 Verbs: Giving/receiving,a plăti,to pay
 Verbs: Giving/receiving,a primi,to receive
+Verbs: Giving/receiving,a prinde,to catch
 Verbs: Giving/receiving,a scoate,to take out
 Verbs: Giving/receiving,a trece,to pass
 Verbs: Giving/receiving,a trimite,to send
 Verbs: Giving/receiving,a vinde,to sell
 Verbs: Inactive,a ascunde,to hide
+Verbs: Inactive,a ședea,to sit
 Verbs: Inactive,a aștepta,to wait
 Verbs: Inactive,a dormi,to sleep
 Verbs: Inactive,a fi,to be
