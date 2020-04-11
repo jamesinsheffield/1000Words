@@ -13,12 +13,12 @@ form {
   font-size: 16px;
 }
 .flashCard {
-  width: 80%;
+  width: 90%;
   padding: 50px 0;
   text-align: center;
   background-color: lightblue;
   margin: auto;
-  font-size: 70px;
+  font-size: 60px;
   border-style: solid;
   border-width: medium;
   border-radius: 72px;
@@ -40,11 +40,15 @@ form {
 </head>
 <body>
 <form method="POST" action="">
+  <nobr>
   {{form.category.label}}
   {{form.category}}
+  </nobr>
+  <nobr>
   {% for l in form.EngRom %}
   {{l}}{{l.label}}
   {% endfor %}
+  </nobr>
   <input type="submit" value="Submit">
 </form>
 
@@ -57,7 +61,7 @@ form {
 {{Qu}}
 </div>
 <div id="Ans" class="flashCard flashCard2" style="display:none">
-<span style="font-size:36px;">{{Qu}}</span>
+<span style="font-size:30px;">{{Qu}}</span>
 <br>
 {{Ans}}
 </div>
