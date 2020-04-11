@@ -16,6 +16,8 @@ def ReadWordsCSV(cat='all'):
     if not cat == 'all':
         if cat == '30 random words':
             Words = Words.sample(n=30)
+        elif cat == '30 random nouns':
+            Words = Words[Words['Category'].str.startswith('Nouns:')].sample(n=30)
         elif cat == '30 random verbs':
             Words = Words[Words['Category'].str.startswith('Verbs:')].sample(n=30)
         elif cat == '30 random adjectives':
@@ -26,7 +28,7 @@ def ReadWordsCSV(cat='all'):
     return Words
 
 Words = ReadWordsCSV()
-categories = ['30 random words','30 random verbs','30 random adjectives','Random category']+sorted(Words['Category'].unique())
+categories = ['30 random words','30 random nouns','30 random verbs','30 random adjectives','Random category']+sorted(Words['Category'].unique())
 catChoices = []
 for c in categories:
     catChoices.append((c,c))
@@ -82,7 +84,7 @@ def home():
         else:
             Qu = subWordsJSON['Romanian'][str(session['idxList'][session['i']])]
             Ans = subWordsJSON['English'][str(session['idxList'][session['i']])]
-        return render_template('main.html', Qu=Qu, Ans=Ans, form=form, Ctgry=Ctgry, bFinished=bFinished)
+        return render_template('main.html', Qu=Qu, Ans=Ans, form=form, Ctgry=Ctgry, bFinished=bFinished, iWord=session['i']+1,nWords=len(session['idxList']))
 
 @app.route("/next")
 def next():

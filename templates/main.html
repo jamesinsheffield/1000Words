@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 <style>
 form {
   width: 100%;
@@ -13,7 +14,7 @@ form {
 }
 .flashCard {
   width: 80%;
-  padding: 100px 0;
+  padding: 50px 0;
   text-align: center;
   background-color: lightblue;
   margin: auto;
@@ -47,16 +48,16 @@ form {
   <input type="submit" value="Submit">
 </form>
 
-<div style="text-align:center;font-size: 24px;">
-  Category - {{Ctgry}}
-</div>
 {% if not bFinished %}
+<div style="text-align:center;font-size: 24px;">
+  Category - {{Ctgry}} ({{iWord}}/{{nWords}})
+</div>
 <br>
 <div id="Qu" class="flashCard">
 {{Qu}}
 </div>
 <div id="Ans" class="flashCard flashCard2" style="display:none">
-<span style="font-size:48px;">{{Qu}}</span>
+<span style="font-size:36px;">{{Qu}}</span>
 <br>
 {{Ans}}
 </div>
