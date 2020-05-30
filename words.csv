@@ -32,7 +32,7 @@ Adjectives: Difficulty,dificil,difficult
 Adjectives: Difficulty,greu,hard
 Adjectives: Difficulty,imposibil,impossible
 Adjectives: Difficulty,simplu,simple
-Adjectives: Difficulty,stupid,stupid
+Adjectives: Difficulty,prost,stupid
 Adjectives: Difficulty,teribil,terrible
 Adjectives: Difficulty,ușor,easy
 Adjectives: Dimension,adânc,deep
@@ -54,6 +54,8 @@ Adjectives: Misc,fals,false
 Adjectives: Misc,greșit,wrong
 Adjectives: Misc,important,important
 Adjectives: Misc,interesat,interested
+Adjectives: Misc,interzis,banned
+Adjectives: Misc,minunat,wonderful
 Adjectives: Misc,mort,dead
 Adjectives: Misc,necesar,necessary
 Adjectives: Misc,negativ,negative
@@ -61,6 +63,7 @@ Adjectives: Misc,personal,private
 Adjectives: Misc,pierdut,lost
 Adjectives: Misc,plecat,gone
 Adjectives: Misc,positiv,positive
+Adjectives: Misc,propriu,own
 Adjectives: Misc,realist,realistic
 Adjectives: Misc,real,real
 Adjectives: Misc,reușit,successful
@@ -77,13 +80,14 @@ Adjectives: Mood,trist,sad
 Adjectives: Numbers,cinci,five
 Adjectives: Numbers,doua,second (f)
 Adjectives: Numbers,douăzeci,twenty
+Adjectives: Numbers,întâi,first (things first)
 Adjectives: Numbers,mie,thousand
 Adjectives: Numbers,milion,million
 Adjectives: Numbers,mult,many
 Adjectives: Numbers,nouă,nine
 Adjectives: Numbers,opt,eight
 Adjectives: Numbers,patru,four
-Adjectives: Numbers,primul,first
+Adjectives: Numbers,primul,first (No.1)
 Adjectives: Numbers,șapte,seven
 Adjectives: Numbers,șase,six
 Adjectives: Numbers,sută,hundred
@@ -123,12 +127,12 @@ Adjectives: Physical properties,stricat,damaged
 Adjectives: Physical properties,subțire,thin
 Adjectives: Place,deschis,open
 Adjectives: Place,închis,closed
-Adjectives: Place,left,stânga
+Adjectives: Place,stânga,left
 Adjectives: Place,liber,free (not money)
 Adjectives: Place,luminos,bright
 Adjectives: Place,neobișnuit,unusual
 Adjectives: Place,periculos,dangerous
-Adjectives: Place,right,dreapta
+Adjectives: Place,dreapta,right
 Adjectives: Possessive,ei,her
 Adjectives: Possessive,lor,their (m/f)
 Adjectives: Possessive,lui,his
@@ -186,7 +190,9 @@ Adjectives: Weather,fierbinte,hot
 Adjectives: Weather,înnorat,cloudy
 Adjectives: Weather,însorit,sunny
 Adjectives: Weather,rece,cold
+Adverbs: Mode,adică,namely
 Adverbs: Mode,altfel,otherwise
+Adverbs: Mode,astfel,thus
 Adverbs: Mode,așa,so
 Adverbs: Mode,atât,so much
 Adverbs: Mode,bine,well
@@ -195,18 +201,23 @@ Adverbs: Mode,câteva,several
 Adverbs: Mode,chiar,even
 Adverbs: Mode,cum,how
 Adverbs: Mode,decât,than
+Adverbs: Mode,de fapt,in fact/actually
+Adverbs: Mode,degrabă,rather
 Adverbs: Mode,degeaba,in vain
 Adverbs: Mode,deloc,not at all
 Adverbs: Mode,de obicei,usually
 Adverbs: Mode,destul de,quite
 Adverbs: Mode,doar,just
+Adverbs: Mode,mai ales,especially
 Adverbs: Mode,împreună,together
 Adverbs: Mode,încă,still
+Adverbs: Mode,măcar,at least
 Adverbs: Mode,numai,only
 Adverbs: Mode,prea,too
 Adverbs: Place,acolo,there
 Adverbs: Place,afară,outside
 Adverbs: Place,aici,here
+Adverbs: Place,alături,by/next to
 Adverbs: Place,altundeva,somewhere else
 Adverbs: Place,aproape,near
 Adverbs: Place,asacă,home
@@ -246,17 +257,20 @@ Adverbs: Time,oricând,anytime
 Adverbs: Time,poimaine,the day after tomorrow
 Adverbs: Time,rar,rarely
 Adverbs: Time,târziu,late
+Adverbs: Time,totdeauna,forever
 Adverbs: Time,vreodată,ever
 Adverbs: Time,zilnic,daily
 Conjunctions,ca să,in order to
+Conjunctions,ci,but (not this but that)
 Conjunctions,dacă,if
 Conjunctions,dar,but
 Conjunctions,deci,so
-Conjunctions,deși,even though
+Conjunctions,deși,although
 Conjunctions,iar,while
 Conjunctions,nici,neither
 Conjunctions,până,until
-Conjunctions,pentru că,because
+Conjunctions,pentru că,because (1)
+Conjunctions,deoarece,because (2)
 Conjunctions,sau,or
 Conjunctions,și,and
 Greetings,bună dimineața,good morning
@@ -264,7 +278,7 @@ Greetings,bună seara,good evening
 Greetings,bună ziua,hello/good day
 Greetings,la revedere,goodbye
 Greetings,poftim,pardon/here you are
-Greetings,thank you,mulţumesc
+Greetings,mulţumesc,thank you
 Greetings,vă rog,please
 Nouns: Accessories,brățară,bracelet
 Nouns: Accessories,ceas,watch
@@ -333,6 +347,7 @@ Nouns: Body,gleznă,ankle
 Nouns: Body,gură,mouth
 Nouns: Body,inimă,heart
 Nouns: Body,mână,hand
+Nouns: Body,minte,mind
 Nouns: Body,nas,nose
 Nouns: Body,obraz,cheek
 Nouns: Body,ochi,eye
@@ -392,7 +407,7 @@ Nouns: Conversation,detaliu,detail
 Nouns: Conversation,discuție,discussion
 Nouns: Conversation,exemplu,example
 Nouns: Conversation,greșeală,mistake
-Nouns: Conversation,încurăatură,confusion
+Nouns: Conversation,încurcătură,confusion
 Nouns: Conversation,indiciu,clue
 Nouns: Conversation,motiv,motive
 Nouns: Conversation,părere,opinion
@@ -400,7 +415,7 @@ Nouns: Conversation,promisiune,promise
 Nouns: Conversation,reacție,reaction
 Nouns: Conversation,scuză,excuse
 Nouns: Conversation,secret,secret
-Nouns: Conversation,sfat,advice
+Nouns: Conversation,sfaturi,advice
 Nouns: Conversation,veste,news
 Nouns: Countries,America,America
 Nouns: Countries,Anglia,England
@@ -489,6 +504,7 @@ Nouns: Family,tată,father
 Nouns: Family,unchi,uncle
 Nouns: Family,verișoară,cousin
 Nouns: Feelings,bucurie,joy
+Nouns: Feelings,chef,in the mood
 Nouns: Feelings,dorință,desire
 Nouns: Feelings,dragoste/iubire,love
 Nouns: Feelings,emoție,emotion
@@ -654,6 +670,7 @@ Nouns: Misc,prezent,present (tense)
 Nouns: Misc,privire,look/glance
 Nouns: Misc,sărbătoare,holiday
 Nouns: Misc,sărut,kiss
+Nouns: Misc,soi,variety
 Nouns: Misc,țigară,cigarette
 Nouns: Misc,trupă,band
 Nouns: Misc,umbră,shadow
@@ -1105,6 +1122,7 @@ Pronouns: Nominative,voi,you (p)
 Verbs: Changes,a adormi,to fall asleep
 Verbs: Changes,a deschide,to open
 Verbs: Changes,a începe,to begin
+Verbs: Changes,a întâmpla,to happen
 Verbs: Changes,a închide,to close
 Verbs: Changes,a muri,to die
 Verbs: Changes,a mușca,to bite
@@ -1165,7 +1183,7 @@ Verbs: Giving/receiving,a trece,to pass
 Verbs: Giving/receiving,a trimite,to send
 Verbs: Giving/receiving,a vinde,to sell
 Verbs: Inactive,a ascunde,to hide
-Verbs: Inactive,a ședea,to sit
+Verbs: Inactive,a se așeza,to sit down
 Verbs: Inactive,a aștepta,to wait
 Verbs: Inactive,a dormi,to sleep
 Verbs: Inactive,a fi,to be
@@ -1244,8 +1262,10 @@ Verbs: Perception,a gusta,to taste
 Verbs: Perception,a mirosi,to smell
 Verbs: Perception,a părea,to seem
 Verbs: Perception,a prefera,to prefer
+Verbs: Perception,a privi,to look
 Verbs: Perception,a simți,to feel
 Verbs: Perception,a vedea,to see
+Verbs: Reflexive,a se afla,to find oneself
 Verbs: Reflexive,a se bucara,to enjoy
 Verbs: Reflexive,a se culca,to lay down/go to bed
 Verbs: Reflexive,a se îmbrăca,to dress
