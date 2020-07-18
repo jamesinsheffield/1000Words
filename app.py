@@ -14,21 +14,27 @@ app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
 def ReadWordsCSV(cat='all'):
     Words = pd.read_csv('words.csv')
     if not cat == 'all':
-        if cat == '30 random words':
-            Words = Words.sample(n=30)
+        if cat == '30 focus words':
+            toSample = Words[Words['Focus']==1]
+            Words = toSample.sample(n=min(len(toSample),30))
+        elif cat == '30 random words':
+            Words = toSample.sample(n=min(len(Words),30))
         elif cat == '30 random nouns':
-            Words = Words[Words['Category'].str.startswith('Nouns:')].sample(n=30)
+            toSample = Words[Words['Category'].str.startswith('Nouns:')]
+            Words = toSample.sample(n=min(len(toSample),30))
         elif cat == '30 random verbs':
-            Words = Words[Words['Category'].str.startswith('Verbs:')].sample(n=30)
+            toSample = Words[Words['Category'].str.startswith('Verbs:')]
+            Words = toSample.sample(n=min(len(toSample),30))
         elif cat == '30 random adjectives':
-            Words = Words[Words['Category'].str.startswith('Adjectives:')].sample(n=30)
+            toSample = Words[Words['Category'].str.startswith('Adjectives:')]
+            Words = toSample.sample(n=min(len(toSample),30))
         else:
             Words = Words[Words['Category'] == cat]
         Words.reset_index(inplace=True)
     return Words
 
 Words = ReadWordsCSV()
-categories = ['30 random words','30 random nouns','30 random verbs','30 random adjectives','Random category']+sorted(Words['Category'].unique())
+categories = ['30 focus words','30 random words','30 random nouns','30 random verbs','30 random adjectives','Random category']+sorted(Words['Category'].unique())
 catChoices = []
 for c in categories:
     catChoices.append((c,c))
