@@ -190,30 +190,30 @@ Focus,Category,Romanian,English
 0,Adjectives: Weather,înnorat,cloudy
 0,Adjectives: Weather,însorit,sunny
 0,Adjectives: Weather,rece,cold
-0,Adverbs: Mode,adică,namely
-0,Adverbs: Mode,altfel,otherwise
-0,Adverbs: Mode,astfel,thus
+1,Adverbs: Mode,adică,namely
+1,Adverbs: Mode,altfel,otherwise
+1,Adverbs: Mode,astfel,thus
 0,Adverbs: Mode,așa,so
-0,Adverbs: Mode,atât,so much
+1,Adverbs: Mode,atât,so much
 0,Adverbs: Mode,bine,well
 0,Adverbs: Mode,cam,approximately
-0,Adverbs: Mode,câteva,several
-0,Adverbs: Mode,chiar,even
+1,Adverbs: Mode,câteva,several
+1,Adverbs: Mode,chiar,even (if)
 0,Adverbs: Mode,cum,how
-0,Adverbs: Mode,decât,than
-0,Adverbs: Mode,de fapt,in fact/actually
-0,Adverbs: Mode,degrabă,rather
+1,Adverbs: Mode,decât,than
+1,Adverbs: Mode,de fapt,in fact/actually
+1,Adverbs: Mode,mai degrabă,rather (than)
 0,Adverbs: Mode,degeaba,in vain
 0,Adverbs: Mode,deloc,not at all
-0,Adverbs: Mode,de obicei,usually
-0,Adverbs: Mode,destul de,quite
-0,Adverbs: Mode,doar,just
-0,Adverbs: Mode,mai ales,especially
+1,Adverbs: Mode,de obicei,usually
+1,Adverbs: Mode,destul de,quite
+1,Adverbs: Mode,doar,just
+1,Adverbs: Mode,mai ales,especially
 0,Adverbs: Mode,împreună,together
 0,Adverbs: Mode,încă,still
-0,Adverbs: Mode,măcar,at least
-0,Adverbs: Mode,numai,only
-0,Adverbs: Mode,prea,too
+1,Adverbs: Mode,măcar,at least
+1,Adverbs: Mode,numai,only
+0,Adverbs: Mode,prea,too (much)
 0,Adverbs: Place,acolo,there
 0,Adverbs: Place,afară,outside
 0,Adverbs: Place,aici,here
