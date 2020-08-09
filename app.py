@@ -2,7 +2,7 @@ from flask import Flask, session, render_template, request, redirect, url_for
 import os
 import pandas as pd
 import random as rd
-from wtforms import Form, SelectField, RadioField, validators
+from wtforms import Form, SelectField, RadioField, StringField, validators
 import json
 import tablib
 
@@ -16,8 +16,8 @@ def ReadWordsCSV(cat='all'):
     if not cat == 'all':
         if cat == '30 random words':
             Words = Words.sample(n=min(len(Words),30))
-        elif cat == '30 focus words':
-            toSample = Words[Words['Focus']==1]
+        elif cat == '30 marked words':
+            toSample = Words[Words['Mark']==1]
             Words = toSample.sample(n=min(len(toSample),30))
         elif cat == '30 random nouns':
             toSample = Words[Words['Category'].str.startswith('Nouns:')]
@@ -34,7 +34,7 @@ def ReadWordsCSV(cat='all'):
     return Words
 
 Words = ReadWordsCSV()
-categories = ['30 random words','30 focus words','30 random nouns','30 random verbs','30 random adjectives','Random category']+sorted(Words['Category'].unique())
+categories = ['30 random words','30 marked words','30 random nouns','30 random verbs','30 random adjectives','Random category']+sorted(Words['Category'].unique())
 catChoices = []
 for c in categories:
     catChoices.append((c,c))
@@ -47,6 +47,11 @@ with open('words.csv') as f:
 class CategoriesForm(Form):
     EngRom = RadioField(choices=EngRomChoices, default='Eng2Rom', validators = [validators.Required()])
     category = SelectField(label='Category', choices=catChoices)
+
+class addForm(Form):
+    category = StringField(label='Category', validators = [validators.Required()], render_kw={"placeholder": "Category"})
+    romanian = StringField(label='Romanian', validators = [validators.Required()], render_kw={"placeholder": "Romanian"})
+    english = StringField(label='English', validators = [validators.Required()], render_kw={"placeholder": "English"})
 
 @app.route("/", methods=['GET', 'POST'])
 def home():
@@ -111,6 +116,16 @@ def repeat():
         session['idxList'].append(session['idxList'][session['i']])
         session.modified = True
     return redirect(url_for("next"))
+
+@app.route("/add",methods=['GET', 'POST'])
+def add():
+    form = addForm(request.form)
+    if request.method == 'POST' and form.validate():
+        print(form.category.data)
+        print(form.romanian.data)
+        print(form.english.data)
+        return redirect(url_for('add'))
+    return render_template('add.html',form=form)
 
 @app.route('/clear')
 def clear():
