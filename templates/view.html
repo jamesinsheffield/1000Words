@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+
+<table>
+  <tr>
+    <th>Marked</th>
+    <th>Category</th>
+    <th>Romanian</th>
+    <th>English</th>
+  </tr>
+  {% for index, row in words.iterrows() %}
+    <tr>
+      {% for i in range(1,row|length) %}
+        <td>{{row[i]}}</td>
+      {% endfor %}
+    </tr>
+  {% endfor %}
+</table>
+
+</body>

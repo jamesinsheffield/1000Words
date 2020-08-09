@@ -149,5 +149,10 @@ def clear():
 def words():
     return Words_tablib.html
 
+@app.route('/view')
+def view():
+    words = psql_to_pandas(Words.query.order_by(Words.category,Words.romanian))
+    return render_template("view.html", words=words)
+
 if __name__ == "__main__":
     app.run()
