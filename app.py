@@ -5,36 +5,49 @@ import random as rd
 from wtforms import Form, SelectField, RadioField, StringField, validators
 import json
 import tablib
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 assert "APP_SETTINGS" in os.environ, "APP_SETTINGS environment variable not set"
+assert "SECRET_KEY" in os.environ, "SECRET_KEY environment variable not set"
+assert "DATABASE_URL" in os.environ, "DATABASE_URL environment variable not set"
 app.config.from_object(os.environ['APP_SETTINGS'])
 app.config['SECRET_KEY'] = os.environ['SECRET_KEY']
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db = SQLAlchemy(app)
+
+from models import Words
+
+########## PSQL FUNCTIONS ##########
+def psql_to_pandas(query):
+    df = pd.read_sql(query.statement,db.session.bind)
+    return df
+####################################
 
 def ReadWordsCSV(cat='all'):
-    Words = pd.read_csv('words.csv')
+    WordsCSV = pd.read_csv('words.csv')
     if not cat == 'all':
         if cat == '30 random words':
-            Words = Words.sample(n=min(len(Words),30))
+            WordsCSV = WordsCSV.sample(n=min(len(WordsCSV),30))
         elif cat == '30 marked words':
-            toSample = Words[Words['Mark']==1]
-            Words = toSample.sample(n=min(len(toSample),30))
+            toSample = WordsCSV[WordsCSV['Mark']==1]
+            WordsCSV = toSample.sample(n=min(len(toSample),30))
         elif cat == '30 random nouns':
-            toSample = Words[Words['Category'].str.startswith('Nouns:')]
-            Words = toSample.sample(n=min(len(toSample),30))
+            toSample = WordsCSV[WordsCSV['Category'].str.startswith('Nouns:')]
+            WordsCSV = toSample.sample(n=min(len(toSample),30))
         elif cat == '30 random verbs':
-            toSample = Words[Words['Category'].str.startswith('Verbs:')]
-            Words = toSample.sample(n=min(len(toSample),30))
+            toSample = WordsCSV[WordsCSV['Category'].str.startswith('Verbs:')]
+            WordsCSV = toSample.sample(n=min(len(toSample),30))
         elif cat == '30 random adjectives':
-            toSample = Words[Words['Category'].str.startswith('Adjectives:')]
-            Words = toSample.sample(n=min(len(toSample),30))
+            toSample = WordsCSV[WordsCSV['Category'].str.startswith('Adjectives:')]
+            WordsCSV = toSample.sample(n=min(len(toSample),30))
         else:
-            Words = Words[Words['Category'] == cat]
-        Words.reset_index(inplace=True)
-    return Words
+            WordsCSV = WordsCSV[WordsCSV['Category'] == cat]
+        WordsCSV.reset_index(inplace=True)
+    return WordsCSV
 
-Words = ReadWordsCSV()
-categories = ['30 random words','30 marked words','30 random nouns','30 random verbs','30 random adjectives','Random category']+sorted(Words['Category'].unique())
+WordsCSV = ReadWordsCSV()
+categories = ['30 random words','30 marked words','30 random nouns','30 random verbs','30 random adjectives','Random category']+sorted(WordsCSV['Category'].unique())
 catChoices = []
 for c in categories:
     catChoices.append((c,c))

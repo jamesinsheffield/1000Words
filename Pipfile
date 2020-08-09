@@ -11,6 +11,10 @@ gunicorn = "*"
 pandas = "*"
 wtforms = "*"
 tablib = {extras = ["html"],version = "*"}
+psycopg2-binary = "*"
+flask-sqlalchemy = "*"
+flask-migrate = "*"
+flask-script = "*"
 
 [requires]
 python_version = "3.6"
