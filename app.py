@@ -134,9 +134,12 @@ def repeat():
 def add():
     form = addForm(request.form)
     if request.method == 'POST' and form.validate():
-        print(form.category.data)
-        print(form.romanian.data)
-        print(form.english.data)
+        category = request.form['category']
+        romanian = request.form['romanian']
+        english = request.form['english']
+        word = Words(1,category,romanian,english)
+        db.session.add(word)
+        db.session.commit()
         return redirect(url_for('add'))
     return render_template('add.html',form=form)
 
