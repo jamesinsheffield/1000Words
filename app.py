@@ -172,5 +172,27 @@ def delete(id):
     db.session.commit()
     return redirect(url_for('view'))
 
+@app.route('/edit/<string:id>', methods=['GET','POST'])
+def edit(id):
+    #Retrieve DB entry:
+    db_row = Words.query.filter_by(id=id).first()
+    if db_row is None:
+        abort(404)
+    #Get form (and tweak where necessary):
+    form = addForm(request.form)
+    #If user submits edit entry form:
+    if request.method == 'POST' and form.validate():
+        #Get each form field and update DB:
+        for field in form:
+            exec("db_row."+field.name+" = field.data")
+        db.session.commit()
+        #Return:
+        return redirect(url_for('view'))
+    #Pre-populate form fields with existing data:
+    for i,field in enumerate(form):
+        if not request.method == 'POST':
+            exec("field.data = db_row."+field.name)
+    return render_template('edit.html',id=id,form=form)
+
 if __name__ == "__main__":
     app.run()

@@ -20,6 +20,9 @@
         <td>{{row[i]}}</td>
       {% endfor %}
       <td>
+        <a href=/edit/{{row['id']}}>Edit</a>
+      </td>
+      <td>
         <form action=/delete/{{row['id']}} method="POST" onsubmit="return confirm('Are you sure?');">
           <input type="hidden" name="_method" value="DELETE">
           <input type="submit" value="Delete">
