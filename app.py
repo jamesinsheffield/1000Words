@@ -1,4 +1,4 @@
-from flask import Flask, session, render_template, request, redirect, url_for
+from flask import Flask, session, render_template, request, redirect, url_for, abort
 import os
 import pandas as pd
 import random as rd
@@ -160,6 +160,17 @@ def words():
 def view():
     words = psql_to_pandas(Words.query.order_by(Words.category,Words.romanian))
     return render_template("view.html", words=words)
+
+@app.route('/delete/<string:id>', methods=['POST'])
+def delete(id):
+    #Retrieve DB entry:
+    db_row = Words.query.filter_by(id=id).first()
+    if db_row is None:
+        abort(404)
+    #Delete from DB:
+    db.session.delete(db_row)
+    db.session.commit()
+    return redirect(url_for('view'))
 
 if __name__ == "__main__":
     app.run()

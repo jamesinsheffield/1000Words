@@ -12,12 +12,19 @@
     <th>Category</th>
     <th>Romanian</th>
     <th>English</th>
+    <th></th>
   </tr>
   {% for index, row in words.iterrows() %}
     <tr>
       {% for i in range(1,row|length) %}
         <td>{{row[i]}}</td>
       {% endfor %}
+      <td>
+        <form action=/delete/{{row['id']}} method="POST" onsubmit="return confirm('Are you sure?');">
+          <input type="hidden" name="_method" value="DELETE">
+          <input type="submit" value="Delete">
+        </form>
+      </td>
     </tr>
   {% endfor %}
 </table>
