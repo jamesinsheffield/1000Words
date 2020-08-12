@@ -36,6 +36,7 @@ form {
 }
 .button2 {background-color: #f44336;} /* Red */
 .button3 {background-color: #555555;} /* Black */
+.button4 {background-color: #800080;} /* Purple */
 </style>
 </head>
 <body>
@@ -71,6 +72,16 @@ form {
   <input type="button" id="Next" value="Got it :-)" onclick="window.location.href = '/next'" style="display:none" class="button"></input>
   <input type="button" id="Repeat" value="Missed it :-(" onclick="window.location.href = '/repeat'" style="display:none" class="button button2"></input>
 </div>
+<br>
+{% if bMarked %}
+<div style="text-align:center;">
+  <input type="button" id="Mark" value="Unmark" onclick="window.location.href = '/mark/{{id}}'" class="button button4"></input>
+</div>
+{% else %}
+<div style="text-align:center;">
+  <input type="button" id="Mark" value="Mark" onclick="window.location.href = '/mark/{{id}}'" class="button button4"></input>
+</div>
+{% endif %}
 {% else %}
 <br>
 <div style="text-align:center;font-size: 40px;">

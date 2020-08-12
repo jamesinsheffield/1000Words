@@ -105,6 +105,11 @@ def home():
     else:
         bFinished = False
         subWordsJSON = json.loads(session['subWords'])
+        id = subWordsJSON['id'][str(session['idxList'][session['i']])]
+        if subWordsJSON['mark'][str(session['idxList'][session['i']])] == 1:
+            bMarked = True
+        else:
+            bMarked = False
         Ctgry = subWordsJSON['category'][str(session['idxList'][session['i']])]
         if session['EngRom'] == 'Eng2Rom':
             Qu = subWordsJSON['english'][str(session['idxList'][session['i']])]
@@ -112,7 +117,7 @@ def home():
         else:
             Qu = subWordsJSON['romanian'][str(session['idxList'][session['i']])]
             Ans = subWordsJSON['english'][str(session['idxList'][session['i']])]
-        return render_template('main.html', Qu=Qu, Ans=Ans, form=form, Ctgry=Ctgry, bFinished=bFinished, iWord=session['i']+1,nWords=len(session['idxList']))
+        return render_template('main.html',form=form,id=id,bMarked=bMarked,Ctgry=Ctgry,Qu=Qu,Ans=Ans,bFinished=bFinished,iWord=session['i']+1,nWords=len(session['idxList']))
 
 @app.route("/next")
 def next():
@@ -133,6 +138,26 @@ def repeat():
         session['idxList'].append(session['idxList'][session['i']])
         session.modified = True
     return redirect(url_for("next"))
+
+@app.route("/mark/<string:id>")
+def mark(id):
+    #Retrieve DB entry:
+    db_row = Words.query.filter_by(id=id).first()
+    if db_row is None:
+        abort(404)
+    if db_row.mark == 1:
+        db_row.mark = 0
+    else:
+        db_row.mark = 1
+    db.session.commit()
+    if 'i' in session:
+        subWordsJSON = json.loads(session['subWords'])
+        if subWordsJSON['mark'][str(session['idxList'][session['i']])] == 1:
+            subWordsJSON['mark'][str(session['idxList'][session['i']])] -= 1
+        else:
+            subWordsJSON['mark'][str(session['idxList'][session['i']])] += 1
+        session['subWords'] = json.dumps(subWordsJSON)
+    return redirect(url_for("home"))
 
 @app.route("/add",methods=['GET', 'POST'])
 def add():
