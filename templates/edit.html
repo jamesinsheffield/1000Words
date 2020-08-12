@@ -5,13 +5,13 @@
 <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body>
-
 <form action="" method="POST">
+  {{form.mark.label}}
+  {{form.mark}}
   {{form.category}}
   {{form.romanian}}
   {{form.english}}
   <input type="submit" value="Submit">
 </form>
 <br>
-
 </body>

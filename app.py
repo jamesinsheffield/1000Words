@@ -2,7 +2,7 @@ from flask import Flask, session, render_template, request, redirect, url_for, a
 import os
 import pandas as pd
 import random as rd
-from wtforms import Form, SelectField, RadioField, StringField, validators
+from wtforms import Form, SelectField, RadioField, StringField, BooleanField, validators
 import json
 import tablib
 from flask_sqlalchemy import SQLAlchemy
@@ -65,6 +65,7 @@ class CategoriesForm(Form):
     category = SelectField(label='Category', choices=catChoices)
 
 class addForm(Form):
+    mark = BooleanField(label='Mark?')
     category = StringField(label='Category', validators = [validators.Required()], render_kw={"placeholder": "Category"})
     romanian = StringField(label='Romanian', validators = [validators.Required()], render_kw={"placeholder": "Romanian"})
     english = StringField(label='English', validators = [validators.Required()], render_kw={"placeholder": "English"})
@@ -137,10 +138,14 @@ def repeat():
 def add():
     form = addForm(request.form)
     if request.method == 'POST' and form.validate():
-        category = request.form['category']
-        romanian = request.form['romanian']
-        english = request.form['english']
-        word = Words(1,category,romanian,english)
+        if form.mark.data:
+            mark = 1
+        else:
+            mark = 0
+        category = form.category.data
+        romanian = form.romanian.data
+        english = form.english.data
+        word = Words(mark,category,romanian,english)
         db.session.add(word)
         db.session.commit()
         return redirect(url_for('add'))
@@ -182,16 +187,25 @@ def edit(id):
     form = addForm(request.form)
     #If user submits edit entry form:
     if request.method == 'POST' and form.validate():
-        #Get each form field and update DB:
-        for field in form:
-            exec("db_row."+field.name+" = field.data")
+        if form.mark.data:
+            db_row.mark = 1
+        else:
+            db_row.mark = 0
+        db_row.category = form.category.data
+        db_row.romanian = form.romanian.data
+        db_row.english = form.english.data
         db.session.commit()
         #Return:
         return redirect(url_for('view'))
     #Pre-populate form fields with existing data:
-    for i,field in enumerate(form):
-        if not request.method == 'POST':
-            exec("field.data = db_row."+field.name)
+    if not request.method == 'POST':
+        if db_row.mark == 1:
+            form.mark.data = True
+        else:
+            form.mark.data = 0
+        form.category.data = db_row.category
+        form.romanian.data = db_row.romanian
+        form.english.data = db_row.english
     return render_template('edit.html',id=id,form=form)
 
 if __name__ == "__main__":
