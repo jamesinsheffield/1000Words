@@ -157,7 +157,10 @@ def mark(id):
         else:
             subWordsJSON['mark'][str(session['idxList'][session['i']])] += 1
         session['subWords'] = json.dumps(subWordsJSON)
-    return redirect(url_for("home"))
+        if subWordsJSON['mark'][str(session['idxList'][session['i']])] == 1:
+            return redirect(url_for("repeat"))
+        else:
+            return redirect(url_for("next"))
 
 @app.route("/add",methods=['GET', 'POST'])
 def add():
