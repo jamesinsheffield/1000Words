@@ -51,7 +51,7 @@ categories = ['30 random words','30 marked words','30 random nouns','30 random v
 catChoices = []
 for c in categories:
     catChoices.append((c,c))
-EngRomChoices = [('Eng2Rom','English to Romanian'),('Rom2Eng','Romanian to English')]
+EngRomChoices = [('Eng2Rom','English to Romanian'),('Rom2Eng','Romanian to English'),('Random','Random')]
 
 
 def getWordsCSV():
@@ -61,7 +61,7 @@ def getWordsCSV():
     return Words_tablib
 
 class CategoriesForm(Form):
-    EngRom = RadioField(choices=EngRomChoices, default='Eng2Rom', validators = [validators.Required()])
+    EngRom = RadioField(choices=EngRomChoices, default='Random', validators = [validators.Required()])
     category = SelectField(label='Category', choices=catChoices)
 
 class addForm(Form):
@@ -99,6 +99,7 @@ def home():
             session['idxList'] = idx
             session['i'] = 0
             session['EngRom'] = form.EngRom.data
+            print(session['EngRom'])
     if session['i'] == len(session['idxList']):
         bFinished = True
         return render_template('main.html', form=form, bFinished=bFinished)
@@ -114,9 +115,16 @@ def home():
         if session['EngRom'] == 'Eng2Rom':
             Qu = subWordsJSON['english'][str(session['idxList'][session['i']])]
             Ans = subWordsJSON['romanian'][str(session['idxList'][session['i']])]
-        else:
+        elif session['EngRom'] == 'Rom2Eng':
             Qu = subWordsJSON['romanian'][str(session['idxList'][session['i']])]
             Ans = subWordsJSON['english'][str(session['idxList'][session['i']])]
+        else:
+            if rd.randrange(0,2) == 0:
+                Qu = subWordsJSON['english'][str(session['idxList'][session['i']])]
+                Ans = subWordsJSON['romanian'][str(session['idxList'][session['i']])]
+            else:
+                Qu = subWordsJSON['romanian'][str(session['idxList'][session['i']])]
+                Ans = subWordsJSON['english'][str(session['idxList'][session['i']])]
         return render_template('main.html',form=form,id=id,bMarked=bMarked,Ctgry=Ctgry,Qu=Qu,Ans=Ans,bFinished=bFinished,iWord=session['i']+1,nWords=len(session['idxList']))
 
 @app.route("/next")
